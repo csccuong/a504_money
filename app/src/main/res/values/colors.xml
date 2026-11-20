@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ================================================================ -->
+    <!-- DESIGN SYSTEM: FIGMA BRAND & PRIMARY PALETTE (#6155F5 / #9A93F6) -->
+    <!-- ================================================================ -->
+    <color name="brand_primary">#6155F5</color>
+    <color name="brand_primary_dark">#4B3EE0</color>
+    <color name="brand_primary_light">#9A93F6</color>
+    <color name="brand_primary_soft">#EFEEFE</color>
+    <color name="brand_on_primary_muted">#DDD9FF</color>
+
+    <!-- Figma Home Palette Tokens -->
+    <color name="figma_indigo">#6155F5</color>
+    <color name="figma_green">#34C759</color>
+    <color name="figma_home_bg">#E6E8FD</color>
+    <color name="figma_home_status_bar">#152A5B</color>
+    <color name="figma_nav_inactive">#9EA8B7</color>
+    <color name="figma_bento_expense_bg">#FBE5F0</color>
+    <color name="figma_bento_income_bg">#DDF7EE</color>
+    <color name="figma_bento_loan_bg">#E2E2FE</color>
+    <color name="figma_expense_accent">#FC5E82</color>
+    <color name="figma_income_accent">#3FCD96</color>
+    <color name="figma_loan_accent">#6653F9</color>
+
+    <!-- ================================================================ -->
+    <!-- DESIGN SYSTEM: SURFACES & SOFT LAVENDER-SLATE NEUTRALS           -->
+    <!-- ================================================================ -->
+    <color name="surface_canvas">#F4F5FE</color>
+    <color name="surface_card">#FFFFFF</color>
+    <color name="surface_input">#F7F8FE</color>
+    <color name="surface_subtle">#EFEFFC</color>
+    <color name="surface_segmented_track">#E8E9FA</color>
+    <color name="stroke_card">#E5E7F5</color>
+    <color name="stroke_input">#D4D7EE</color>
+    <color name="divider_light">#E8EAF6</color>
+
+    <!-- ================================================================ -->
+    <!-- DESIGN SYSTEM: TYPOGRAPHY HIERARCHY                              -->
+    <!-- ================================================================ -->
+    <color name="text_primary">#0F172A</color>
+    <color name="text_secondary">#525E75</color>
+    <color name="text_muted">#9EA8B7</color>
+
+    <!-- ================================================================ -->
+    <!-- DESIGN SYSTEM: SEMANTIC FINANCIAL COLORS (Synced to Figma)       -->
+    <!-- ================================================================ -->
+    <color name="semantic_income">#34C759</color>
+    <color name="semantic_income_soft">#DDF7EE</color>
+    <color name="semantic_income_on_dark">#6EEABC</color>
+    <color name="semantic_expense">#FC5E82</color>
+    <color name="semantic_expense_soft">#FBE5F0</color>
+    <color name="semantic_expense_on_dark">#FE8DA9</color>
+    <color name="semantic_warning">#F59E0B</color>
+    <color name="semantic_warning_soft">#FFFBEB</color>
+    <color name="semantic_info">#6155F5</color>
+    <color name="semantic_info_soft">#E2E2FE</color>
+
+    <!-- ================================================================ -->
+    <!-- LEGACY ALIASES (Mapped cleanly to Design System tokens)          -->
+    <!-- ================================================================ -->
+    <color name="purple">@color/brand_primary</color>
+    <color name="purple_200">@color/brand_primary_light</color>
+    <color name="purple_500">@color/brand_primary</color>
+    <color name="purple_700">@color/brand_primary_dark</color>
+    <color name="teal_200">@color/semantic_income</color>
+    <color name="teal_700">#28A86E</color>
+    <color name="black">@color/text_primary</color>
+    <color name="blue">@color/brand_primary</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">@color/semantic_expense</color>
+    <color name="green">@color/semantic_income</color>
+    <color name="green_nav">@color/brand_primary</color>
+    <color name="transparent">#00000000</color>
+    <color name="orange">@color/semantic_warning</color>
+    <color name="color_14181F">@color/text_primary</color>
+    <color name="pdfColor">@color/brand_primary</color>
+
+    <!-- Chart Palette -->
+    <color name="color_chart1">#FFFC5E82</color>
+    <color name="color_chart2">#FF06B6D4</color>
+    <color name="color_chart3">#FF6155F5</color>
+    <color name="color_chart4">#FF9A93F6</color>
+    <color name="color_chart5">#FF34C759</color>
+    <color name="color_chart6">#FFF59E0B</color>
+
+    <color name="grey">@color/text_secondary</color>
+    <color name="grey_month">@color/surface_subtle</color>
+    <color name="icon_inactive">@color/figma_nav_inactive</color>
+    <color name="icon_active">@color/brand_primary</color>
+    <color name="background_color">@color/surface_card</color>
+    <color name="bubble_selected_color">@color/brand_primary</color>
+    <color name="bubble_unselected_color">@color/text_secondary</color>
+    <color name="bubble_selected_text_color">@color/white</color>
+    <color name="background">@color/surface_canvas</color>
+    <color name="light_background">@color/surface_canvas</color>
+    <color name="gray">@color/text_muted</color>
+    <color name="lightTransparent">#E5E7F5</color>
+    <color name="colorWhite">#FFFFFFFF</color>
+    <color name="colorAds">@color/brand_primary</color>
+</resources>

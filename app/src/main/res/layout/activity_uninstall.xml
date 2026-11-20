@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/surface_canvas">
+
+    <!-- Clean Light Top Bar -->
+    <LinearLayout
+        android:id="@+id/toolbar"
+        style="@style/AppContainer.TopBarLight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/btnBack"
+            style="@style/AppButton.BackLight"
+            android:src="@drawable/ic_back"
+            app:tint="@color/text_primary" />
+
+        <TextView
+            style="@style/AppText.ScreenTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_weight="1"
+            android:text="@string/uninstall" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/top_divider"
+        style="@style/AppDivider"
+        app:layout_constraintTop_toBottomOf="@id/toolbar" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clipToPadding="false"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toTopOf="@id/fr_ads"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/top_divider">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="@dimen/ds_space_lg"
+            android:paddingTop="@dimen/ds_space_lg"
+            android:paddingBottom="10dp">
+
+            <TextView
+                android:id="@+id/title"
+                style="@style/AppText.ScreenTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="3"
+                android:text="@string/uninstall_question"
+                android:textSize="21sp" />
+
+            <!-- Card 1 -->
+            <LinearLayout
+                android:id="@+id/rlExplore"
+                style="@style/AppContainer.Card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/ds_space_lg"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv1"
+                    style="@style/AppText.BodyMedium"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="12dp"
+                    android:layout_weight="1"
+                    android:text="@string/not_much_more_useful_nthan_the_defaults" />
+
+                <TextView
+                    android:id="@+id/Explore"
+                    style="@style/AppButton.SoftChip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:text="@string/explore" />
+            </LinearLayout>
+
+            <!-- Card 2 -->
+            <LinearLayout
+                android:id="@+id/rlTry"
+                style="@style/AppContainer.Card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/AppText.BodyMedium"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="12dp"
+                    android:layout_weight="1"
+                    android:text="@string/unresponsive_or_laggy" />
+
+                <TextView
+                    android:id="@+id/TryAgain"
+                    style="@style/AppButton.SoftChip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:text="@string/try_again" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/dont"
+                style="@style/AppButton.Primary"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/ds_button_height"
+                android:layout_marginTop="@dimen/ds_space_lg"
+                android:text="@string/dont_uninstall_yet" />
+
+            <TextView
+                android:id="@+id/still"
+                style="@style/AppButton.Secondary"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/ds_button_height"
+                android:layout_marginTop="10dp"
+                android:text="@string/still_want_to_uninstall" />
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Fixed Bottom Native Ad Container -->
+    <FrameLayout
+        android:id="@+id/fr_ads"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/surface_canvas"
+        android:elevation="6dp"
+        android:paddingBottom="6dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <include layout="@layout/ads_shimmer_native_home" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

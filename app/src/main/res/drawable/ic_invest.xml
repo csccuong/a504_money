@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+
+    <!-- Pastel Figma Income Mint Circle Badge -->
+    <path android:pathData="M24,1 A23,23 0 1,0 24,47 A23,23 0 1,0 24,1 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:endColor="#B7F0DC"
+                android:endX="42"
+                android:endY="42"
+                android:startColor="#EBFCF5"
+                android:startX="6"
+                android:startY="6"
+                android:type="linear" />
+        </aapt:attr>
+    </path>
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M24,1.6 A22.4,22.4 0 1,0 24,46.4 A22.4,22.4 0 1,0 24,1.6 Z"
+        android:strokeWidth="1"
+        android:strokeColor="#22059669" />
+
+    <!-- Main Profit Coin (Optically Centered with Sparkle) -->
+    <path android:pathData="M22.8,16.8 A9.2,9.2 0 1,0 22.8,35.2 A9.2,9.2 0 1,0 22.8,16.8 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:endColor="#059669"
+                android:endX="31"
+                android:endY="35"
+                android:startColor="#3FCD96"
+                android:startX="14"
+                android:startY="17"
+                android:type="linear" />
+        </aapt:attr>
+    </path>
+
+    <!-- Upward Growth Zigzag Inside Coin -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M17.6,28.8 L21.2,25.2 L23.5,27.3 L27.6,23.2"
+        android:strokeWidth="2.3"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M24.4,23.2 H27.8 V26.6"
+        android:strokeWidth="2.3"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+    <!-- Floating Profit Sparkle Star (Top Right) -->
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M33.2,11.6 L34.3,14.5 L37.2,15.6 L34.3,16.7 L33.2,19.6 L32.1,16.7 L29.2,15.6 L32.1,14.5 Z" />
+</vector>

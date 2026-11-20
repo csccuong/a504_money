@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="months">
+        <item>Styczeń</item>
+        <item>Luty</item>
+        <item>Marzec</item>
+        <item>Kwiecień</item>
+        <item>Maj</item>
+        <item>Czerwiec</item>
+        <item>Lipiec</item>
+        <item>Sierpień</item>
+        <item>Wrzesień</item>
+        <item>Październik</item>
+        <item>Listopad</item>
+        <item>Grudzień</item>
+    </string-array>
+
+    <string-array name="months_short">
+        <item>Sty</item>
+        <item>Lut</item>
+        <item>Mar</item>
+        <item>Kwi</item>
+        <item>Maj</item>
+        <item>Cze</item>
+        <item>Lip</item>
+        <item>Sie</item>
+        <item>Wrz</item>
+        <item>Paź</item>
+        <item>Lis</item>
+        <item>Gru</item>
+    </string-array>
+
+    <!-- Onboarding & Guide -->
+    <string name="note_continue1">Zarządzaj pieniędzmi z łatwością</string>
+    <string name="note_continue2">Uporządkuj swoje wydatki</string>
+    <string name="note_continue3">Śledź swoje postępy finansowe</string>
+    <string name="note_continue4">Wyznaczaj cele i oszczędzaj więcej</string>
+    <string name="intro_slide_1_des">Śledź dochody, wydatki i saldo w jednym miejscu.</string>
+    <string name="intro_slide_2_des">Kategoryzuj transakcje, aby widzieć, dokąd trafiają Twoje pieniądze</string>
+    <string name="intro_slide_3_des">Wizualizuj swoje przychody, wydatki i oszczędności w czasie</string>
+    <string name="intro_slide_4_des">Planuj budżet, wyznaczaj cele oszczędnościowe i buduj lepsze nawyki</string>
+    <string name="note_guide1">Dotknij „Budżet”, aby zarządzać wydatkami</string>
+    <string name="note_guide2">Sprawdź pozostałe saldo jednym spojrzeniem</string>
+    <string name="note_guide3">Przełączaj budżety bez wysiłku</string>
+    <string name="note_guide4">Analizuj wydatki i trzymaj się planu</string>
+    <string name="guide">Przewodnik</string>
+    <string name="next">Dalej</string>
+    <string name="this_action_can_contain_ads">Ta akcja może zawierać reklamy…</string>
+
+    <!-- Navigation & Main Screen -->
+    <string name="home">Główna</string>
+    <string name="statistic">Statystyki</string>
+    <string name="budget">Budżet</string>
+    <string name="settings">Ustawienia</string>
+    <string name="total_balance">Saldo całkowite</string>
+    <string name="total_expenditure">Suma wydatków</string>
+    <string name="total_income">Suma przychodów</string>
+    <string name="add_your_first_transaction">Dodaj swoją pierwszą transakcję.</string>
+    <string name="no_transactions_yet">Jeszcze brak transakcji</string>
+    <string name="no_transactions_desc">Twoje transakcje pojawią się tutaj, gdy zaczniesz je dodawać.</string>
+    <string name="vs_last_month">względem ubiegłego miesiąca</string>
+    <string name="please_add_transaction_first">Najpierw dodaj transakcję</string>
+    <string name="tap_here_to_exit">Dotknij tutaj, aby wyjść</string>
+    <string name="recent_transactions">Ostatnie transakcje</string>
+    <string name="overview">Przegląd</string>
+    <string name="this_month">Ten miesiąc</string>
+    <string name="last_month">Ubiegły miesiąc</string>
+    <string name="all_transactions">Wszystkie transakcje</string>
+    <string name="view_all">Zobacz wszystkie</string>
+    <string name="view_all_count">Zobacz wszystkie (%1$d)</string>
+    <string name="view_all_transactions_count">Zobacz wszystkie transakcje (%1$d)</string>
+    <string name="today">Dzisiaj</string>
+    <string name="yesterday">Wczoraj</string>
+    <string name="all_time">Cały okres</string>
+    <string name="search_transactions_hint">Szukaj notatki, kategorii, kwoty…</string>
+    <string name="no_matching_transactions">Brak pasujących transakcji</string>
+    <string name="collapse_all">Zwiń wszystko</string>
+    <string name="expand_all">Rozwiń wszystko</string>
+    <string name="tap_to_set_budget">Dotknij, aby ustawić miesięczny limit wydatków</string>
+
+    <!-- Notification Prompt & Banner -->
+    <string name="notice">Powiadomienie</string>
+    <string name="allow_alerts_currency_updates">Włącz alerty, aby otrzymywać\naktualne kursy walut!</string>
+    <string name="turn_on">Włącz</string>
+    <string name="allow_app_notify_you">Zezwolić aplikacji Money Manager: Smart Saver na wysyłanie powiadomień?</string>
+    <string name="turn_on_notifications_desc">Włącz powiadomienia, aby być na bieżąco.</string>
+    <string name="allow">Zezwól</string>
+    <string name="dont_allow">Nie zezwalaj</string>
+
+    <!-- Transactions & Statistics -->
+    <string name="add">Dodaj</string>
+    <string name="expense">Wydatek</string>
+    <string name="income">Przychód</string>
+    <string name="loan">Pożyczka</string>
+    <string name="borrow">Pożyczone</string>
+    <string name="amount">Kwota</string>
+    <string name="category">Kategoria</string>
+    <string name="note">Notatka</string>
+    <string name="add_a_description">Dodaj opis</string>
+    <string name="lender">Pożyczkodawca</string>
+    <string name="select_date">Wybierz datę</string>
+    <string name="date_time">Data i godzina</string>
+    <string name="select_time">Wybierz godzinę</string>
+    <string name="select_month">Wybierz miesiąc</string>
+    <string name="transactions">Transakcje</string>
+    <string name="date">Data</string>
+    <string name="month">Miesiąc</string>
+    <string name="balance">Saldo</string>
+    <string name="total">Razem</string>
+    <string name="edit">Edytuj</string>
+    <string name="save">Zapisz</string>
+    <string name="cancel">Anuluj</string>
+    <string name="delete">Usuń</string>
+    <string name="delete_transaction">Usuń transakcję</string>
+    <string name="delete_transaction_confirm">Czy na pewno chcesz usunąć tę transakcję?</string>
+    <string name="none_option">Brak</string>
+
+    <!-- Budget -->
+    <string name="budget_detail">Szczegóły budżetu</string>
+    <string name="add_budget">Dodaj budżet</string>
+    <string name="budget_name">Nazwa budżetu</string>
+    <string name="net_worth">Wartość netto</string>
+    <string name="remaining">Pozostało</string>
+    <string name="budget_colon_value">Budżet: %1$s</string>
+    <string name="expenses_colon_value">Wydatki: %1$s</string>
+    <string name="remain_colon_value">Pozostało: %1$s</string>
+    <string name="monthly_budget">Budżet miesięczny</string>
+    <string name="set_monthly_budget">Ustaw budżet miesięczny</string>
+    <string name="edit_budget">Edytuj budżet</string>
+    <string name="delete_budget">Usuń budżet</string>
+    <string name="delete_budget_confirm">Czy na pewno chcesz usunąć ten budżet?</string>
+    <string name="budget_saved">Zapisano budżet</string>
+    <string name="budget_deleted">Usunięto budżet</string>
+    <string name="budget_already_exists">Budżet dla tej kategorii już istnieje</string>
+    <string name="set_category_limit_desc">Wybierz kategorię i ustaw miesięczny limit wydatków</string>
+    <string name="all_categories_have_budgets">Wszystkie kategorie mają już budżet</string>
+    <string name="now">Teraz</string>
+    <string name="category_budgets">Budżety kategorii</string>
+    <string name="custom_budget">Własny</string>
+    <string name="auto_tracked">Autośledzenie</string>
+    <string name="spent">Wydano</string>
+    <string name="left">Zostało</string>
+    <string name="over_budget">Ponad budżet</string>
+    <string name="over_by_value">Ponad o %1$s</string>
+    <string name="spent_of_value">%1$s / %2$s</string>
+    <string name="daily_limit">Limit dzienny</string>
+    <string name="per_day_value">%1$s/dzień</string>
+    <string name="daily_avg">Śr. dziennie</string>
+    <string name="no_budgets_title">Brak budżetów kategorii</string>
+    <string name="no_budgets_desc">Ustaw miesięczne limity dla kategorii, aby automatycznie śledzić wydatki.</string>
+    <string name="budget_allocated_exceeds_hint">Przydział (%1$s) przekracza limit miesięczny (%2$s)</string>
+    <string name="no_budget_transactions">Brak wydatków w tym budżecie w tym miesiącu</string>
+    <string name="add_expense">Dodaj wydatek</string>
+    <string name="auto_linked_budget_hint">Śledzone automatycznie w budżecie: %1$s</string>
+    <string name="skip">Pomiń</string>
+    <string name="year">Rok</string>
+    <string name="yearly_report">Raport roczny</string>
+    <string name="net_savings">Netto</string>
+    <string name="net_loan">Pożyczki netto</string>
+    <string name="lent">Udzielone</string>
+    <string name="borrowed">Pożyczone</string>
+    <string name="vs_prev_month_up">↑ %1$d%% vs poprz. mies.</string>
+    <string name="vs_prev_month_down">↓ %1$d%% vs poprz. mies.</string>
+    <string name="vs_prev_month_same">Tak jak w poprz. mies.</string>
+    <string name="chart_breakdown">Podział</string>
+    <string name="chart_trend">Trend</string>
+    <string name="income_allocation">Podział dochodu</string>
+    <string name="saved">Zaoszczędzono</string>
+    <string name="overspent">Przekroczono</string>
+    <string name="of_income_value">%1$s dochodu</string>
+    <string name="add_income_to_see_savings">Dodaj dochód, aby zobaczyć stopę oszczędności</string>
+    <string name="transactions_count">%1$d trans.</string>
+    <string name="category_transactions">Transakcje kategorii</string>
+    <string name="no_note">Brak notatki</string>
+    <string name="cashflow">Przepływy</string>
+    <string name="edit_transaction">Edytuj transakcję</string>
+    <string name="add_transaction">Dodaj transakcję</string>
+    <string name="person_name_hint">Imię osoby lub pożyczkodawcy</string>
+    <string name="used_percent">Wykorzystano %1$d%%</string>
+    <string name="week">Tydzień</string>
+    <string name="custom_range">Własny</string>
+    <string name="current_period">Bieżący</string>
+    <string name="monthly_table">Tabela 12M</string>
+    <string name="filters">Filtry</string>
+    <string name="reset">Resetuj</string>
+    <string name="apply">Zastosuj</string>
+    <string name="all">Wszystkie</string>
+    <string name="quick_period">Szybki okres</string>
+    <string name="last_7_days">Ostatnie 7 dni</string>
+    <string name="last_30_days">Ostatnie 30 dni</string>
+    <string name="sort_by">Sortuj według</string>
+    <string name="sort_highest_amount">Najwyższa kwota</string>
+    <string name="sort_most_transactions">Najwięcej transakcji</string>
+    <string name="select_date_range">Wybierz zakres dat</string>
+    <string name="vs_prev_period_up">↑ %1$d%% vs poprzedni</string>
+    <string name="vs_prev_period_down">↓ %1$d%% vs poprzedni</string>
+    <string name="vs_prev_period_same">Tak jak w poprzednim</string>
+
+    <!-- Settings & Language & Currency -->
+    <string name="general">Ogólne</string>
+    <string name="about_us">O nas</string>
+    <string name="currency">Waluta</string>
+    <string name="currency_unit">Jednostka waluty</string>
+    <string name="search">Szukaj</string>
+    <string name="language">Język</string>
+    <string name="languages">Języki</string>
+    <string name="please_select_language_to_continue">Wybierz język, aby kontynuować</string>
+    <string name="share">Udostępnij</string>
+    <string name="privacy_policy">Polityka prywatności</string>
+    <string name="rating">Oceń</string>
+
+    <!-- Interest Screen -->
+    <string name="interest">Zainteresowania</string>
+    <string name="please_select_at_least_2_options_to_continue">*Wybierz co najmniej 2 opcje, aby kontynuować.</string>
+    <string name="interest_bills_utilities">💡 Rachunki i media</string>
+    <string name="interest_food_dining">🍽️ Jedzenie i restauracje</string>
+    <string name="interest_shopping">🛍️ Zakupy</string>
+    <string name="interest_transportation">🚗 Transport</string>
+    <string name="interest_healthcare">🏥 Zdrowie</string>
+
+    <!-- Uninstall Retention Screen -->
+    <string name="uninstall">Odinstaluj</string>
+    <string name="uninstall_question">Jaki problem wystąpił podczas korzystania?</string>
+    <string name="not_much_more_useful_nthan_the_defaults">Niewiele bardziej przydatna niż domyślne funkcje</string>
+    <string name="unresponsive_or_laggy">Nie odpowiada lub\nzacina się</string>
+    <string name="explore">Odkrywaj</string>
+    <string name="try_again">Spróbuj ponownie</string>
+    <string name="dont_uninstall_yet">Jeszcze nie odinstalowuj</string>
+    <string name="still_want_to_uninstall">Nadal chcę odinstalować</string>
+
+    <!-- Validation & Feedback Messages -->
+    <string name="msg_enter_amount">Wprowadź kwotę</string>
+    <string name="msg_select_category">Wybierz kategorię</string>
+    <string name="msg_transaction_saved">Transakcja została zapisana</string>
+    <string name="msg_enter_all_fields">Wypełnij wszystkie pola</string>
+    <string name="msg_invalid_amount">Nieprawidłowa kwota</string>
+    <string name="msg_enter_budget_amount">Wprowadź kwotę budżetu</string>
+    <string name="msg_budget_exceeds_limit">Suma wszystkich budżetów musi być mniejsza niż %1$s</string>
+    <string name="msg_choose_language">Wybierz język, aby kontynuować</string>
+    <string name="msg_transaction_not_found">Nie znaleziono transakcji</string>
+    <string name="msg_transaction_details_not_found">Nie znaleziono szczegółów transakcji</string>
+    <string name="msg_unable_delete_transaction">Nie udało się usunąć transakcji</string>
+    <string name="msg_transaction_deleted">Transakcja została usunięta</string>
+
+    <!-- Category Display Names -->
+    <string name="category_food">Jedzenie</string>
+    <string name="category_social">Towarzyskie</string>
+    <string name="category_traffic">Transport</string>
+    <string name="category_shopping">Zakupy</string>
+    <string name="category_grocery">Spożywcze</string>
+    <string name="category_education">Edukacja</string>
+    <string name="category_bills">Rachunki</string>
+    <string name="category_rentals">Wynajem</string>
+    <string name="category_medical">Zdrowie</string>
+    <string name="category_investment">Inwestycja</string>
+    <string name="category_gift">Prezent</string>
+    <string name="category_other">Inne</string>
+    <string name="category_salary">Wynagrodzenie</string>
+    <string name="category_invest">Inwestycje</string>
+    <string name="category_business">Biznes</string>
+    <string name="category_interest">Odsetki</string>
+    <string name="category_extra_income">Dodatkowy dochód</string>
+    <string name="category_loan">Pożyczka</string>
+    <string name="category_borrow">Pożyczone</string>
+
+    <!-- Notifications -->
+    <string name="open">Otwórz</string>
+    <string name="open_now">Otwórz teraz!</string>
+    <string name="continued">Kontynuuj</string>
+    <string name="title_screen_shoot_done">Zapisano zrzut ekranu paragonu?</string>
+    <string name="body_screen_shoot_done">Zapisz tę płatność w Money Manager, zanim zapomnisz.</string>
+    <string name="title_dowload_done">Zapisano wyciąg lub fakturę?</string>
+    <string name="body_dowload_done">Zapisz to, aby Twój budżet był aktualny: </string>
+    <string name="title_out_done">Dobrze zakończyć dzień?</string>
+    <string name="body_out_done">Sprawdź dzisiejsze wydatki, przychody i postęp budżetu.</string>
+    <string name="noti_app_installed_title">Śledź wydatki w nowej aplikacji</string>
+    <string name="noti_app_installed_body">Subskrypcja lub zakup w %1$s? Zapisz w Money Manager.</string>
+    <string name="noti_app_removed_title">Sprawdź aktywne subskrypcje</string>
+    <string name="noti_app_removed_body">Usunięto aplikację? Sprawdź budżet Rachunki, aby uniknąć dodatkowych opłat.</string>
+    <string name="noti_app_removed_btn">Sprawdź budżet</string>
+    <string name="noti_app_updated_title">Aktualizuj swoje finanse</string>
+    <string name="noti_app_updated_body">Sprawdź dzisiejsze wydatki, dochody i postępy oszczędności.</string>
+    <string name="noti_app_updated_btn">Otwórz aplikację</string>
+
+    <string-array name="special_titles_v2">
+        <item>🌙 Dzisiejsze podsumowanie wydatków</item>
+        <item>✨ Twoje oszczędności rosną</item>
+        <item>📈 Wieczorne spojrzenie na finanse</item>
+        <item>🔔 Masz nadchodzące rachunki?</item>
+        <item>🤝 Pilnuj pożyczek</item>
+        <item>🎯 Gotowi na jutro?</item>
+    </string-array>
+
+    <string-array name="special_messages_v2">
+        <item>Poświęć 10 sekund na zapisanie dzisiejszych wydatków i trzymaj budżet w ryzach.</item>
+        <item>Sprawdź, ile udało się zaoszczędzić w tym miesiącu, i obserwuj wzrost salda.</item>
+        <item>Porównaj krzywą dochodów i wydatków w tym miesiącu, aby znaleźć dodatkowe oszczędności.</item>
+        <item>Sprawdź nadchodzący czynsz, rachunki i stałe wydatki, aby uniknąć niespodzianek.</item>
+        <item>Pożyczono ostatnio pieniądze? Zapisz to wyraźnie, aby nie przegapić żadnej spłaty.</item>
+        <item>Przejrzyj dziś wieczorem pozostały budżet miesięczny i zacznij jutro z pewnością siebie.</item>
+    </string-array>
+
+    <string-array name="special_titles_news">
+        <item>☕ Poranny przegląd finansów</item>
+        <item>🧾 Zapisz dzisiejsze wydatki</item>
+        <item>📊 Ile udało się zaoszczędzić?</item>
+        <item>🛡️ Trzymaj się budżetu</item>
+        <item>🛍️ Planujesz zakupy?</item>
+        <item>💰 Śledź swoje dochody</item>
+    </string-array>
+
+    <string-array name="special_messages_news">
+        <item>Zacznij dzień mądrze — sprawdź dzienny limit wydatków przed pierwszą kawą.</item>
+        <item>Właśnie po lunchu lub opłaceniu rachunku? Zapisz to w 5 sekund dla pełnej dokładności.</item>
+        <item>Zobacz, jaki % Twoich dochodów trafia w tym miesiącu na Jedzenie, Rachunki i Oszczędności.</item>
+        <item>Sprawdź pozostały budżet kategorii przed kolejnym zakupem.</item>
+        <item>Rzuć okiem na swoje miesięczne saldo przed przejściem do kasy.</item>
+        <item>Wpłynęła wypłata lub dodatkowy dochód? Dodaj go teraz, aby zaktualizować stopę oszczędności.</item>
+    </string-array>
+</resources>

@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="months">
+        <item>Enero</item>
+        <item>Pebrero</item>
+        <item>Marso</item>
+        <item>Abril</item>
+        <item>Mayo</item>
+        <item>Hunyo</item>
+        <item>Hulyo</item>
+        <item>Agosto</item>
+        <item>Setyembre</item>
+        <item>Oktubre</item>
+        <item>Nobyembre</item>
+        <item>Disyembre</item>
+    </string-array>
+
+    <string-array name="months_short">
+        <item>Ene</item>
+        <item>Peb</item>
+        <item>Mar</item>
+        <item>Abr</item>
+        <item>May</item>
+        <item>Hun</item>
+        <item>Hul</item>
+        <item>Ago</item>
+        <item>Set</item>
+        <item>Okt</item>
+        <item>Nob</item>
+        <item>Dis</item>
+    </string-array>
+
+    <!-- Onboarding & Guide -->
+    <string name="note_continue1">Pamahalaan ang Pera nang Madali</string>
+    <string name="note_continue2">Ayusin ang Iyong mga Gastos</string>
+    <string name="note_continue3">Subaybayan ang Iyong Pag-unlad sa Pananalapi</string>
+    <string name="note_continue4">Magtakda ng Layunin at Mag-ipon Pa</string>
+    <string name="intro_slide_1_des">Subaybayan ang kita, gastos, at balanse sa iisang lugar.</string>
+    <string name="intro_slide_2_des">Ikategorya ang mga transaksyon upang makita kung saan napupunta ang pera mo</string>
+    <string name="intro_slide_3_des">I-visualize ang iyong kita, gastos, at ipon sa paglipas ng panahon</string>
+    <string name="intro_slide_4_des">Planuhin ang iyong badyet, magtakda ng layunin sa pag-iipon, at bumuo ng mas mabuting gawi</string>
+    <string name="note_guide1">Pindutin ang ‘Badyet’ upang pamahalaan ang iyong paggastos</string>
+    <string name="note_guide2">Tingnan ang natitirang balanse sa isang sulyap</string>
+    <string name="note_guide3">Madaling lumipat sa pagitan ng mga badyet</string>
+    <string name="note_guide4">Suriin ang paggastos at manatili sa plano</string>
+    <string name="guide">Gabay</string>
+    <string name="next">Susunod</string>
+    <string name="this_action_can_contain_ads">Maaaring maglaman ng mga ad ang pagkilos na ito…</string>
+
+    <!-- Navigation & Main Screen -->
+    <string name="home">Tahanan</string>
+    <string name="statistic">Estadistika</string>
+    <string name="budget">Badyet</string>
+    <string name="settings">Mga Setting</string>
+    <string name="total_balance">Kabuuang balanse</string>
+    <string name="total_expenditure">Kabuuang gastos</string>
+    <string name="total_income">Kabuuang kita</string>
+    <string name="add_your_first_transaction">Idagdag ang iyong unang transaksyon.</string>
+    <string name="no_transactions_yet">Wala Pang Transaksyon</string>
+    <string name="no_transactions_desc">Lalabas dito ang iyong mga transaksyon kapag nagsimula ka nang magdagdag.</string>
+    <string name="vs_last_month">vs nakaraang buwan</string>
+    <string name="please_add_transaction_first">Mangyaring magdagdag muna ng transaksyon</string>
+    <string name="tap_here_to_exit">Pindutin dito upang lumabas</string>
+    <string name="recent_transactions">Kamakailang Transaksyon</string>
+    <string name="overview">Buod</string>
+    <string name="this_month">Ngayong Buwan</string>
+    <string name="last_month">Nakaraang Buwan</string>
+    <string name="all_transactions">Lahat ng Transaksyon</string>
+    <string name="view_all">Tingnan lahat</string>
+    <string name="view_all_count">Tingnan lahat (%1$d)</string>
+    <string name="view_all_transactions_count">Tingnan lahat ng %1$d transaksyon</string>
+    <string name="today">Ngayong araw</string>
+    <string name="yesterday">Kahapon</string>
+    <string name="all_time">Buong panahon</string>
+    <string name="search_transactions_hint">Maghanap ng tala, kategorya, halaga…</string>
+    <string name="no_matching_transactions">Walang tugmang transaksyon</string>
+    <string name="collapse_all">Itiklop lahat</string>
+    <string name="expand_all">Palawakin lahat</string>
+    <string name="tap_to_set_budget">Pindutin upang itakda ang buwanang limitasyon sa gastos</string>
+
+    <!-- Notification Prompt & Banner -->
+    <string name="notice">Paalala</string>
+    <string name="allow_alerts_currency_updates">Payagan ang mga alerto para sa live na\nupdate ng palitan ng pera!</string>
+    <string name="turn_on">Buksan</string>
+    <string name="allow_app_notify_you">Payagan ang Money Manager: Smart Saver na magpadala ng abiso sa iyo?</string>
+    <string name="turn_on_notifications_desc">Buksan ang mga abiso upang manatiling napapanahon.</string>
+    <string name="allow">Payagan</string>
+    <string name="dont_allow">Huwag Payagan</string>
+
+    <!-- Transactions & Statistics -->
+    <string name="add">Idagdag</string>
+    <string name="expense">Gastos</string>
+    <string name="income">Kita</string>
+    <string name="loan">Pautang</string>
+    <string name="borrow">Hiram</string>
+    <string name="amount">Halaga</string>
+    <string name="category">Kategorya</string>
+    <string name="note">Tala</string>
+    <string name="add_a_description">Magdagdag ng paglalarawan</string>
+    <string name="lender">Nagpahiram</string>
+    <string name="select_date">Pumili ng petsa</string>
+    <string name="date_time">Petsa at oras</string>
+    <string name="select_time">Pumili ng oras</string>
+    <string name="select_month">Pumili ng buwan</string>
+    <string name="transactions">Mga Transaksyon</string>
+    <string name="date">Petsa</string>
+    <string name="month">Buwan</string>
+    <string name="balance">Balanse</string>
+    <string name="total">Kabuuan</string>
+    <string name="edit">Baguhin</string>
+    <string name="save">I-save</string>
+    <string name="cancel">Kanselahin</string>
+    <string name="delete">Burahin</string>
+    <string name="delete_transaction">Burahin ang Transaksyon</string>
+    <string name="delete_transaction_confirm">Sigurado ka bang gusto mong burahin ang transaksyong ito?</string>
+    <string name="none_option">Wala</string>
+
+    <!-- Budget -->
+    <string name="budget_detail">Detalye ng Badyet</string>
+    <string name="add_budget">Magdagdag ng Badyet</string>
+    <string name="budget_name">Pangalan ng Badyet</string>
+    <string name="net_worth">Kabuuang yaman</string>
+    <string name="remaining">Natitira</string>
+    <string name="budget_colon_value">Badyet: %1$s</string>
+    <string name="expenses_colon_value">Mga Gastos: %1$s</string>
+    <string name="remain_colon_value">Natitira: %1$s</string>
+    <string name="monthly_budget">Buwanang Badyet</string>
+    <string name="set_monthly_budget">Itakda ang Buwanang Badyet</string>
+    <string name="edit_budget">Baguhin ang Badyet</string>
+    <string name="delete_budget">Burahin ang Badyet</string>
+    <string name="delete_budget_confirm">Sigurado ka bang gusto mong burahin ang badyet na ito?</string>
+    <string name="budget_saved">Na-save na ang badyet</string>
+    <string name="budget_deleted">Nabura na ang badyet</string>
+    <string name="budget_already_exists">May badyet na para sa kategoryang ito</string>
+    <string name="set_category_limit_desc">Pumili ng kategorya at magtakda ng buwanang limitasyon sa gastos</string>
+    <string name="all_categories_have_budgets">May badyet na ang lahat ng kategorya</string>
+    <string name="now">Ngayon</string>
+    <string name="category_budgets">Mga Badyet sa Kategorya</string>
+    <string name="custom_budget">Pasadya</string>
+    <string name="auto_tracked">Kusang itinatala</string>
+    <string name="spent">Nagastos</string>
+    <string name="left">Natitira</string>
+    <string name="over_budget">Lampas sa badyet</string>
+    <string name="over_by_value">Lampas ng %1$s</string>
+    <string name="spent_of_value">%1$s / %2$s</string>
+    <string name="daily_limit">Arawang limit</string>
+    <string name="per_day_value">%1$s/araw</string>
+    <string name="daily_avg">Karaniwan/araw</string>
+    <string name="no_budgets_title">Wala pang badyet sa kategorya</string>
+    <string name="no_budgets_desc">Magtakda ng buwanang limitasyon bawat kategorya upang awtomatikong masubaybayan ang gastos.</string>
+    <string name="budget_allocated_exceeds_hint">Ang inilaan (%1$s) ay lampas sa buwanang limitasyon (%2$s)</string>
+    <string name="no_budget_transactions">Walang gastos sa badyet na ito ngayong buwan</string>
+    <string name="add_expense">Magdagdag ng Gastos</string>
+    <string name="auto_linked_budget_hint">Awtomatikong itinatala sa badyet na %1$s</string>
+    <string name="skip">Laktawan</string>
+    <string name="year">Taon</string>
+    <string name="yearly_report">Taunang Ulat</string>
+    <string name="net_savings">Neto</string>
+    <string name="net_loan">Netong Pautang</string>
+    <string name="lent">Pinahiram</string>
+    <string name="borrowed">Hiniram</string>
+    <string name="vs_prev_month_up">↑ %1$d%% vs nakaraang buwan</string>
+    <string name="vs_prev_month_down">↓ %1$d%% vs nakaraang buwan</string>
+    <string name="vs_prev_month_same">Katulad ng nakaraang buwan</string>
+    <string name="chart_breakdown">Paghahati</string>
+    <string name="chart_trend">Trend</string>
+    <string name="income_allocation">Alokasyon ng Kita</string>
+    <string name="saved">Naipon</string>
+    <string name="overspent">Sobrang gastos</string>
+    <string name="of_income_value">%1$s ng kita</string>
+    <string name="add_income_to_see_savings">Magdagdag ng kita upang makita ang antas ng ipon</string>
+    <string name="transactions_count">%1$d transaksyon</string>
+    <string name="category_transactions">Mga Transaksyon sa Kategorya</string>
+    <string name="no_note">Walang tala</string>
+    <string name="cashflow">Daloy ng Pera</string>
+    <string name="edit_transaction">Baguhin ang Transaksyon</string>
+    <string name="add_transaction">Magdagdag ng Transaksyon</string>
+    <string name="person_name_hint">Pangalan ng tao o nagpahiram</string>
+    <string name="used_percent">%1$d%% nagamit</string>
+    <string name="week">Linggo</string>
+    <string name="custom_range">Pasadya</string>
+    <string name="current_period">Kasalukuyan</string>
+    <string name="monthly_table">Talaan 12B</string>
+    <string name="filters">Mga Filter</string>
+    <string name="reset">I-reset</string>
+    <string name="apply">Ilapat</string>
+    <string name="all">Lahat</string>
+    <string name="quick_period">Mabilisang Panahon</string>
+    <string name="last_7_days">Huling 7 araw</string>
+    <string name="last_30_days">Huling 30 araw</string>
+    <string name="sort_by">Ayusin ayon sa</string>
+    <string name="sort_highest_amount">Pinakamataas na halaga</string>
+    <string name="sort_most_transactions">Pinakamaraming transaksyon</string>
+    <string name="select_date_range">Pumili ng saklaw ng petsa</string>
+    <string name="vs_prev_period_up">↑ %1$d%% vs nakaraan</string>
+    <string name="vs_prev_period_down">↓ %1$d%% vs nakaraan</string>
+    <string name="vs_prev_period_same">Katulad ng nakaraan</string>
+
+    <!-- Settings & Language & Currency -->
+    <string name="general">Pangkalahatan</string>
+    <string name="about_us">Tungkol sa Amin</string>
+    <string name="currency">Salapi</string>
+    <string name="currency_unit">Yunit ng salapi</string>
+    <string name="search">Maghanap</string>
+    <string name="language">Wika</string>
+    <string name="languages">Mga Wika</string>
+    <string name="please_select_language_to_continue">Mangyaring pumili ng wika upang magpatuloy</string>
+    <string name="share">Ibahagi</string>
+    <string name="privacy_policy">Patakaran sa pagkapribado</string>
+    <string name="rating">Markahan</string>
+
+    <!-- Interest Screen -->
+    <string name="interest">Mga Interes</string>
+    <string name="please_select_at_least_2_options_to_continue">*Mangyaring pumili ng kahit 2 opsyon upang magpatuloy.</string>
+    <string name="interest_bills_utilities">💡 Mga Bayarin at Utilidad</string>
+    <string name="interest_food_dining">🍽️ Pagkain at Kainan</string>
+    <string name="interest_shopping">🛍️ Pamimili</string>
+    <string name="interest_transportation">🚗 Transportasyon</string>
+    <string name="interest_healthcare">🏥 Kalusugan</string>
+
+    <!-- Uninstall Retention Screen -->
+    <string name="uninstall">I-uninstall</string>
+    <string name="uninstall_question">Anong problema ang naranasan mo habang ginagamit ito?</string>
+    <string name="not_much_more_useful_nthan_the_defaults">Hindi gaanong mas kapaki-pakinabang kaysa sa karaniwang app</string>
+    <string name="unresponsive_or_laggy">Hindi tumutugon o\nmabagal</string>
+    <string name="explore">Tuklasin</string>
+    <string name="try_again">Subukan Muli</string>
+    <string name="dont_uninstall_yet">Huwag munang i-uninstall</string>
+    <string name="still_want_to_uninstall">Gusto pa ring i-uninstall</string>
+
+    <!-- Validation & Feedback Messages -->
+    <string name="msg_enter_amount">Mangyaring ilagay ang halaga</string>
+    <string name="msg_select_category">Mangyaring pumili ng kategorya</string>
+    <string name="msg_transaction_saved">Matagumpay na na-save ang transaksyon</string>
+    <string name="msg_enter_all_fields">Mangyaring punan ang lahat ng patlang</string>
+    <string name="msg_invalid_amount">Hindi wastong halaga</string>
+    <string name="msg_enter_budget_amount">Mangyaring ilagay ang halaga ng badyet</string>
+    <string name="msg_budget_exceeds_limit">Ang kabuuan ng lahat ng badyet ay dapat mas mababa sa %1$s</string>
+    <string name="msg_choose_language">Mangyaring pumili ng wika upang magpatuloy</string>
+    <string name="msg_transaction_not_found">Hindi mahanap ang transaksyon</string>
+    <string name="msg_transaction_details_not_found">Hindi mahanap ang mga detalye ng transaksyon</string>
+    <string name="msg_unable_delete_transaction">Hindi mabura ang transaksyon</string>
+    <string name="msg_transaction_deleted">Matagumpay na nabura ang transaksyon</string>
+
+    <!-- Category Display Names -->
+    <string name="category_food">Pagkain</string>
+    <string name="category_social">Pakikisalamuha</string>
+    <string name="category_traffic">Transportasyon</string>
+    <string name="category_shopping">Pamimili</string>
+    <string name="category_grocery">Pamilihan</string>
+    <string name="category_education">Edukasyon</string>
+    <string name="category_bills">Mga Bayarin</string>
+    <string name="category_rentals">Upa</string>
+    <string name="category_medical">Medikal</string>
+    <string name="category_investment">Pamumuhunan</string>
+    <string name="category_gift">Regalo</string>
+    <string name="category_other">Iba pa</string>
+    <string name="category_salary">Suweldo</string>
+    <string name="category_invest">Puhunan</string>
+    <string name="category_business">Negosyo</string>
+    <string name="category_interest">Tubo</string>
+    <string name="category_extra_income">Dagdag na Kita</string>
+    <string name="category_loan">Pautang</string>
+    <string name="category_borrow">Hiram</string>
+
+    <!-- Notifications -->
+    <string name="open">Buksan</string>
+    <string name="open_now">Buksan Ngayon</string>
+    <string name="continued">Magpatuloy</string>
+    <string name="title_screen_shoot_done">Na-save ang Screenshot ng Resibo?</string>
+    <string name="body_screen_shoot_done">Itala ang bayad na ito sa Money Manager bago mo makalimutan.</string>
+    <string name="title_dowload_done">Na-save ang Statement o Invoice?</string>
+    <string name="body_dowload_done">Itala ito upang mapanatiling napapanahon ang iyong badyet: </string>
+    <string name="title_out_done">Tapusin nang Tama ang Araw?</string>
+    <string name="body_out_done">Suriin ang mga gastos, kita, at progreso ng badyet ngayon.</string>
+    <string name="noti_app_installed_title">Subaybayan ang Gastos sa Bagong App</string>
+    <string name="noti_app_installed_body">Nag-subscribe o bumili sa %1$s? Itala ito sa Money Manager.</string>
+    <string name="noti_app_removed_title">Suriin ang mga Aktibong Subscription</string>
+    <string name="noti_app_removed_body">Nag-alis ng app? Suriin ang iyong badyet sa Mga Bayarin upang maiwasan ang dagdag na singil.</string>
+    <string name="noti_app_removed_btn">Suriin ang Badyet</string>
+    <string name="noti_app_updated_title">Panatilihing Napapanahon ang Pananalapi</string>
+    <string name="noti_app_updated_body">Suriin ang mga gastos, kita, at pag-unlad ng ipon ngayon.</string>
+    <string name="noti_app_updated_btn">Buksan ang App</string>
+
+    <string-array name="special_titles_v2">
+        <item>🌙 Buod ng Gastos Ngayong Araw</item>
+        <item>✨ Lumalago ang Iyong Ipon</item>
+        <item>📈 Pagsusuri ng Daloy ng Pera Ngayong Gabi</item>
+        <item>🔔 May mga Bayaring Malapit na?</item>
+        <item>🤝 Subaybayan ang mga Pautang at Hiram</item>
+        <item>🎯 Handa na para Bukas?</item>
+    </string-array>
+
+    <string-array name="special_messages_v2">
+        <item>Maglaan ng 10 segundo upang itala ang mga gastos ngayon at mapanatili sa ayos ang badyet.</item>
+        <item>Tingnan kung magkano na ang naipon mo ngayong buwan at panooring lumago ang iyong balanse.</item>
+        <item>Ihambing ang daloy ng iyong kita at gastos ngayong buwan upang makahanap ng dagdag na ipon.</item>
+        <item>Suriin ang mga paparating na renta, bayarin, at regular na gastos upang walang gulat.</item>
+        <item>Nagpautang o nanghiram kamakailan? Itala nang malinaw upang hindi makaligtaan ang bayaran.</item>
+        <item>Suriin ang natitirang buwanang badyet ngayong gabi at simulan ang bukas nang may kumpiyansa.</item>
+    </string-array>
+
+    <string-array name="special_titles_news">
+        <item>☕ Pang-umagang Pagsusuri ng Pera</item>
+        <item>🧾 Itala ang Gastos Ngayong Araw</item>
+        <item>📊 Magkano ang Naipon Mo?</item>
+        <item>🛡️ Manatili sa Loob ng Badyet</item>
+        <item>🛍️ May Planong Bilhin?</item>
+        <item>💰 Subaybayan ang Daloy ng Kita</item>
+    </string-array>
+
+    <string-array name="special_messages_news">
+        <item>Simulan nang matalino ang araw — suriin ang pang-araw-araw na limitasyon sa gastos bago magkape.</item>
+        <item>Kumain ng tanghalian o nagbayad ng bayarin? Itala sa loob ng 5 segundo upang manatiling tumpak.</item>
+        <item>Tingnan kung ilang % ng iyong kita ang napupunta sa Pagkain, Mga Bayarin, at Ipon ngayong buwan.</item>
+        <item>Suriin ang natitirang badyet sa kategorya bago gumawa ng susunod na pagbili.</item>
+        <item>Silipin saglit ang iyong buwanang balanse bago mag-check out.</item>
+        <item>Sumahod o nagkaroon ng dagdag na kita? Idagdag na ngayon upang ma-update ang antas ng ipon.</item>
+    </string-array>
+</resources>

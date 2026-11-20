@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="months">
+        <item>1月</item>
+        <item>2月</item>
+        <item>3月</item>
+        <item>4月</item>
+        <item>5月</item>
+        <item>6月</item>
+        <item>7月</item>
+        <item>8月</item>
+        <item>9月</item>
+        <item>10月</item>
+        <item>11月</item>
+        <item>12月</item>
+    </string-array>
+
+    <string-array name="months_short">
+        <item>1月</item>
+        <item>2月</item>
+        <item>3月</item>
+        <item>4月</item>
+        <item>5月</item>
+        <item>6月</item>
+        <item>7月</item>
+        <item>8月</item>
+        <item>9月</item>
+        <item>10月</item>
+        <item>11月</item>
+        <item>12月</item>
+    </string-array>
+
+    <!-- Onboarding & Guide -->
+    <string name="note_continue1">お金をかんたんに管理</string>
+    <string name="note_continue2">支出をわかりやすく整理</string>
+    <string name="note_continue3">資産の推移を見える化</string>
+    <string name="note_continue4">目標を立ててもっと貯蓄</string>
+    <string name="intro_slide_1_des">収入・支出・残高をひとつの場所でまとめて管理できます。</string>
+    <string name="intro_slide_2_des">取引をカテゴリ分けして、お金の使い道を確認しましょう</string>
+    <string name="intro_slide_3_des">収入・支出・貯蓄の推移をグラフでわかりやすく確認できます</string>
+    <string name="intro_slide_4_des">予算を計画し、貯蓄目標を設定して、より良いお金の習慣を身につけましょう</string>
+    <string name="note_guide1">「予算」をタップして支出を管理</string>
+    <string name="note_guide2">残高をひと目で確認</string>
+    <string name="note_guide3">予算をかんたんに切り替え</string>
+    <string name="note_guide4">支出を分析して計画をキープ</string>
+    <string name="guide">ガイド</string>
+    <string name="next">次へ</string>
+    <string name="this_action_can_contain_ads">この操作には広告が含まれる場合があります…</string>
+
+    <!-- Navigation & Main Screen -->
+    <string name="home">ホーム</string>
+    <string name="statistic">統計</string>
+    <string name="budget">予算</string>
+    <string name="settings">設定</string>
+    <string name="total_balance">総残高</string>
+    <string name="total_expenditure">総支出</string>
+    <string name="total_income">総収入</string>
+    <string name="add_your_first_transaction">最初の取引を追加しましょう。</string>
+    <string name="no_transactions_yet">取引がまだありません</string>
+    <string name="no_transactions_desc">取引を追加すると、ここに表示されます。</string>
+    <string name="vs_last_month">先月比</string>
+    <string name="please_add_transaction_first">まず取引を追加してください</string>
+    <string name="tap_here_to_exit">ここをタップして終了</string>
+    <string name="recent_transactions">最近の取引</string>
+    <string name="overview">概要</string>
+    <string name="this_month">今月</string>
+    <string name="last_month">先月</string>
+    <string name="all_transactions">すべての取引</string>
+    <string name="view_all">すべて表示</string>
+    <string name="view_all_count">すべて表示 (%1$d)</string>
+    <string name="view_all_transactions_count">全%1$d件の取引を表示</string>
+    <string name="today">今日</string>
+    <string name="yesterday">昨日</string>
+    <string name="all_time">全期間</string>
+    <string name="search_transactions_hint">メモ、カテゴリ、金額を検索…</string>
+    <string name="no_matching_transactions">一致する取引がありません</string>
+    <string name="collapse_all">すべて折りたたむ</string>
+    <string name="expand_all">すべて展開</string>
+    <string name="tap_to_set_budget">タップして月間の支出上限を設定</string>
+
+    <!-- Notification Prompt & Banner -->
+    <string name="notice">お知らせ</string>
+    <string name="allow_alerts_currency_updates">通知を許可して最新の為替レートを\nリアルタイムで受け取ろう！</string>
+    <string name="turn_on">オンにする</string>
+    <string name="allow_app_notify_you">Money Manager: Smart Saverからの通知を許可しますか？</string>
+    <string name="turn_on_notifications_desc">最新情報を受け取るには通知をオンにしてください。</string>
+    <string name="allow">許可</string>
+    <string name="dont_allow">許可しない</string>
+
+    <!-- Transactions & Statistics -->
+    <string name="add">追加</string>
+    <string name="expense">支出</string>
+    <string name="income">収入</string>
+    <string name="loan">貸付</string>
+    <string name="borrow">借入</string>
+    <string name="amount">金額</string>
+    <string name="category">カテゴリ</string>
+    <string name="note">メモ</string>
+    <string name="add_a_description">説明を追加</string>
+    <string name="lender">貸し手</string>
+    <string name="select_date">日付を選択</string>
+    <string name="date_time">日時</string>
+    <string name="select_time">時刻を選択</string>
+    <string name="select_month">月を選択</string>
+    <string name="transactions">取引履歴</string>
+    <string name="date">日付</string>
+    <string name="month">月</string>
+    <string name="balance">残高</string>
+    <string name="total">合計</string>
+    <string name="edit">編集</string>
+    <string name="save">保存</string>
+    <string name="cancel">キャンセル</string>
+    <string name="delete">削除</string>
+    <string name="delete_transaction">取引を削除</string>
+    <string name="delete_transaction_confirm">この取引を削除してもよろしいですか？</string>
+    <string name="none_option">なし</string>
+
+    <!-- Budget -->
+    <string name="budget_detail">予算の詳細</string>
+    <string name="add_budget">予算を追加</string>
+    <string name="budget_name">予算名</string>
+    <string name="net_worth">純資産</string>
+    <string name="remaining">残り</string>
+    <string name="budget_colon_value">予算: %1$s</string>
+    <string name="expenses_colon_value">支出: %1$s</string>
+    <string name="remain_colon_value">残り: %1$s</string>
+    <string name="monthly_budget">月間予算</string>
+    <string name="set_monthly_budget">月間予算を設定</string>
+    <string name="edit_budget">予算を編集</string>
+    <string name="delete_budget">予算を削除</string>
+    <string name="delete_budget_confirm">この予算を削除してもよろしいですか？</string>
+    <string name="budget_saved">予算を保存しました</string>
+    <string name="budget_deleted">予算を削除しました</string>
+    <string name="budget_already_exists">このカテゴリの予算はすでに存在します</string>
+    <string name="set_category_limit_desc">カテゴリを選択して月間の支出上限を設定</string>
+    <string name="all_categories_have_budgets">すべてのカテゴリに予算が設定済みです</string>
+    <string name="now">今</string>
+    <string name="category_budgets">カテゴリ別予算</string>
+    <string name="custom_budget">カスタム</string>
+    <string name="auto_tracked">自動集計</string>
+    <string name="spent">使用済み</string>
+    <string name="left">残り</string>
+    <string name="over_budget">予算超過</string>
+    <string name="over_by_value">%1$s 超過</string>
+    <string name="spent_of_value">%1$s / %2$s</string>
+    <string name="daily_limit">1日の上限</string>
+    <string name="per_day_value">%1$s/日</string>
+    <string name="daily_avg">1日平均</string>
+    <string name="no_budgets_title">カテゴリ別予算はまだありません</string>
+    <string name="no_budgets_desc">カテゴリごとに月間上限を設定すると、支出を自動で集計します。</string>
+    <string name="budget_allocated_exceeds_hint">割り当て額 (%1$s) が月間上限 (%2$s) を超えています</string>
+    <string name="no_budget_transactions">今月はこの予算の支出がありません</string>
+    <string name="add_expense">支出を追加</string>
+    <string name="auto_linked_budget_hint">%1$s の予算に自動集計されます</string>
+    <string name="skip">スキップ</string>
+    <string name="year">年</string>
+    <string name="yearly_report">年間レポート</string>
+    <string name="net_savings">収支</string>
+    <string name="net_loan">貸借残高</string>
+    <string name="lent">貸付</string>
+    <string name="borrowed">借入</string>
+    <string name="vs_prev_month_up">↑ %1$d%%（前月比）</string>
+    <string name="vs_prev_month_down">↓ %1$d%%（前月比）</string>
+    <string name="vs_prev_month_same">前月と同じ</string>
+    <string name="chart_breakdown">内訳</string>
+    <string name="chart_trend">推移</string>
+    <string name="income_allocation">収入の配分</string>
+    <string name="saved">貯蓄</string>
+    <string name="overspent">使いすぎ</string>
+    <string name="of_income_value">収入の%1$s</string>
+    <string name="add_income_to_see_savings">収入を追加すると貯蓄率が表示されます</string>
+    <string name="transactions_count">%1$d件</string>
+    <string name="category_transactions">カテゴリ別取引</string>
+    <string name="no_note">メモなし</string>
+    <string name="cashflow">キャッシュフロー</string>
+    <string name="edit_transaction">取引を編集</string>
+    <string name="add_transaction">取引を追加</string>
+    <string name="person_name_hint">相手の名前または貸し手</string>
+    <string name="used_percent">%1$d%% 使用済み</string>
+    <string name="week">週</string>
+    <string name="custom_range">カスタム</string>
+    <string name="current_period">現在</string>
+    <string name="monthly_table">12ヶ月表</string>
+    <string name="filters">フィルター</string>
+    <string name="reset">リセット</string>
+    <string name="apply">適用</string>
+    <string name="all">すべて</string>
+    <string name="quick_period">クイック期間</string>
+    <string name="last_7_days">過去7日間</string>
+    <string name="last_30_days">過去30日間</string>
+    <string name="sort_by">並び替え</string>
+    <string name="sort_highest_amount">金額が高い順</string>
+    <string name="sort_most_transactions">取引件数が多い順</string>
+    <string name="select_date_range">日付範囲を選択</string>
+    <string name="vs_prev_period_up">↑ %1$d%%（前期比）</string>
+    <string name="vs_prev_period_down">↓ %1$d%%（前期比）</string>
+    <string name="vs_prev_period_same">前期と同じ</string>
+
+    <!-- Settings & Language & Currency -->
+    <string name="general">一般</string>
+    <string name="about_us">アプリについて</string>
+    <string name="currency">通貨</string>
+    <string name="currency_unit">通貨単位</string>
+    <string name="search">検索</string>
+    <string name="language">言語</string>
+    <string name="languages">言語</string>
+    <string name="please_select_language_to_continue">続行するには言語を選択してください</string>
+    <string name="share">共有</string>
+    <string name="privacy_policy">プライバシーポリシー</string>
+    <string name="rating">評価する</string>
+
+    <!-- Interest Screen -->
+    <string name="interest">関心事</string>
+    <string name="please_select_at_least_2_options_to_continue">*続行するには2つ以上選択してください。</string>
+    <string name="interest_bills_utilities">💡 光熱費・請求</string>
+    <string name="interest_food_dining">🍽️ 食事・外食</string>
+    <string name="interest_shopping">🛍️ ショッピング</string>
+    <string name="interest_transportation">🚗 交通費</string>
+    <string name="interest_healthcare">🏥 医療・健康</string>
+
+    <!-- Uninstall Retention Screen -->
+    <string name="uninstall">アンインストール</string>
+    <string name="uninstall_question">ご利用中にどのような問題がありましたか？</string>
+    <string name="not_much_more_useful_nthan_the_defaults">標準機能とあまり変わらない</string>
+    <string name="unresponsive_or_laggy">動作が重い・\n反応しない</string>
+    <string name="explore">探索する</string>
+    <string name="try_again">もう一度試す</string>
+    <string name="dont_uninstall_yet">まだアンインストールしない</string>
+    <string name="still_want_to_uninstall">このままアンインストールする</string>
+
+    <!-- Validation & Feedback Messages -->
+    <string name="msg_enter_amount">金額を入力してください</string>
+    <string name="msg_select_category">カテゴリを選択してください</string>
+    <string name="msg_transaction_saved">取引を保存しました</string>
+    <string name="msg_enter_all_fields">すべての項目を入力してください</string>
+    <string name="msg_invalid_amount">金額が無効です</string>
+    <string name="msg_enter_budget_amount">予算額を入力してください</string>
+    <string name="msg_budget_exceeds_limit">全予算の合計は %1$s 未満にしてください</string>
+    <string name="msg_choose_language">続行するには言語を選択してください</string>
+    <string name="msg_transaction_not_found">取引が見つかりません</string>
+    <string name="msg_transaction_details_not_found">取引の詳細が見つかりません</string>
+    <string name="msg_unable_delete_transaction">取引を削除できませんでした</string>
+    <string name="msg_transaction_deleted">取引を削除しました</string>
+
+    <!-- Category Display Names -->
+    <string name="category_food">食事</string>
+    <string name="category_social">交際費</string>
+    <string name="category_traffic">交通</string>
+    <string name="category_shopping">買い物</string>
+    <string name="category_grocery">食料品</string>
+    <string name="category_education">教育</string>
+    <string name="category_bills">公共料金</string>
+    <string name="category_rentals">家賃</string>
+    <string name="category_medical">医療</string>
+    <string name="category_investment">投資</string>
+    <string name="category_gift">プレゼント</string>
+    <string name="category_other">その他</string>
+    <string name="category_salary">給与</string>
+    <string name="category_invest">投資収益</string>
+    <string name="category_business">ビジネス</string>
+    <string name="category_interest">利息</string>
+    <string name="category_extra_income">副収入</string>
+    <string name="category_loan">貸付</string>
+    <string name="category_borrow">借入</string>
+
+    <!-- Notifications -->
+    <string name="open">開く</string>
+    <string name="open_now">今すぐ開く</string>
+    <string name="continued">続ける</string>
+    <string name="title_screen_shoot_done">レシートのスクショを保存しましたか？</string>
+    <string name="body_screen_shoot_done">忘れる前にMoney Managerで支払いを記録しましょう。</string>
+    <string name="title_dowload_done">明細や請求書を保存しましたか？</string>
+    <string name="body_dowload_done">記録して予算を最新に保ちましょう: </string>
+    <string name="title_out_done">今日を気持ちよく締めくくりませんか？</string>
+    <string name="body_out_done">今日の支出・収入と予算の進捗を確認しましょう。</string>
+    <string name="noti_app_installed_title">新しいアプリの支出を記録</string>
+    <string name="noti_app_installed_body">%1$sで定期購入や課金をしましたか？Money Managerに記録しましょう。</string>
+    <string name="noti_app_removed_title">有効な定期購入を確認</string>
+    <string name="noti_app_removed_body">アプリを削除しましたか？余計な請求を防ぐため公共料金の予算を見直しましょう。</string>
+    <string name="noti_app_removed_btn">予算を確認</string>
+    <string name="noti_app_updated_title">家計データを最新に保とう</string>
+    <string name="noti_app_updated_body">今日の支出・収入と貯蓄の進捗を確認しましょう。</string>
+    <string name="noti_app_updated_btn">アプリを開く</string>
+
+    <string-array name="special_titles_v2">
+        <item>🌙 今日の支出まとめ</item>
+        <item>✨ 貯蓄が増えています</item>
+        <item>📈 夜のキャッシュフロー分析</item>
+        <item>🔔 支払期限が近い請求は？</item>
+        <item>🤝 貸し借りをしっかり記録</item>
+        <item>🎯 明日の準備は万全ですか？</item>
+    </string-array>
+
+    <string-array name="special_messages_v2">
+        <item>10秒で今日の支出を記録して、予算を計画通りに保ちましょう。</item>
+        <item>今月の貯蓄額をチェックして、残高の増加を確認しましょう。</item>
+        <item>今月の収入と支出の推移を比較して、さらなる節約ポイントを見つけましょう。</item>
+        <item>予定されている家賃や請求、定期支出を見直して想定外の出費を防ぎましょう。</item>
+        <item>最近お金を貸したり借りたりしましたか？返済を忘れないよう明確に記録しましょう。</item>
+        <item>今夜のうちに今月の残り予算を確認して、自信を持って明日を迎えましょう。</item>
+    </string-array>
+
+    <string-array name="special_titles_news">
+        <item>☕ 朝のマネーチェック</item>
+        <item>🧾 今日の支出を記録しよう</item>
+        <item>📊 今月どれだけ貯蓄できた？</item>
+        <item>🛡️ 予算内にしっかり収めよう</item>
+        <item>🛍️ お買い物の予定はありますか？</item>
+        <item>💰 収入の流れを把握しよう</item>
+    </string-array>
+
+    <string-array name="special_messages_news">
+        <item>スマートに1日をスタート — 朝のコーヒーの前に1日の支出上限を確認しましょう。</item>
+        <item>ランチや請求の支払いを済ませましたか？5秒で記録して正確さを保ちましょう。</item>
+        <item>今月の収入のうち、食事・公共料金・貯蓄に何%使われているか確認しましょう。</item>
+        <item>次のお買い物をする前に、カテゴリ別の残り予算をチェックしましょう。</item>
+        <item>お会計の前に、今月の残高をさっと確認しましょう。</item>
+        <item>お給料や副収入が入りましたか？今すぐ追加して貯蓄率を更新しましょう。</item>
+    </string-array>
+</resources>

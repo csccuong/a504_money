@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="months">
+        <item>มกราคม</item>
+        <item>กุมภาพันธ์</item>
+        <item>มีนาคม</item>
+        <item>เมษายน</item>
+        <item>พฤษภาคม</item>
+        <item>มิถุนายน</item>
+        <item>กรกฎาคม</item>
+        <item>สิงหาคม</item>
+        <item>กันยายน</item>
+        <item>ตุลาคม</item>
+        <item>พฤศจิกายน</item>
+        <item>ธันวาคม</item>
+    </string-array>
+
+    <string-array name="months_short">
+        <item>ม.ค.</item>
+        <item>ก.พ.</item>
+        <item>มี.ค.</item>
+        <item>เม.ย.</item>
+        <item>พ.ค.</item>
+        <item>มิ.ย.</item>
+        <item>ก.ค.</item>
+        <item>ส.ค.</item>
+        <item>ก.ย.</item>
+        <item>ต.ค.</item>
+        <item>พ.ย.</item>
+        <item>ธ.ค.</item>
+    </string-array>
+
+    <!-- Onboarding & Guide -->
+    <string name="note_continue1">จัดการการเงินของคุณอย่างง่ายดาย</string>
+    <string name="note_continue2">จัดระเบียบการใช้จ่ายของคุณ</string>
+    <string name="note_continue3">ติดตามความคืบหน้าทางการเงิน</string>
+    <string name="note_continue4">ตั้งเป้าหมายและออมให้มากขึ้น</string>
+    <string name="intro_slide_1_des">ติดตามรายรับ รายจ่าย และยอดคงเหลือได้ในที่เดียว</string>
+    <string name="intro_slide_2_des">จัดหมวดหมู่รายการเพื่อดูว่าเงินของคุณใช้จ่ายไปกับอะไร</string>
+    <string name="intro_slide_3_des">เห็นภาพรายรับ รายจ่าย และเงินออมของคุณอย่างชัดเจนตลอดเวลา</string>
+    <string name="intro_slide_4_des">วางแผนงบประมาณ ตั้งเป้าหมายการออม และสร้างนิสัยทางการเงินที่ดีขึ้น</string>
+    <string name="note_guide1">แตะ ‘งบประมาณ’ เพื่อจัดการรายจ่ายของคุณ</string>
+    <string name="note_guide2">ดูยอดเงินคงเหลือได้ทันทีในพริบตา</string>
+    <string name="note_guide3">สลับดูงบประมาณได้อย่างง่ายดาย</string>
+    <string name="note_guide4">วิเคราะห์รายจ่ายและคุมแผนให้ตรงเป้า</string>
+    <string name="guide">คู่มือ</string>
+    <string name="next">ถัดไป</string>
+    <string name="this_action_can_contain_ads">การดำเนินการนี้อาจมีโฆษณา…</string>
+
+    <!-- Navigation & Main Screen -->
+    <string name="home">หน้าหลัก</string>
+    <string name="statistic">สถิติ</string>
+    <string name="budget">งบประมาณ</string>
+    <string name="settings">การตั้งค่า</string>
+    <string name="total_balance">ยอดคงเหลือรวม</string>
+    <string name="total_expenditure">รายจ่ายรวม</string>
+    <string name="total_income">รายรับรวม</string>
+    <string name="add_your_first_transaction">เพิ่มรายการแรกของคุณ</string>
+    <string name="no_transactions_yet">ยังไม่มีรายการ</string>
+    <string name="no_transactions_desc">รายการของคุณจะแสดงที่นี่เมื่อคุณเริ่มเพิ่มรายการ</string>
+    <string name="vs_last_month">เทียบกับเดือนที่แล้ว</string>
+    <string name="please_add_transaction_first">กรุณาเพิ่มรายการก่อน</string>
+    <string name="tap_here_to_exit">แตะที่นี่เพื่อออก</string>
+    <string name="recent_transactions">รายการล่าสุด</string>
+    <string name="overview">ภาพรวม</string>
+    <string name="this_month">เดือนนี้</string>
+    <string name="last_month">เดือนที่แล้ว</string>
+    <string name="all_transactions">รายการทั้งหมด</string>
+    <string name="view_all">ดูทั้งหมด</string>
+    <string name="view_all_count">ดูทั้งหมด (%1$d)</string>
+    <string name="view_all_transactions_count">ดูทั้งหมด %1$d รายการ</string>
+    <string name="today">วันนี้</string>
+    <string name="yesterday">เมื่อวาน</string>
+    <string name="all_time">ตลอดเวลา</string>
+    <string name="search_transactions_hint">ค้นหาบันทึก หมวดหมู่ จำนวนเงิน…</string>
+    <string name="no_matching_transactions">ไม่พบรายการที่ตรงกัน</string>
+    <string name="collapse_all">ย่อทั้งหมด</string>
+    <string name="expand_all">ขยายทั้งหมด</string>
+    <string name="tap_to_set_budget">แตะเพื่อตั้งวงเงินใช้จ่ายรายเดือน</string>
+
+    <!-- Notification Prompt & Banner -->
+    <string name="notice">ประกาศ</string>
+    <string name="allow_alerts_currency_updates">อนุญาตการแจ้งเตือนเพื่อรับอัปเดต\nอัตราแลกเปลี่ยนแบบเรียลไทม์!</string>
+    <string name="turn_on">เปิดใช้งาน</string>
+    <string name="allow_app_notify_you">อนุญาตให้ Money Manager: Smart Saver ส่งการแจ้งเตือนถึงคุณหรือไม่?</string>
+    <string name="turn_on_notifications_desc">เปิดการแจ้งเตือนเพื่อไม่พลาดข่าวสารล่าสุด</string>
+    <string name="allow">อนุญาต</string>
+    <string name="dont_allow">ไม่อนุญาต</string>
+
+    <!-- Transactions & Statistics -->
+    <string name="add">เพิ่ม</string>
+    <string name="expense">รายจ่าย</string>
+    <string name="income">รายรับ</string>
+    <string name="loan">ให้ยืม</string>
+    <string name="borrow">ขอยืม</string>
+    <string name="amount">จำนวนเงิน</string>
+    <string name="category">หมวดหมู่</string>
+    <string name="note">บันทึก</string>
+    <string name="add_a_description">เพิ่มคำอธิบาย</string>
+    <string name="lender">ผู้ให้ยืม</string>
+    <string name="select_date">เลือกวันที่</string>
+    <string name="date_time">วันที่และเวลา</string>
+    <string name="select_time">เลือกเวลา</string>
+    <string name="select_month">เลือกเดือน</string>
+    <string name="transactions">รายการธุรกรรม</string>
+    <string name="date">วันที่</string>
+    <string name="month">เดือน</string>
+    <string name="balance">ยอดคงเหลือ</string>
+    <string name="total">รวม</string>
+    <string name="edit">แก้ไข</string>
+    <string name="save">บันทึก</string>
+    <string name="cancel">ยกเลิก</string>
+    <string name="delete">ลบ</string>
+    <string name="delete_transaction">ลบรายการ</string>
+    <string name="delete_transaction_confirm">คุณแน่ใจหรือไม่ว่าต้องการลบรายการนี้?</string>
+    <string name="none_option">ไม่มี</string>
+
+    <!-- Budget -->
+    <string name="budget_detail">รายละเอียดงบประมาณ</string>
+    <string name="add_budget">เพิ่มงบประมาณ</string>
+    <string name="budget_name">ชื่องบประมาณ</string>
+    <string name="net_worth">มูลค่าสุทธิ</string>
+    <string name="remaining">คงเหลือ</string>
+    <string name="budget_colon_value">งบประมาณ: %1$s</string>
+    <string name="expenses_colon_value">รายจ่าย: %1$s</string>
+    <string name="remain_colon_value">คงเหลือ: %1$s</string>
+    <string name="monthly_budget">งบประมาณรายเดือน</string>
+    <string name="set_monthly_budget">ตั้งงบประมาณรายเดือน</string>
+    <string name="edit_budget">แก้ไขงบประมาณ</string>
+    <string name="delete_budget">ลบงบประมาณ</string>
+    <string name="delete_budget_confirm">คุณแน่ใจหรือไม่ว่าต้องการลบงบประมาณนี้?</string>
+    <string name="budget_saved">บันทึกงบประมาณแล้ว</string>
+    <string name="budget_deleted">ลบงบประมาณแล้ว</string>
+    <string name="budget_already_exists">มีงบประมาณสำหรับหมวดหมู่นี้อยู่แล้ว</string>
+    <string name="set_category_limit_desc">เลือกหมวดหมู่และตั้งวงเงินใช้จ่ายรายเดือน</string>
+    <string name="all_categories_have_budgets">ทุกหมวดหมู่มีงบประมาณแล้ว</string>
+    <string name="now">ตอนนี้</string>
+    <string name="category_budgets">งบประมาณตามหมวดหมู่</string>
+    <string name="custom_budget">กำหนดเอง</string>
+    <string name="auto_tracked">ติดตามอัตโนมัติ</string>
+    <string name="spent">ใช้ไป</string>
+    <string name="left">คงเหลือ</string>
+    <string name="over_budget">เกินงบประมาณ</string>
+    <string name="over_by_value">เกิน %1$s</string>
+    <string name="spent_of_value">%1$s / %2$s</string>
+    <string name="daily_limit">วงเงินต่อวัน</string>
+    <string name="per_day_value">%1$s/วัน</string>
+    <string name="daily_avg">เฉลี่ยต่อวัน</string>
+    <string name="no_budgets_title">ยังไม่มีงบประมาณตามหมวดหมู่</string>
+    <string name="no_budgets_desc">ตั้งวงเงินรายเดือนตามหมวดหมู่เพื่อติดตามรายจ่ายอัตโนมัติ</string>
+    <string name="budget_allocated_exceeds_hint">งบที่จัดสรร (%1$s) เกินวงเงินรายเดือน (%2$s)</string>
+    <string name="no_budget_transactions">ยังไม่มีรายจ่ายในงบประมาณนี้ในเดือนนี้</string>
+    <string name="add_expense">เพิ่มรายจ่าย</string>
+    <string name="auto_linked_budget_hint">ติดตามอัตโนมัติในงบ %1$s</string>
+    <string name="skip">ข้าม</string>
+    <string name="year">ปี</string>
+    <string name="yearly_report">รายงานประจำปี</string>
+    <string name="net_savings">สุทธิ</string>
+    <string name="net_loan">ยอดกู้ยืมสุทธิ</string>
+    <string name="lent">ให้ยืม</string>
+    <string name="borrowed">ขอยืม</string>
+    <string name="vs_prev_month_up">↑ %1$d%% จากเดือนที่แล้ว</string>
+    <string name="vs_prev_month_down">↓ %1$d%% จากเดือนที่แล้ว</string>
+    <string name="vs_prev_month_same">เท่ากับเดือนที่แล้ว</string>
+    <string name="chart_breakdown">สัดส่วน</string>
+    <string name="chart_trend">แนวโน้ม</string>
+    <string name="income_allocation">การจัดสรรรายรับ</string>
+    <string name="saved">ออมแล้ว</string>
+    <string name="overspent">ใช้จ่ายเกิน</string>
+    <string name="of_income_value">%1$s ของรายรับ</string>
+    <string name="add_income_to_see_savings">เพิ่มรายรับเพื่อดูอัตราการออม</string>
+    <string name="transactions_count">%1$d รายการ</string>
+    <string name="category_transactions">รายการตามหมวดหมู่</string>
+    <string name="no_note">ไม่มีบันทึก</string>
+    <string name="cashflow">กระแสเงินสด</string>
+    <string name="edit_transaction">แก้ไขรายการ</string>
+    <string name="add_transaction">เพิ่มรายการ</string>
+    <string name="person_name_hint">ชื่อบุคคลหรือผู้ให้ยืม</string>
+    <string name="used_percent">ใช้ไป %1$d%%</string>
+    <string name="week">สัปดาห์</string>
+    <string name="custom_range">กำหนดเอง</string>
+    <string name="current_period">ปัจจุบัน</string>
+    <string name="monthly_table">ตาราง 12 เดือน</string>
+    <string name="filters">ตัวกรอง</string>
+    <string name="reset">รีเซ็ต</string>
+    <string name="apply">นำไปใช้</string>
+    <string name="all">ทั้งหมด</string>
+    <string name="quick_period">ช่วงเวลาด่วน</string>
+    <string name="last_7_days">7 วันที่ผ่านมา</string>
+    <string name="last_30_days">30 วันที่ผ่านมา</string>
+    <string name="sort_by">เรียงตาม</string>
+    <string name="sort_highest_amount">จำนวนเงินสูงสุด</string>
+    <string name="sort_most_transactions">รายการมากที่สุด</string>
+    <string name="select_date_range">เลือกช่วงวันที่</string>
+    <string name="vs_prev_period_up">↑ %1$d%% จากช่วงก่อน</string>
+    <string name="vs_prev_period_down">↓ %1$d%% จากช่วงก่อน</string>
+    <string name="vs_prev_period_same">เท่ากับช่วงก่อน</string>
+
+    <!-- Settings & Language & Currency -->
+    <string name="general">ทั่วไป</string>
+    <string name="about_us">เกี่ยวกับเรา</string>
+    <string name="currency">สกุลเงิน</string>
+    <string name="currency_unit">หน่วยสกุลเงิน</string>
+    <string name="search">ค้นหา</string>
+    <string name="language">ภาษา</string>
+    <string name="languages">ภาษา</string>
+    <string name="please_select_language_to_continue">กรุณาเลือกภาษาเพื่อดำเนินการต่อ</string>
+    <string name="share">แชร์</string>
+    <string name="privacy_policy">นโยบายความเป็นส่วนตัว</string>
+    <string name="rating">ให้คะแนน</string>
+
+    <!-- Interest Screen -->
+    <string name="interest">ความสนใจ</string>
+    <string name="please_select_at_least_2_options_to_continue">*กรุณาเลือกอย่างน้อย 2 ตัวเลือกเพื่อดำเนินการต่อ</string>
+    <string name="interest_bills_utilities">💡 บิลและสาธารณูปโภค</string>
+    <string name="interest_food_dining">🍽️ อาหารและเครื่องดื่ม</string>
+    <string name="interest_shopping">🛍️ ช้อปปิ้ง</string>
+    <string name="interest_transportation">🚗 การเดินทาง</string>
+    <string name="interest_healthcare">🏥 สุขภาพและการแพทย์</string>
+
+    <!-- Uninstall Retention Screen -->
+    <string name="uninstall">ถอนการติดตั้ง</string>
+    <string name="uninstall_question">คุณพบปัญหาอะไรระหว่างการใช้งาน?</string>
+    <string name="not_much_more_useful_nthan_the_defaults">ไม่ได้มีประโยชน์กว่าแอปพื้นฐานมากนัก</string>
+    <string name="unresponsive_or_laggy">ไม่ตอบสนองหรือ\nทำงานช้า</string>
+    <string name="explore">สำรวจ</string>
+    <string name="try_again">ลองอีกครั้ง</string>
+    <string name="dont_uninstall_yet">ยังไม่ถอนการติดตั้ง</string>
+    <string name="still_want_to_uninstall">ยังต้องการถอนการติดตั้ง</string>
+
+    <!-- Validation & Feedback Messages -->
+    <string name="msg_enter_amount">กรุณากรอกจำนวนเงิน</string>
+    <string name="msg_select_category">กรุณาเลือกหมวดหมู่</string>
+    <string name="msg_transaction_saved">บันทึกรายการเรียบร้อยแล้ว</string>
+    <string name="msg_enter_all_fields">กรุณากรอกข้อมูลให้ครบทุกช่อง</string>
+    <string name="msg_invalid_amount">จำนวนเงินไม่ถูกต้อง</string>
+    <string name="msg_enter_budget_amount">กรุณากรอกจำนวนเงินงบประมาณ</string>
+    <string name="msg_budget_exceeds_limit">ยอดรวมของงบประมาณทั้งหมดต้องน้อยกว่า %1$s</string>
+    <string name="msg_choose_language">กรุณาเลือกภาษาเพื่อดำเนินการต่อ</string>
+    <string name="msg_transaction_not_found">ไม่พบรายการธุรกรรม</string>
+    <string name="msg_transaction_details_not_found">ไม่พบรายละเอียดรายการธุรกรรม</string>
+    <string name="msg_unable_delete_transaction">ไม่สามารถลบรายการได้</string>
+    <string name="msg_transaction_deleted">ลบรายการเรียบร้อยแล้ว</string>
+
+    <!-- Category Display Names -->
+    <string name="category_food">อาหาร</string>
+    <string name="category_social">สังสรรค์</string>
+    <string name="category_traffic">การเดินทาง</string>
+    <string name="category_shopping">ช้อปปิ้ง</string>
+    <string name="category_grocery">ของชำ</string>
+    <string name="category_education">การศึกษา</string>
+    <string name="category_bills">ค่าบิล</string>
+    <string name="category_rentals">ค่าเช่า</string>
+    <string name="category_medical">การแพทย์</string>
+    <string name="category_investment">การลงทุน</string>
+    <string name="category_gift">ของขวัญ</string>
+    <string name="category_other">อื่นๆ</string>
+    <string name="category_salary">เงินเดือน</string>
+    <string name="category_invest">ลงทุน</string>
+    <string name="category_business">ธุรกิจ</string>
+    <string name="category_interest">ดอกเบี้ย</string>
+    <string name="category_extra_income">รายได้เสริม</string>
+    <string name="category_loan">ให้ยืม</string>
+    <string name="category_borrow">ขอยืม</string>
+
+    <!-- Notifications -->
+    <string name="open">เปิด</string>
+    <string name="open_now">เปิดเลย</string>
+    <string name="continued">ดำเนินการต่อ</string>
+    <string name="title_screen_shoot_done">บันทึกภาพสลิปหรือใบเสร็จแล้วหรือยัง?</string>
+    <string name="body_screen_shoot_done">บันทึกรายการจ่ายนี้ใน Money Manager ก่อนที่คุณจะลืม</string>
+    <string name="title_dowload_done">บันทึกรายการเดินบัญชีหรือใบแจ้งหนี้แล้วหรือยัง?</string>
+    <string name="body_dowload_done">จดบันทึกเพื่ออัปเดตงบประมาณของคุณให้เป็นปัจจุบัน: </string>
+    <string name="title_out_done">ปิดท้ายวันอย่างคุ้มค่าดีไหม?</string>
+    <string name="body_out_done">ตรวจสอบรายจ่าย รายรับ และความคืบหน้างบประมาณวันนี้</string>
+    <string name="noti_app_installed_title">ติดตามรายจ่ายแอปใหม่</string>
+    <string name="noti_app_installed_body">สมัครสมาชิกหรือซื้อของใน %1$s อยู่หรือเปล่า? บันทึกใน Money Manager เลย</string>
+    <string name="noti_app_removed_title">ตรวจสอบการสมัครรับข้อมูล</string>
+    <string name="noti_app_removed_body">ลบแอปออกแล้วหรือ? ตรวจดูงบค่าบิลเพื่อเลี่ยงค่าใช้จ่ายส่วนเกิน</string>
+    <string name="noti_app_removed_btn">ตรวจดูงบ</string>
+    <string name="noti_app_updated_title">อัปเดตการเงินของคุณอยู่เสมอ</string>
+    <string name="noti_app_updated_body">ตรวจสอบรายจ่าย รายรับ และความคืบหน้าการออมวันนี้</string>
+    <string name="noti_app_updated_btn">เปิดแอป</string>
+
+    <string-array name="special_titles_v2">
+        <item>🌙 สรุปรายจ่ายวันนี้</item>
+        <item>✨ เงินออมของคุณกำลังเติบโต</item>
+        <item>📈 ข้อมูลกระแสเงินสดยามค่ำ</item>
+        <item>🔔 มีบิลใกล้ครบกำหนดไหม?</item>
+        <item>🤝 ติดตามรายการกู้ยืมให้แม่นยำ</item>
+        <item>🎯 พร้อมสำหรับวันพรุ่งนี้หรือยัง?</item>
+    </string-array>
+
+    <string-array name="special_messages_v2">
+        <item>ใช้เวลา 10 วินาทีจดรายจ่ายวันนี้ เพื่อคุมงบประมาณให้เป็นไปตามแผน</item>
+        <item>เช็กยอดเงินออมเดือนนี้ของคุณ และดูยอดคงเหลือที่ค่อยๆ เติบโต</item>
+        <item>เปรียบเทียบกราฟรายรับและรายจ่ายเดือนนี้ เพื่อมองหาโอกาสออมเพิ่ม</item>
+        <item>ทบทวนค่าเช่า ค่าบิล และรายจ่ายประจำที่กำลังจะมาถึง จะได้ไม่พลาดหรือตกใจทีหลัง</item>
+        <item>เพิ่งให้ยืมหรือขอยืมเงินมาใช่ไหม? จดไว้ให้ชัดเจนจะได้ไม่ลืมกำหนดคืน</item>
+        <item>ตรวจดูงบประมาณรายเดือนที่เหลือคืนนี้ แล้วเริ่มต้นวันพรุ่งนี้อย่างมั่นใจ</item>
+    </string-array>
+
+    <string-array name="special_titles_news">
+        <item>☕ เช็กการเงินยามเช้า</item>
+        <item>🧾 จดรายจ่ายวันนี้</item>
+        <item>📊 คุณออมได้เท่าไรแล้ว?</item>
+        <item>🛡️ คุมค่าใช้จ่ายให้อยู่ในงบ</item>
+        <item>🛍️ กำลังวางแผนซื้อของอยู่หรือเปล่า?</item>
+        <item>💰 ติดตามกระแสรายรับของคุณ</item>
+    </string-array>
+
+    <string-array name="special_messages_news">
+        <item>เริ่มต้นวันอย่างชาญฉลาด — เช็กวงเงินใช้จ่ายรายวันก่อนจิบกาแฟแก้วแรก</item>
+        <item>เพิ่งทานมื้อเที่ยงหรือจ่ายบิลไปหรือเปล่า? บันทึกใน 5 วินาทีเพื่อให้ข้อมูลแม่นยำ</item>
+        <item>ดูว่ารายรับเดือนนี้ของคุณแบ่งไปที่ค่าอาหาร ค่าบิล และเงินออมกี่ %</item>
+        <item>เช็กงบประมาณคงเหลือในหมวดหมู่นั้นก่อนตัดสินใจซื้อครั้งต่อไป</item>
+        <item>เหลือบดูยอดคงเหลือรายเดือนสักนิดก่อนกดชำระเงิน</item>
+        <item>เงินเดือนออกหรือมีรายได้เสริมเข้ามา? เพิ่มเลยตอนนี้เพื่ออัปเดตอัตราการออม</item>
+    </string-array>
+</resources>

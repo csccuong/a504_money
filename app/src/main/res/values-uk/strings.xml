@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="months">
+        <item>Січень</item>
+        <item>Лютий</item>
+        <item>Березень</item>
+        <item>Квітень</item>
+        <item>Травень</item>
+        <item>Червень</item>
+        <item>Липень</item>
+        <item>Серпень</item>
+        <item>Вересень</item>
+        <item>Жовтень</item>
+        <item>Листопад</item>
+        <item>Грудень</item>
+    </string-array>
+
+    <string-array name="months_short">
+        <item>Січ</item>
+        <item>Лют</item>
+        <item>Бер</item>
+        <item>Кві</item>
+        <item>Тра</item>
+        <item>Чер</item>
+        <item>Лип</item>
+        <item>Сер</item>
+        <item>Вер</item>
+        <item>Жов</item>
+        <item>Лис</item>
+        <item>Гру</item>
+    </string-array>
+
+    <!-- Onboarding & Guide -->
+    <string name="note_continue1">Керуйте грошима з легкістю</string>
+    <string name="note_continue2">Впорядкуйте свої витрати</string>
+    <string name="note_continue3">Відстежуйте фінансовий прогрес</string>
+    <string name="note_continue4">Ставте цілі й заощаджуйте більше</string>
+    <string name="intro_slide_1_des">Відстежуйте доходи, витрати та баланс в одному місці.</string>
+    <string name="intro_slide_2_des">Розподіляйте транзакції за категоріями, щоб бачити, куди йдуть гроші</string>
+    <string name="intro_slide_3_des">Візуалізуйте свої доходи, витрати та заощадження в часі</string>
+    <string name="intro_slide_4_des">Плануйте бюджет, ставте цілі заощаджень і формуйте корисні звички</string>
+    <string name="note_guide1">Натисніть «Бюджет», щоб керувати витратами</string>
+    <string name="note_guide2">Переглядайте залишок балансу з першого погляду</string>
+    <string name="note_guide3">Легко перемикайтеся між бюджетами</string>
+    <string name="note_guide4">Аналізуйте витрати та тримайте все під контролем</string>
+    <string name="guide">Гід</string>
+    <string name="next">Далі</string>
+    <string name="this_action_can_contain_ads">Ця дія може містити рекламу…</string>
+
+    <!-- Navigation & Main Screen -->
+    <string name="home">Головна</string>
+    <string name="statistic">Статистика</string>
+    <string name="budget">Бюджет</string>
+    <string name="settings">Налаштування</string>
+    <string name="total_balance">Загальний баланс</string>
+    <string name="total_expenditure">Загальні витрати</string>
+    <string name="total_income">Загальний дохід</string>
+    <string name="add_your_first_transaction">Додайте першу транзакцію.</string>
+    <string name="no_transactions_yet">Поки немає транзакцій</string>
+    <string name="no_transactions_desc">Ваші транзакції з\'являться тут, щойно ви почнете їх додавати.</string>
+    <string name="vs_last_month">до минулого місяця</string>
+    <string name="please_add_transaction_first">Спочатку додайте транзакцію</string>
+    <string name="tap_here_to_exit">Натисніть тут, щоб вийти</string>
+    <string name="recent_transactions">Останні транзакції</string>
+    <string name="overview">Огляд</string>
+    <string name="this_month">Цей місяць</string>
+    <string name="last_month">Минулий місяць</string>
+    <string name="all_transactions">Усі транзакції</string>
+    <string name="view_all">Переглянути всі</string>
+    <string name="view_all_count">Переглянути всі (%1$d)</string>
+    <string name="view_all_transactions_count">Переглянути всі транзакції (%1$d)</string>
+    <string name="today">Сьогодні</string>
+    <string name="yesterday">Вчора</string>
+    <string name="all_time">За весь час</string>
+    <string name="search_transactions_hint">Пошук за нотаткою, категорією, сумою…</string>
+    <string name="no_matching_transactions">Немає відповідних транзакцій</string>
+    <string name="collapse_all">Згорнути все</string>
+    <string name="expand_all">Розгорнути все</string>
+    <string name="tap_to_set_budget">Натисніть, щоб встановити місячний ліміт витрат</string>
+
+    <!-- Notification Prompt & Banner -->
+    <string name="notice">Сповіщення</string>
+    <string name="allow_alerts_currency_updates">Дозвольте сповіщення, щоб отримувати\nактуальні курси валют!</string>
+    <string name="turn_on">Увімкнути</string>
+    <string name="allow_app_notify_you">Дозволити Money Manager: Smart Saver надсилати вам сповіщення?</string>
+    <string name="turn_on_notifications_desc">Увімкніть сповіщення, щоб бути в курсі подій.</string>
+    <string name="allow">Дозволити</string>
+    <string name="dont_allow">Заборонити</string>
+
+    <!-- Transactions & Statistics -->
+    <string name="add">Додати</string>
+    <string name="expense">Витрата</string>
+    <string name="income">Дохід</string>
+    <string name="loan">Позика</string>
+    <string name="borrow">Борг</string>
+    <string name="amount">Сума</string>
+    <string name="category">Категорія</string>
+    <string name="note">Нотатка</string>
+    <string name="add_a_description">Додайте опис</string>
+    <string name="lender">Кредитор</string>
+    <string name="select_date">Виберіть дату</string>
+    <string name="date_time">Дата й час</string>
+    <string name="select_time">Виберіть час</string>
+    <string name="select_month">Виберіть місяць</string>
+    <string name="transactions">Транзакції</string>
+    <string name="date">Дата</string>
+    <string name="month">Місяць</string>
+    <string name="balance">Баланс</string>
+    <string name="total">Разом</string>
+    <string name="edit">Редагувати</string>
+    <string name="save">Зберегти</string>
+    <string name="cancel">Скасувати</string>
+    <string name="delete">Видалити</string>
+    <string name="delete_transaction">Видалити транзакцію</string>
+    <string name="delete_transaction_confirm">Ви впевнені, що хочете видалити цю транзакцію?</string>
+    <string name="none_option">Немає</string>
+
+    <!-- Budget -->
+    <string name="budget_detail">Деталі бюджету</string>
+    <string name="add_budget">Додати бюджет</string>
+    <string name="budget_name">Назва бюджету</string>
+    <string name="net_worth">Чистий капітал</string>
+    <string name="remaining">Залишок</string>
+    <string name="budget_colon_value">Бюджет: %1$s</string>
+    <string name="expenses_colon_value">Витрати: %1$s</string>
+    <string name="remain_colon_value">Залишок: %1$s</string>
+    <string name="monthly_budget">Місячний бюджет</string>
+    <string name="set_monthly_budget">Задати місячний бюджет</string>
+    <string name="edit_budget">Редагувати бюджет</string>
+    <string name="delete_budget">Видалити бюджет</string>
+    <string name="delete_budget_confirm">Ви впевнені, що хочете видалити цей бюджет?</string>
+    <string name="budget_saved">Бюджет збережено</string>
+    <string name="budget_deleted">Бюджет видалено</string>
+    <string name="budget_already_exists">Бюджет для цієї категорії вже існує</string>
+    <string name="set_category_limit_desc">Виберіть категорію та задайте місячний ліміт витрат</string>
+    <string name="all_categories_have_budgets">Усі категорії вже мають бюджет</string>
+    <string name="now">Зараз</string>
+    <string name="category_budgets">Бюджети категорій</string>
+    <string name="custom_budget">Власний</string>
+    <string name="auto_tracked">Автооблік</string>
+    <string name="spent">Витрачено</string>
+    <string name="left">Залишилось</string>
+    <string name="over_budget">Понад бюджет</string>
+    <string name="over_by_value">Перевитрата %1$s</string>
+    <string name="spent_of_value">%1$s / %2$s</string>
+    <string name="daily_limit">Денний ліміт</string>
+    <string name="per_day_value">%1$s/день</string>
+    <string name="daily_avg">Серед. за день</string>
+    <string name="no_budgets_title">Бюджетів категорій ще немає</string>
+    <string name="no_budgets_desc">Задайте місячні ліміти за категоріями для автоматичного обліку витрат.</string>
+    <string name="budget_allocated_exceeds_hint">Розподілено (%1$s) більше за місячний ліміт (%2$s)</string>
+    <string name="no_budget_transactions">У цьому місяці немає витрат за цим бюджетом</string>
+    <string name="add_expense">Додати витрату</string>
+    <string name="auto_linked_budget_hint">Автооблік у бюджеті «%1$s»</string>
+    <string name="skip">Пропустити</string>
+    <string name="year">Рік</string>
+    <string name="yearly_report">Річний звіт</string>
+    <string name="net_savings">Нетто</string>
+    <string name="net_loan">Баланс позик</string>
+    <string name="lent">Дано в борг</string>
+    <string name="borrowed">Взято в борг</string>
+    <string name="vs_prev_month_up">↑ %1$d%% до мин. міс.</string>
+    <string name="vs_prev_month_down">↓ %1$d%% до мин. міс.</string>
+    <string name="vs_prev_month_same">Як у мин. міс.</string>
+    <string name="chart_breakdown">Структура</string>
+    <string name="chart_trend">Тренд</string>
+    <string name="income_allocation">Розподіл доходу</string>
+    <string name="saved">Заощаджено</string>
+    <string name="overspent">Перевитрата</string>
+    <string name="of_income_value">%1$s від доходу</string>
+    <string name="add_income_to_see_savings">Додайте дохід, щоб побачити рівень заощаджень</string>
+    <string name="transactions_count">%1$d транз.</string>
+    <string name="category_transactions">Транзакції категорії</string>
+    <string name="no_note">Без нотатки</string>
+    <string name="cashflow">Грошовий потік</string>
+    <string name="edit_transaction">Редагувати транзакцію</string>
+    <string name="add_transaction">Додати транзакцію</string>
+    <string name="person_name_hint">Ім\'я особи або кредитора</string>
+    <string name="used_percent">Використано %1$d%%</string>
+    <string name="week">Тиждень</string>
+    <string name="custom_range">Власний</string>
+    <string name="current_period">Поточний</string>
+    <string name="monthly_table">Таблиця 12М</string>
+    <string name="filters">Фільтри</string>
+    <string name="reset">Скинути</string>
+    <string name="apply">Застосувати</string>
+    <string name="all">Усі</string>
+    <string name="quick_period">Швидкий період</string>
+    <string name="last_7_days">Останні 7 днів</string>
+    <string name="last_30_days">Останні 30 днів</string>
+    <string name="sort_by">Сортування</string>
+    <string name="sort_highest_amount">Найбільша сума</string>
+    <string name="sort_most_transactions">Найбільше транзакцій</string>
+    <string name="select_date_range">Виберіть діапазон дат</string>
+    <string name="vs_prev_period_up">↑ %1$d%% до попереднього</string>
+    <string name="vs_prev_period_down">↓ %1$d%% до попереднього</string>
+    <string name="vs_prev_period_same">Як у попередньому</string>
+
+    <!-- Settings & Language & Currency -->
+    <string name="general">Загальні</string>
+    <string name="about_us">Про нас</string>
+    <string name="currency">Валюта</string>
+    <string name="currency_unit">Грошова одиниця</string>
+    <string name="search">Пошук</string>
+    <string name="language">Мова</string>
+    <string name="languages">Мови</string>
+    <string name="please_select_language_to_continue">Будь ласка, виберіть мову, щоб продовжити</string>
+    <string name="share">Поділитися</string>
+    <string name="privacy_policy">Політика конфіденційності</string>
+    <string name="rating">Оцінити</string>
+
+    <!-- Interest Screen -->
+    <string name="interest">Інтереси</string>
+    <string name="please_select_at_least_2_options_to_continue">*Виберіть принаймні 2 варіанти, щоб продовжити.</string>
+    <string name="interest_bills_utilities">💡 Рахунки та комунальні</string>
+    <string name="interest_food_dining">🍽️ Їжа та ресторани</string>
+    <string name="interest_shopping">🛍️ Покупки</string>
+    <string name="interest_transportation">🚗 Транспорт</string>
+    <string name="interest_healthcare">🏥 Здоров\'я</string>
+
+    <!-- Uninstall Retention Screen -->
+    <string name="uninstall">Видалити</string>
+    <string name="uninstall_question">З якою проблемою ви зіткнулися під час користування?</string>
+    <string name="not_much_more_useful_nthan_the_defaults">Не набагато корисніше за стандартні засоби</string>
+    <string name="unresponsive_or_laggy">Не відповідає або\nгальмує</string>
+    <string name="explore">Огляд</string>
+    <string name="try_again">Спробувати знову</string>
+    <string name="dont_uninstall_yet">Поки не видаляти</string>
+    <string name="still_want_to_uninstall">Усе одно видалити</string>
+
+    <!-- Validation & Feedback Messages -->
+    <string name="msg_enter_amount">Будь ласка, введіть суму</string>
+    <string name="msg_select_category">Будь ласка, виберіть категорію</string>
+    <string name="msg_transaction_saved">Транзакцію успішно збережено</string>
+    <string name="msg_enter_all_fields">Будь ласка, заповніть усі поля</string>
+    <string name="msg_invalid_amount">Некоректна сума</string>
+    <string name="msg_enter_budget_amount">Будь ласка, введіть суму бюджету</string>
+    <string name="msg_budget_exceeds_limit">Сума всіх бюджетів має бути меншою за %1$s</string>
+    <string name="msg_choose_language">Будь ласка, виберіть мову, щоб продовжити</string>
+    <string name="msg_transaction_not_found">Транзакцію не знайдено</string>
+    <string name="msg_transaction_details_not_found">Деталі транзакції не знайдено</string>
+    <string name="msg_unable_delete_transaction">Не вдалося видалити транзакцію</string>
+    <string name="msg_transaction_deleted">Транзакцію успішно видалено</string>
+
+    <!-- Category Display Names -->
+    <string name="category_food">Їжа</string>
+    <string name="category_social">Спілкування</string>
+    <string name="category_traffic">Транспорт</string>
+    <string name="category_shopping">Покупки</string>
+    <string name="category_grocery">Продукти</string>
+    <string name="category_education">Освіта</string>
+    <string name="category_bills">Рахунки</string>
+    <string name="category_rentals">Оренда</string>
+    <string name="category_medical">Медицина</string>
+    <string name="category_investment">Інвестиції</string>
+    <string name="category_gift">Подарунки</string>
+    <string name="category_other">Інше</string>
+    <string name="category_salary">Зарплата</string>
+    <string name="category_invest">Вкладення</string>
+    <string name="category_business">Бізнес</string>
+    <string name="category_interest">Відсотки</string>
+    <string name="category_extra_income">Дод. дохід</string>
+    <string name="category_loan">Позика</string>
+    <string name="category_borrow">Борг</string>
+
+    <!-- Notifications -->
+    <string name="open">Відкрити</string>
+    <string name="open_now">Відкрити зараз!</string>
+    <string name="continued">Продовжити</string>
+    <string name="title_screen_shoot_done">Зберегли скріншот чека?</string>
+    <string name="body_screen_shoot_done">Запишіть цей платіж у Money Manager, поки не забули.</string>
+    <string name="title_dowload_done">Зберегли виписку чи рахунок?</string>
+    <string name="body_dowload_done">Запишіть це, щоб ваш бюджет залишався актуальним: </string>
+    <string name="title_out_done">Підіб\'ємо підсумки дня?</string>
+    <string name="body_out_done">Перегляньте сьогоднішні витрати, доходи та стан бюджету.</string>
+    <string name="noti_app_installed_title">Відстежуйте витрати в новому додатку</string>
+    <string name="noti_app_installed_body">Оформили підписку чи покупку в %1$s? Запишіть у Money Manager.</string>
+    <string name="noti_app_removed_title">Перевірте активні підписки</string>
+    <string name="noti_app_removed_body">Видалили додаток? Перевірте бюджет «Рахунки», щоб уникнути зайвих списань.</string>
+    <string name="noti_app_removed_btn">Перевірити бюджет</string>
+    <string name="noti_app_updated_title">Тримайте фінанси в порядку</string>
+    <string name="noti_app_updated_body">Перегляньте сьогоднішні витрати, доходи та прогрес заощаджень.</string>
+    <string name="noti_app_updated_btn">Відкрити додаток</string>
+
+    <string-array name="special_titles_v2">
+        <item>🌙 Підсумок витрат за сьогодні</item>
+        <item>✨ Ваші заощадження зростають</item>
+        <item>📈 Вечірній огляд грошового потоку</item>
+        <item>🔔 Чи є найближчі рахунки?</item>
+        <item>🤝 Слідкуйте за позиками</item>
+        <item>🎯 Готові до завтра?</item>
+    </string-array>
+
+    <string-array name="special_messages_v2">
+        <item>Приділіть 10 секунд запису сьогоднішніх витрат, щоб тримати бюджет під контролем.</item>
+        <item>Перевірте, скільки ви заощадили цього місяця, і спостерігайте за зростанням балансу.</item>
+        <item>Порівняйте криву доходів і витрат за цей місяць, щоб знайти додаткову економію.</item>
+        <item>Перегляньте майбутню оренду, рахунки та регулярні витрати, щоб уникнути несподіванок.</item>
+        <item>Нещодавно позичали гроші чи брали в борг? Запишіть це чітко, щоб не пропустити повернення.</item>
+        <item>Перегляньте залишок місячного бюджету сьогодні ввечері та почніть завтра впевнено.</item>
+    </string-array>
+
+    <string-array name="special_titles_news">
+        <item>☕ Ранкова перевірка фінансів</item>
+        <item>🧾 Запишіть сьогоднішні витрати</item>
+        <item>📊 Скільки ви заощадили?</item>
+        <item>🛡️ Залишайтеся в межах бюджету</item>
+        <item>🛍️ Плануєте покупку?</item>
+        <item>💰 Відстежуйте свої доходи</item>
+    </string-array>
+
+    <string-array name="special_messages_news">
+        <item>Почніть день розумно — перевірте денний ліміт витрат до першої чашки кави.</item>
+        <item>Щойно пообідали чи оплатили рахунок? Запишіть за 5 секунд для точного обліку.</item>
+        <item>Дізнайтеся, який % доходу цього місяця йде на Їжу, Рахунки та Заощадження.</item>
+        <item>Перевірте залишок бюджету за категорією перед наступною покупкою.</item>
+        <item>Швидко погляньте на свій місячний баланс перед оплатою покупки.</item>
+        <item>Отримали зарплату чи дод. дохід? Додайте зараз, щоб оновити рівень заощаджень.</item>
+    </string-array>
+</resources>

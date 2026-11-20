@@ -1,0 +1,802 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/figma_home_bg">
+
+    <!-- Full-Bleed Figma Ambient Navy-to-Lavender Background -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@null"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg_figma_home" />
+
+    <!-- Bounded Dashboard ScrollView -->
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/scrollview_home"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:fillViewport="true"
+        android:overScrollMode="never">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="60dp">
+
+            <!-- Hero Header: Frosted Glass Balance Card + 3D Wallet Illustration -->
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:paddingTop="14dp"
+                android:paddingBottom="8dp">
+
+                <!-- Soft Oval Shadow Glow Under 3D Wallet -->
+                <View
+                    android:layout_width="160dp"
+                    android:layout_height="62dp"
+                    android:layout_marginEnd="6dp"
+                    android:alpha="0.72"
+                    android:background="@drawable/bg_figma_wallet_glow"
+                    android:rotation="8.36"
+                    app:layout_constraintBottom_toBottomOf="@id/iv_home_wallet"
+                    app:layout_constraintEnd_toEndOf="parent" />
+
+                <!-- 3D Blue Wallet with Gold Coins (Exact Figma 18:8518) -->
+                <ImageView
+                    android:id="@+id/iv_home_wallet"
+                    android:layout_width="144dp"
+                    android:layout_height="124dp"
+                    android:layout_marginEnd="10dp"
+                    android:contentDescription="@null"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/img_figma_home_wallet"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <!-- Sparkle Star Top-Left of Wallet (Exact Figma 18:8519) -->
+                <ImageView
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:layout_marginTop="4dp"
+                    android:contentDescription="@null"
+                    android:rotation="-45"
+                    android:src="@drawable/img_figma_star_1"
+                    app:layout_constraintStart_toStartOf="@id/iv_home_wallet"
+                    app:layout_constraintTop_toTopOf="@id/iv_home_wallet" />
+
+                <!-- Sparkle Star Bottom-Right of Wallet (Exact Figma 18:8520) -->
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:layout_marginEnd="12dp"
+                    android:contentDescription="@null"
+                    android:src="@drawable/img_figma_star_2"
+                    app:layout_constraintBottom_toBottomOf="@id/iv_home_wallet"
+                    app:layout_constraintEnd_toEndOf="parent" />
+
+                <!-- Frosted Glass Total Balance Card (Exact Figma 18:8526) -->
+                <LinearLayout
+                    android:id="@+id/card_total_balance"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginEnd="6dp"
+                    android:background="@drawable/bg_figma_balance_glass"
+                    android:orientation="vertical"
+                    android:padding="16dp"
+                    app:layout_constraintEnd_toStartOf="@id/iv_home_wallet"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <!-- Label + Subtle Visibility Eye Toggle -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tv_total_balance_label"
+                            style="@style/AppText"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/roboto_regular"
+                            android:text="@string/total_balance"
+                            android:textColor="@color/white"
+                            android:textSize="14sp" />
+
+                        <ImageView
+                            android:id="@+id/iv_edit_balance"
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:layout_marginStart="4dp"
+                            android:alpha="0.85"
+                            android:background="?attr/selectableItemBackgroundBorderless"
+                            android:padding="3dp"
+                            android:src="@drawable/ic_visibility_off"
+                            app:tint="@color/white" />
+                    </LinearLayout>
+
+                    <!-- Hero Balance Amount -->
+                    <TextView
+                        android:id="@+id/tv_total_balance"
+                        style="@style/AppText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:ellipsize="end"
+                        android:fontFamily="@font/roboto_bold"
+                        android:maxLines="1"
+                        android:text="$0"
+                        android:textColor="@color/white"
+                        android:textSize="24sp"
+                        app:autoSizeMaxTextSize="24sp"
+                        app:autoSizeMinTextSize="15sp"
+                        app:autoSizeTextType="uniform" />
+
+                    <!-- Row 3: Trend Pill (+8.2% vs last month) OR Frosted Month Picker Pill ([Nov 2026 ∨]) -->
+                    <!-- Always occupies the exact same height so the frosted glass card aligns cleanly with the 3D wallet -->
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp">
+
+                        <LinearLayout
+                            android:id="@+id/layout_balance_trend"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal"
+                            android:visibility="gone">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/bg_figma_trend_pill"
+                                android:gravity="center_vertical"
+                                android:orientation="horizontal"
+                                android:paddingHorizontal="8dp"
+                                android:paddingVertical="4dp">
+
+                                <ImageView
+                                    android:id="@+id/iv_trend_arrow"
+                                    android:layout_width="11dp"
+                                    android:layout_height="7dp"
+                                    android:layout_marginEnd="4dp"
+                                    android:src="@drawable/ic_figma_trend_up" />
+
+                                <TextView
+                                    android:id="@+id/tv_trend_percent"
+                                    style="@style/AppText"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/roboto_medium"
+                                    android:text="+0%"
+                                    android:textColor="@color/figma_green"
+                                    android:textSize="12sp" />
+                            </LinearLayout>
+
+                            <TextView
+                                android:id="@+id/tv_trend_caption"
+                                style="@style/AppText"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="8dp"
+                                android:ellipsize="end"
+                                android:fontFamily="@font/roboto_regular"
+                                android:maxLines="1"
+                                android:text="@string/vs_last_month"
+                                android:textColor="@color/white"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+
+                        <!-- Fallback Frosted Month Picker Pill ([Nov 2026 ∨]) when no comparison data -->
+                        <LinearLayout
+                            android:id="@+id/btn_balance_month_pill"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/bg_figma_trend_pill_clickable"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal"
+                            android:paddingStart="10dp"
+                            android:paddingTop="4dp"
+                            android:paddingEnd="8dp"
+                            android:paddingBottom="4dp">
+
+                            <TextView
+                                android:id="@+id/tv_balance_month_pill"
+                                style="@style/AppText"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:ellipsize="end"
+                                android:fontFamily="@font/roboto_medium"
+                                android:maxLines="1"
+                                android:text="@string/this_month"
+                                android:textColor="@color/white"
+                                android:textSize="12sp" />
+
+                            <ImageView
+                                android:layout_width="14dp"
+                                android:layout_height="14dp"
+                                android:layout_marginStart="4dp"
+                                android:alpha="0.9"
+                                android:src="@drawable/ic_figma_arrow_down"
+                                app:tint="@color/white" />
+                        </LinearLayout>
+                    </FrameLayout>
+                </LinearLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <!-- Body Sections (16dp Horizontal Padding, 16dp Vertical Gaps) -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingHorizontal="16dp"
+                android:paddingTop="8dp">
+
+                <!-- Block 1: 3 Pastel Bento Cards (Expense | Income | Loan — Exact Figma 25:59343) -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="122dp"
+                    android:orientation="horizontal">
+
+                    <!-- Card 1: Expense (#FBE5F0 + Pink Bottom Wave) -->
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/card_bento_expense"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginEnd="4dp"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:foreground="?attr/selectableItemBackground"
+                        app:cardBackgroundColor="@color/figma_bento_expense_bg"
+                        app:cardCornerRadius="16dp"
+                        app:cardElevation="0dp"
+                        app:cardPreventCornerOverlap="false">
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="20dp"
+                                android:layout_gravity="bottom"
+                                android:contentDescription="@null"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/bg_figma_wave_expense" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_horizontal"
+                                android:orientation="vertical"
+                                android:paddingHorizontal="8dp"
+                                android:paddingTop="15dp">
+
+                                <FrameLayout
+                                    android:layout_width="40dp"
+                                    android:layout_height="40dp"
+                                    android:background="@drawable/bg_figma_icon_expense"
+                                    android:elevation="4dp">
+
+                                    <ImageView
+                                        android:layout_width="22dp"
+                                        android:layout_height="22dp"
+                                        android:layout_gravity="center"
+                                        android:src="@drawable/ic_figma_shopping_cart" />
+                                </FrameLayout>
+
+                                <TextView
+                                    style="@style/AppText"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="6dp"
+                                    android:ellipsize="end"
+                                    android:fontFamily="@font/roboto_medium"
+                                    android:maxLines="1"
+                                    android:text="@string/expense"
+                                    android:textColor="#80000000"
+                                    android:textSize="12sp" />
+
+                                <TextView
+                                    android:id="@+id/tv_bento_expense"
+                                    style="@style/AppText"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="3dp"
+                                    android:ellipsize="end"
+                                    android:fontFamily="@font/roboto_bold"
+                                    android:gravity="center"
+                                    android:maxLines="1"
+                                    android:text="$0"
+                                    android:textColor="#000000"
+                                    android:textSize="15.5sp"
+                                    app:autoSizeMaxTextSize="15.5sp"
+                                    app:autoSizeMinTextSize="10sp"
+                                    app:autoSizeTextType="uniform" />
+                            </LinearLayout>
+                        </FrameLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <!-- Card 2: Income (#DDF7EE + Mint Bottom Wave) -->
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/card_bento_income"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="4dp"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:foreground="?attr/selectableItemBackground"
+                        app:cardBackgroundColor="@color/figma_bento_income_bg"
+                        app:cardCornerRadius="16dp"
+                        app:cardElevation="0dp"
+                        app:cardPreventCornerOverlap="false">
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="20dp"
+                                android:layout_gravity="bottom"
+                                android:contentDescription="@null"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/bg_figma_wave_income" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_horizontal"
+                                android:orientation="vertical"
+                                android:paddingHorizontal="8dp"
+                                android:paddingTop="15dp">
+
+                                <FrameLayout
+                                    android:layout_width="40dp"
+                                    android:layout_height="40dp"
+                                    android:background="@drawable/bg_figma_icon_income"
+                                    android:elevation="4dp">
+
+                                    <ImageView
+                                        android:layout_width="22dp"
+                                        android:layout_height="22dp"
+                                        android:layout_gravity="center"
+                                        android:src="@drawable/ic_figma_money" />
+                                </FrameLayout>
+
+                                <TextView
+                                    style="@style/AppText"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="6dp"
+                                    android:ellipsize="end"
+                                    android:fontFamily="@font/roboto_medium"
+                                    android:maxLines="1"
+                                    android:text="@string/income"
+                                    android:textColor="#80000000"
+                                    android:textSize="12sp" />
+
+                                <TextView
+                                    android:id="@+id/tv_bento_income"
+                                    style="@style/AppText"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="3dp"
+                                    android:ellipsize="end"
+                                    android:fontFamily="@font/roboto_bold"
+                                    android:gravity="center"
+                                    android:maxLines="1"
+                                    android:text="$0"
+                                    android:textColor="#000000"
+                                    android:textSize="15.5sp"
+                                    app:autoSizeMaxTextSize="15.5sp"
+                                    app:autoSizeMinTextSize="10sp"
+                                    app:autoSizeTextType="uniform" />
+                            </LinearLayout>
+                        </FrameLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <!-- Card 3: Loan (#E2E2FE + Violet Bottom Wave) -->
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/card_bento_loan"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="4dp"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:foreground="?attr/selectableItemBackground"
+                        app:cardBackgroundColor="@color/figma_bento_loan_bg"
+                        app:cardCornerRadius="16dp"
+                        app:cardElevation="0dp"
+                        app:cardPreventCornerOverlap="false">
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="20dp"
+                                android:layout_gravity="bottom"
+                                android:contentDescription="@null"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/bg_figma_wave_loan" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_horizontal"
+                                android:orientation="vertical"
+                                android:paddingHorizontal="8dp"
+                                android:paddingTop="15dp">
+
+                                <FrameLayout
+                                    android:layout_width="40dp"
+                                    android:layout_height="40dp"
+                                    android:background="@drawable/bg_figma_icon_loan"
+                                    android:elevation="4dp">
+
+                                    <ImageView
+                                        android:layout_width="20dp"
+                                        android:layout_height="20dp"
+                                        android:layout_gravity="center"
+                                        android:src="@drawable/ic_figma_bank" />
+                                </FrameLayout>
+
+                                <TextView
+                                    style="@style/AppText"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="6dp"
+                                    android:ellipsize="end"
+                                    android:fontFamily="@font/roboto_medium"
+                                    android:maxLines="1"
+                                    android:text="@string/loan"
+                                    android:textColor="#80000000"
+                                    android:textSize="12sp" />
+
+                                <TextView
+                                    android:id="@+id/tv_bento_loan"
+                                    style="@style/AppText"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="3dp"
+                                    android:ellipsize="end"
+                                    android:fontFamily="@font/roboto_bold"
+                                    android:gravity="center"
+                                    android:maxLines="1"
+                                    android:text="$0"
+                                    android:textColor="#000000"
+                                    android:textSize="15.5sp"
+                                    app:autoSizeMaxTextSize="15.5sp"
+                                    app:autoSizeMinTextSize="10sp"
+                                    app:autoSizeTextType="uniform" />
+                            </LinearLayout>
+                        </FrameLayout>
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <!-- Block 2: Frosted Overview Dual-Line Chart Card (Always visible so Month Picker stays accessible!) -->
+                <LinearLayout
+                    android:id="@+id/card_overview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/bg_figma_overview_card"
+                    android:orientation="vertical"
+                    android:paddingHorizontal="16dp"
+                    android:paddingVertical="12dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:src="@drawable/ic_figma_chart_bold" />
+
+                        <TextView
+                            style="@style/AppText"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginEnd="8dp"
+                            android:layout_weight="1"
+                            android:ellipsize="end"
+                            android:fontFamily="@font/roboto_bold"
+                            android:maxLines="1"
+                            android:text="@string/overview"
+                            android:textColor="#000000"
+                            android:textSize="14sp" />
+
+                        <!-- Interactive "This Month ∨" Pill Opening Custom Month Picker -->
+                        <LinearLayout
+                            android:id="@+id/btn_overview_month"
+                            android:layout_width="wrap_content"
+                            android:layout_height="28dp"
+                            android:background="@drawable/bg_figma_month_pill"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal"
+                            android:paddingStart="12dp"
+                            android:paddingEnd="8dp">
+
+                            <TextView
+                                android:id="@+id/tv_overview_month"
+                                style="@style/AppText"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/roboto_bold"
+                                android:text="@string/this_month"
+                                android:textColor="#000000"
+                                android:textSize="12sp" />
+
+                            <ImageView
+                                android:layout_width="16dp"
+                                android:layout_height="16dp"
+                                android:layout_marginStart="4dp"
+                                android:src="@drawable/ic_figma_arrow_down" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <!-- Chart Content Wrapper (Shown when selected month has data) -->
+                    <LinearLayout
+                        android:id="@+id/layout_overview_chart_content"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <!-- Smooth Dual-Line Spline Chart (Income = Mint #3FCD96, Expense = Coral #FC5E82) -->
+                        <com.github.mikephil.charting.charts.LineChart
+                            android:id="@+id/chart_overview"
+                            android:layout_width="match_parent"
+                            android:layout_height="152dp"
+                            android:layout_marginTop="8dp" />
+
+                        <!-- Centered Legend -->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="6dp"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <View
+                                android:layout_width="8dp"
+                                android:layout_height="8dp"
+                                android:background="@drawable/bg_dot_income" />
+
+                            <TextView
+                                style="@style/AppText.Micro"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="6dp"
+                                android:fontFamily="@font/roboto_medium"
+                                android:text="@string/income"
+                                android:textColor="@color/text_secondary" />
+
+                            <View
+                                android:layout_width="8dp"
+                                android:layout_height="8dp"
+                                android:layout_marginStart="20dp"
+                                android:background="@drawable/bg_dot_expense" />
+
+                            <TextView
+                                style="@style/AppText.Micro"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="6dp"
+                                android:fontFamily="@font/roboto_medium"
+                                android:text="@string/expense"
+                                android:textColor="@color/text_secondary" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <!-- Clean Compact Empty Overview State (Preserves Month Switcher!) -->
+                    <LinearLayout
+                        android:id="@+id/layout_overview_empty"
+                        android:layout_width="match_parent"
+                        android:layout_height="112dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:visibility="gone">
+
+                        <ImageView
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:alpha="0.35"
+                            android:src="@drawable/ic_figma_chart_bold" />
+
+                        <TextView
+                            style="@style/AppText.Caption"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:fontFamily="@font/roboto_medium"
+                            android:gravity="center"
+                            android:text="@string/no_transactions_yet"
+                            android:textColor="@color/figma_nav_inactive" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!-- Native Ad Container (Preserved cleanly, hides automatically if empty) -->
+                <FrameLayout
+                    android:id="@+id/fr_ads"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/bg_ads_native">
+
+                    <RelativeLayout
+                        android:id="@+id/shimmer_native_language"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <include layout="@layout/ads_shimmer_native_home" />
+                    </RelativeLayout>
+                </FrameLayout>
+
+                <!-- Block 3: Recent Transactions Pure White Card (Exact Figma 18:58757) -->
+                <LinearLayout
+                    android:id="@+id/card_recent_transactions"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/bg_figma_recent_card"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:src="@drawable/ic_figma_convert_card" />
+
+                        <TextView
+                            style="@style/AppText"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="8dp"
+                            android:layout_weight="1"
+                            android:ellipsize="end"
+                            android:fontFamily="@font/roboto_bold"
+                            android:maxLines="1"
+                            android:text="@string/recent_transactions"
+                            android:textColor="#000000"
+                            android:textSize="16sp" />
+
+                        <LinearLayout
+                            android:id="@+id/btn_view_all"
+                            android:layout_width="wrap_content"
+                            android:layout_height="28dp"
+                            android:background="?attr/selectableItemBackgroundBorderless"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal"
+                            android:paddingHorizontal="2dp">
+
+                            <TextView
+                                android:id="@+id/tv_view_all"
+                                style="@style/AppText"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/roboto_bold"
+                                android:text="@string/view_all"
+                                android:textColor="@color/figma_indigo"
+                                android:textSize="12sp" />
+
+                            <ImageView
+                                android:layout_width="16dp"
+                                android:layout_height="16dp"
+                                android:layout_marginStart="2dp"
+                                android:src="@drawable/ic_figma_arrow_right" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <!-- Compact Recent Transactions List (Max 6 items) -->
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/rv_transactions"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:nestedScrollingEnabled="false" />
+
+                    <!-- Footer CTA when month has more than 6 transactions -->
+                    <TextView
+                        android:id="@+id/btn_view_all_footer"
+                        style="@style/AppButton.SoftChip"
+                        android:layout_width="match_parent"
+                        android:layout_height="42dp"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/view_all"
+                        android:textSize="13sp"
+                        android:visibility="gone" />
+
+                    <!-- Exact Figma Empty State (25:59410) -->
+                    <LinearLayout
+                        android:id="@+id/layout_no_data"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:paddingHorizontal="12dp"
+                        android:paddingTop="36dp"
+                        android:paddingBottom="32dp"
+                        android:visibility="gone">
+
+                        <ImageView
+                            android:layout_width="144dp"
+                            android:layout_height="96dp"
+                            android:contentDescription="@null"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/img_figma_empty_tx" />
+
+                        <TextView
+                            style="@style/AppText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="12dp"
+                            android:fontFamily="@font/roboto_bold"
+                            android:gravity="center"
+                            android:text="@string/no_transactions_yet"
+                            android:textColor="#000000"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            style="@style/AppText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="6dp"
+                            android:fontFamily="@font/roboto_regular"
+                            android:gravity="center"
+                            android:lineSpacingExtra="2dp"
+                            android:text="@string/no_transactions_desc"
+                            android:textColor="@color/figma_nav_inactive"
+                            android:textSize="14sp" />
+
+                        <!-- Exact Figma Pill CTA Button (25:59415: #9A93F6 -> #6155F5, radius 40dp) -->
+                        <TextView
+                            android:id="@+id/btn_empty_add"
+                            style="@style/AppButton.Primary"
+                            android:layout_width="match_parent"
+                            android:layout_height="48dp"
+                            android:layout_marginHorizontal="8dp"
+                            android:layout_marginTop="18dp"
+                            android:minHeight="0dp"
+                            android:text="@string/add_transaction" />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</FrameLayout>

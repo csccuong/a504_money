@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="months">
+        <item>Январь</item>
+        <item>Февраль</item>
+        <item>Март</item>
+        <item>Апрель</item>
+        <item>Май</item>
+        <item>Июнь</item>
+        <item>Июль</item>
+        <item>Август</item>
+        <item>Сентябрь</item>
+        <item>Октябрь</item>
+        <item>Ноябрь</item>
+        <item>Декабрь</item>
+    </string-array>
+
+    <string-array name="months_short">
+        <item>Янв</item>
+        <item>Фев</item>
+        <item>Мар</item>
+        <item>Апр</item>
+        <item>Май</item>
+        <item>Июн</item>
+        <item>Июл</item>
+        <item>Авг</item>
+        <item>Сен</item>
+        <item>Окт</item>
+        <item>Ноя</item>
+        <item>Дек</item>
+    </string-array>
+
+    <!-- Onboarding & Guide -->
+    <string name="note_continue1">Управляйте деньгами с лёгкостью</string>
+    <string name="note_continue2">Упорядочьте свои расходы</string>
+    <string name="note_continue3">Отслеживайте финансовый прогресс</string>
+    <string name="note_continue4">Ставьте цели и копите больше</string>
+    <string name="intro_slide_1_des">Контролируйте доходы, расходы и баланс в одном месте.</string>
+    <string name="intro_slide_2_des">Распределяйте операции по категориям, чтобы видеть, куда уходят деньги</string>
+    <string name="intro_slide_3_des">Отслеживайте доходы, расходы и сбережения на наглядных графиках</string>
+    <string name="intro_slide_4_des">Планируйте бюджет, ставьте цели накоплений и формируйте полезные привычки</string>
+    <string name="note_guide1">Нажмите «Бюджет», чтобы управлять расходами</string>
+    <string name="note_guide2">Видьте остаток баланса с первого взгляда</string>
+    <string name="note_guide3">Легко переключайтесь между бюджетами</string>
+    <string name="note_guide4">Анализируйте расходы и держите всё под контролем</string>
+    <string name="guide">Гид</string>
+    <string name="next">Далее</string>
+    <string name="this_action_can_contain_ads">Это действие может содержать рекламу…</string>
+
+    <!-- Navigation & Main Screen -->
+    <string name="home">Главная</string>
+    <string name="statistic">Статистика</string>
+    <string name="budget">Бюджет</string>
+    <string name="settings">Настройки</string>
+    <string name="total_balance">Общий баланс</string>
+    <string name="total_expenditure">Общие расходы</string>
+    <string name="total_income">Общий доход</string>
+    <string name="add_your_first_transaction">Добавьте первую транзакцию.</string>
+    <string name="no_transactions_yet">Пока нет транзакций</string>
+    <string name="no_transactions_desc">Ваши транзакции появятся здесь, когда вы начнёте их добавлять.</string>
+    <string name="vs_last_month">к прошлому месяцу</string>
+    <string name="please_add_transaction_first">Сначала добавьте транзакцию</string>
+    <string name="tap_here_to_exit">Нажмите здесь, чтобы выйти</string>
+    <string name="recent_transactions">Последние транзакции</string>
+    <string name="overview">Обзор</string>
+    <string name="this_month">Этот месяц</string>
+    <string name="last_month">Прошлый месяц</string>
+    <string name="all_transactions">Все транзакции</string>
+    <string name="view_all">Показать все</string>
+    <string name="view_all_count">Показать все (%1$d)</string>
+    <string name="view_all_transactions_count">Показать все транзакции (%1$d)</string>
+    <string name="today">Сегодня</string>
+    <string name="yesterday">Вчера</string>
+    <string name="all_time">За всё время</string>
+    <string name="search_transactions_hint">Поиск по заметке, категории, сумме…</string>
+    <string name="no_matching_transactions">Нет подходящих транзакций</string>
+    <string name="collapse_all">Свернуть все</string>
+    <string name="expand_all">Развернуть все</string>
+    <string name="tap_to_set_budget">Нажмите, чтобы задать месячный лимит расходов</string>
+
+    <!-- Notification Prompt & Banner -->
+    <string name="notice">Уведомление</string>
+    <string name="allow_alerts_currency_updates">Разрешите уведомления, чтобы получать\nактуальные курсы валют!</string>
+    <string name="turn_on">Включить</string>
+    <string name="allow_app_notify_you">Разрешить Money Manager: Smart Saver отправлять вам уведомления?</string>
+    <string name="turn_on_notifications_desc">Включите уведомления, чтобы быть в курсе событий.</string>
+    <string name="allow">Разрешить</string>
+    <string name="dont_allow">Запретить</string>
+
+    <!-- Transactions & Statistics -->
+    <string name="add">Добавить</string>
+    <string name="expense">Расход</string>
+    <string name="income">Доход</string>
+    <string name="loan">Займ</string>
+    <string name="borrow">Долг</string>
+    <string name="amount">Сумма</string>
+    <string name="category">Категория</string>
+    <string name="note">Заметка</string>
+    <string name="add_a_description">Добавьте описание</string>
+    <string name="lender">Кредитор</string>
+    <string name="select_date">Выберите дату</string>
+    <string name="date_time">Дата и время</string>
+    <string name="select_time">Выберите время</string>
+    <string name="select_month">Выберите месяц</string>
+    <string name="transactions">Транзакции</string>
+    <string name="date">Дата</string>
+    <string name="month">Месяц</string>
+    <string name="balance">Баланс</string>
+    <string name="total">Итого</string>
+    <string name="edit">Изменить</string>
+    <string name="save">Сохранить</string>
+    <string name="cancel">Отмена</string>
+    <string name="delete">Удалить</string>
+    <string name="delete_transaction">Удалить транзакцию</string>
+    <string name="delete_transaction_confirm">Вы уверены, что хотите удалить эту транзакцию?</string>
+    <string name="none_option">Нет</string>
+
+    <!-- Budget -->
+    <string name="budget_detail">Детали бюджета</string>
+    <string name="add_budget">Добавить бюджет</string>
+    <string name="budget_name">Название бюджета</string>
+    <string name="net_worth">Чистый капитал</string>
+    <string name="remaining">Остаток</string>
+    <string name="budget_colon_value">Бюджет: %1$s</string>
+    <string name="expenses_colon_value">Расходы: %1$s</string>
+    <string name="remain_colon_value">Остаток: %1$s</string>
+    <string name="monthly_budget">Месячный бюджет</string>
+    <string name="set_monthly_budget">Задать месячный бюджет</string>
+    <string name="edit_budget">Изменить бюджет</string>
+    <string name="delete_budget">Удалить бюджет</string>
+    <string name="delete_budget_confirm">Вы уверены, что хотите удалить этот бюджет?</string>
+    <string name="budget_saved">Бюджет сохранён</string>
+    <string name="budget_deleted">Бюджет удалён</string>
+    <string name="budget_already_exists">Бюджет для этой категории уже существует</string>
+    <string name="set_category_limit_desc">Выберите категорию и задайте месячный лимит расходов</string>
+    <string name="all_categories_have_budgets">У всех категорий уже есть бюджет</string>
+    <string name="now">Сейчас</string>
+    <string name="category_budgets">Бюджеты по категориям</string>
+    <string name="custom_budget">Свой</string>
+    <string name="auto_tracked">Автоучёт</string>
+    <string name="spent">Потрачено</string>
+    <string name="left">Осталось</string>
+    <string name="over_budget">Сверх бюджета</string>
+    <string name="over_by_value">Перерасход %1$s</string>
+    <string name="spent_of_value">%1$s / %2$s</string>
+    <string name="daily_limit">Дневной лимит</string>
+    <string name="per_day_value">%1$s/день</string>
+    <string name="daily_avg">Средн. в день</string>
+    <string name="no_budgets_title">Бюджетов по категориям пока нет</string>
+    <string name="no_budgets_desc">Задайте месячные лимиты по категориям для автоматического учёта расходов.</string>
+    <string name="budget_allocated_exceeds_hint">Распределено (%1$s) больше месячного лимита (%2$s)</string>
+    <string name="no_budget_transactions">В этом месяце нет расходов по этому бюджету</string>
+    <string name="add_expense">Добавить расход</string>
+    <string name="auto_linked_budget_hint">Автоучёт в бюджете «%1$s»</string>
+    <string name="skip">Пропустить</string>
+    <string name="year">Год</string>
+    <string name="yearly_report">Годовой отчёт</string>
+    <string name="net_savings">Нетто</string>
+    <string name="net_loan">Баланс займов</string>
+    <string name="lent">Дано в долг</string>
+    <string name="borrowed">Взято в долг</string>
+    <string name="vs_prev_month_up">↑ %1$d%% к прошл. мес.</string>
+    <string name="vs_prev_month_down">↓ %1$d%% к прошл. мес.</string>
+    <string name="vs_prev_month_same">Как в прошл. мес.</string>
+    <string name="chart_breakdown">Структура</string>
+    <string name="chart_trend">Тренд</string>
+    <string name="income_allocation">Распределение дохода</string>
+    <string name="saved">Сэкономлено</string>
+    <string name="overspent">Перерасход</string>
+    <string name="of_income_value">%1$s от дохода</string>
+    <string name="add_income_to_see_savings">Добавьте доход, чтобы увидеть норму сбережений</string>
+    <string name="transactions_count">%1$d транз.</string>
+    <string name="category_transactions">Транзакции категории</string>
+    <string name="no_note">Без заметки</string>
+    <string name="cashflow">Денежный поток</string>
+    <string name="edit_transaction">Изменить транзакцию</string>
+    <string name="add_transaction">Добавить транзакцию</string>
+    <string name="person_name_hint">Имя человека или кредитора</string>
+    <string name="used_percent">Использовано %1$d%%</string>
+    <string name="week">Неделя</string>
+    <string name="custom_range">Свой</string>
+    <string name="current_period">Текущий</string>
+    <string name="monthly_table">Таблица 12М</string>
+    <string name="filters">Фильтры</string>
+    <string name="reset">Сбросить</string>
+    <string name="apply">Применить</string>
+    <string name="all">Все</string>
+    <string name="quick_period">Быстрый период</string>
+    <string name="last_7_days">Последние 7 дней</string>
+    <string name="last_30_days">Последние 30 дней</string>
+    <string name="sort_by">Сортировка</string>
+    <string name="sort_highest_amount">Наибольшая сумма</string>
+    <string name="sort_most_transactions">Больше транзакций</string>
+    <string name="select_date_range">Выберите диапазон дат</string>
+    <string name="vs_prev_period_up">↑ %1$d%% к предыдущему</string>
+    <string name="vs_prev_period_down">↓ %1$d%% к предыдущему</string>
+    <string name="vs_prev_period_same">Как в предыдущем</string>
+
+    <!-- Settings & Language & Currency -->
+    <string name="general">Основные</string>
+    <string name="about_us">О нас</string>
+    <string name="currency">Валюта</string>
+    <string name="currency_unit">Денежная единица</string>
+    <string name="search">Поиск</string>
+    <string name="language">Язык</string>
+    <string name="languages">Языки</string>
+    <string name="please_select_language_to_continue">Пожалуйста, выберите язык для продолжения</string>
+    <string name="share">Поделиться</string>
+    <string name="privacy_policy">Политика конфиденциальности</string>
+    <string name="rating">Оценить</string>
+
+    <!-- Interest Screen -->
+    <string name="interest">Интересы</string>
+    <string name="please_select_at_least_2_options_to_continue">*Выберите минимум 2 варианта, чтобы продолжить.</string>
+    <string name="interest_bills_utilities">💡 Счета и ЖКХ</string>
+    <string name="interest_food_dining">🍽️ Еда и рестораны</string>
+    <string name="interest_shopping">🛍️ Покупки</string>
+    <string name="interest_transportation">🚗 Транспорт</string>
+    <string name="interest_healthcare">🏥 Здоровье</string>
+
+    <!-- Uninstall Retention Screen -->
+    <string name="uninstall">Удалить</string>
+    <string name="uninstall_question">С какой проблемой вы столкнулись при использовании?</string>
+    <string name="not_much_more_useful_nthan_the_defaults">Не намного полезнее стандартных средств</string>
+    <string name="unresponsive_or_laggy">Не отвечает или\nтормозит</string>
+    <string name="explore">Обзор</string>
+    <string name="try_again">Попробовать снова</string>
+    <string name="dont_uninstall_yet">Пока не удалять</string>
+    <string name="still_want_to_uninstall">Всё равно удалить</string>
+
+    <!-- Validation & Feedback Messages -->
+    <string name="msg_enter_amount">Пожалуйста, введите сумму</string>
+    <string name="msg_select_category">Пожалуйста, выберите категорию</string>
+    <string name="msg_transaction_saved">Транзакция успешно сохранена</string>
+    <string name="msg_enter_all_fields">Пожалуйста, заполните все поля</string>
+    <string name="msg_invalid_amount">Некорректная сумма</string>
+    <string name="msg_enter_budget_amount">Пожалуйста, введите сумму бюджета</string>
+    <string name="msg_budget_exceeds_limit">Сумма всех бюджетов должна быть меньше %1$s</string>
+    <string name="msg_choose_language">Пожалуйста, выберите язык, чтобы продолжить</string>
+    <string name="msg_transaction_not_found">Транзакция не найдена</string>
+    <string name="msg_transaction_details_not_found">Детали транзакции не найдены</string>
+    <string name="msg_unable_delete_transaction">Не удалось удалить транзакцию</string>
+    <string name="msg_transaction_deleted">Транзакция успешно удалена</string>
+
+    <!-- Category Display Names -->
+    <string name="category_food">Еда</string>
+    <string name="category_social">Общение</string>
+    <string name="category_traffic">Транспорт</string>
+    <string name="category_shopping">Покупки</string>
+    <string name="category_grocery">Продукты</string>
+    <string name="category_education">Образование</string>
+    <string name="category_bills">Счета</string>
+    <string name="category_rentals">Аренда</string>
+    <string name="category_medical">Медицина</string>
+    <string name="category_investment">Инвестиции</string>
+    <string name="category_gift">Подарки</string>
+    <string name="category_other">Другое</string>
+    <string name="category_salary">Зарплата</string>
+    <string name="category_invest">Вложения</string>
+    <string name="category_business">Бизнес</string>
+    <string name="category_interest">Проценты</string>
+    <string name="category_extra_income">Доп. доход</string>
+    <string name="category_loan">Займ</string>
+    <string name="category_borrow">Долг</string>
+
+    <!-- Notifications -->
+    <string name="open">Открыть</string>
+    <string name="open_now">Открыть сейчас!</string>
+    <string name="continued">Продолжить</string>
+    <string name="title_screen_shoot_done">Сохранили скриншот чека?</string>
+    <string name="body_screen_shoot_done">Запишите этот платёж в Money Manager, пока не забыли.</string>
+    <string name="title_dowload_done">Сохранили выписку или счёт?</string>
+    <string name="body_dowload_done">Запишите это, чтобы ваш бюджет оставался актуальным: </string>
+    <string name="title_out_done">Подведём итоги дня?</string>
+    <string name="body_out_done">Проверьте сегодняшние расходы, доходы и состояние бюджета.</string>
+    <string name="noti_app_installed_title">Учёт трат в новом приложении</string>
+    <string name="noti_app_installed_body">Подписка или покупка в %1$s? Запишите в Money Manager.</string>
+    <string name="noti_app_removed_title">Проверьте активные подписки</string>
+    <string name="noti_app_removed_body">Удалили приложение? Проверьте бюджет «Счета», чтобы избежать лишних списаний.</string>
+    <string name="noti_app_removed_btn">Проверить бюджет</string>
+    <string name="noti_app_updated_title">Держите финансы в порядке</string>
+    <string name="noti_app_updated_body">Проверьте сегодняшние расходы, доходы и прогресс накоплений.</string>
+    <string name="noti_app_updated_btn">Открыть приложение</string>
+
+    <string-array name="special_titles_v2">
+        <item>🌙 Итоги трат за сегодня</item>
+        <item>✨ Ваши сбережения растут</item>
+        <item>📈 Вечерний обзор финансов</item>
+        <item>🔔 Скоро оплата счетов?</item>
+        <item>🤝 Следите за долгами и займами</item>
+        <item>🎯 Готовы к завтрашнему дню?</item>
+    </string-array>
+
+    <string-array name="special_messages_v2">
+        <item>Уделите 10 секунд записи сегодняшних трат, чтобы не выбиться из бюджета.</item>
+        <item>Посмотрите, сколько вы накопили за этот месяц, и наблюдайте за ростом баланса.</item>
+        <item>Сравните кривую доходов и расходов за месяц, чтобы найти резерв для сбережений.</item>
+        <item>Проверьте ближайшую аренду, счета и регулярные траты, чтобы избежать сюрпризов.</item>
+        <item>Недавно дали или взяли в долг? Запишите это чётко, чтобы не пропустить возврат.</item>
+        <item>Проверьте остаток месячного бюджета на ночь и начните завтрашний день уверенно.</item>
+    </string-array>
+
+    <string-array name="special_titles_news">
+        <item>☕ Утренняя проверка финансов</item>
+        <item>🧾 Запишите сегодняшние траты</item>
+        <item>📊 Сколько вы сэкономили?</item>
+        <item>🛡️ Оставайтесь в рамках бюджета</item>
+        <item>🛍️ Планируете покупку?</item>
+        <item>💰 Учитывайте свои доходы</item>
+    </string-array>
+
+    <string-array name="special_messages_news">
+        <item>Начните день разумно — проверьте дневной лимит трат до первой чашки кофе.</item>
+        <item>Пообедали или оплатили счёт? Запишите за 5 секунд для точного учёта.</item>
+        <item>Узнайте, какой % дохода в этом месяце уходит на Еду, Счета и Сбережения.</item>
+        <item>Проверьте остаток бюджета по категории перед следующей покупкой.</item>
+        <item>Быстро взгляните на месячный баланс перед оплатой покупки.</item>
+        <item>Получили зарплату или доп. доход? Добавьте сейчас, чтобы обновить норму сбережений.</item>
+    </string-array>
+</resources>

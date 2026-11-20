@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+
+    <!-- Pastel Warm Coral-Apricot Circle Badge -->
+    <path android:pathData="M24,1 A23,23 0 1,0 24,47 A23,23 0 1,0 24,1 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:endColor="#FED7AA"
+                android:endX="42"
+                android:endY="42"
+                android:startColor="#FFF7ED"
+                android:startX="6"
+                android:startY="6"
+                android:type="linear" />
+        </aapt:attr>
+    </path>
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M24,1.6 A22.4,22.4 0 1,0 24,46.4 A22.4,22.4 0 1,0 24,1.6 Z"
+        android:strokeWidth="1"
+        android:strokeColor="#24EA580C" />
+
+    <!-- Subtle Secondary Depth Coin -->
+    <path
+        android:fillColor="#FDBA74"
+        android:pathData="M25.8,12.6 A9.8,9.8 0 1,0 25.8,32.2 A9.8,9.8 0 1,0 25.8,12.6 Z" />
+
+    <!-- Main Incoming Borrow Coin (Warm Terracotta Orange) -->
+    <path android:pathData="M23.2,14 A10.6,10.6 0 1,0 23.2,35.2 A10.6,10.6 0 1,0 23.2,14 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:endColor="#DC4C12"
+                android:endX="32"
+                android:endY="34"
+                android:startColor="#FB923C"
+                android:startX="14"
+                android:startY="15"
+                android:type="linear" />
+        </aapt:attr>
+    </path>
+
+    <!-- Crisp Incoming Arrow (↙ = Money Borrowed In) -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M27.2,20.6 L19.4,28.4"
+        android:strokeWidth="2.5"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M25.6,28.6 H19.2 V22.2"
+        android:strokeWidth="2.5"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+</vector>

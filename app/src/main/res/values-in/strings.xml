@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="months">
+        <item>Januari</item>
+        <item>Februari</item>
+        <item>Maret</item>
+        <item>April</item>
+        <item>Mei</item>
+        <item>Juni</item>
+        <item>Juli</item>
+        <item>Agustus</item>
+        <item>September</item>
+        <item>Oktober</item>
+        <item>November</item>
+        <item>Desember</item>
+    </string-array>
+
+    <string-array name="months_short">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Mar</item>
+        <item>Apr</item>
+        <item>Mei</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Agu</item>
+        <item>Sep</item>
+        <item>Okt</item>
+        <item>Nov</item>
+        <item>Des</item>
+    </string-array>
+
+    <!-- Onboarding & Guide -->
+    <string name="note_continue1">Kelola Uang Anda dengan Mudah</string>
+    <string name="note_continue2">Atur Pengeluaran Anda</string>
+    <string name="note_continue3">Lacak Kemajuan Keuangan Anda</string>
+    <string name="note_continue4">Tetapkan Tujuan &amp; Hemat Lebih Banyak</string>
+    <string name="intro_slide_1_des">Catat pemasukan, pengeluaran, dan saldo dalam satu tempat.</string>
+    <string name="intro_slide_2_des">Kategorikan transaksi untuk melihat ke mana perginya uang Anda</string>
+    <string name="intro_slide_3_des">Visualisasikan pemasukan, pengeluaran, dan tabungan Anda dari waktu ke waktu</string>
+    <string name="intro_slide_4_des">Rencanakan anggaran, tetapkan target tabungan, dan bangun kebiasaan yang lebih baik</string>
+    <string name="note_guide1">Ketuk ‘Anggaran’ untuk mengelola pengeluaran Anda</string>
+    <string name="note_guide2">Lihat sisa saldo Anda dalam sekejap</string>
+    <string name="note_guide3">Beralih antaranggaran dengan mudah</string>
+    <string name="note_guide4">Analisis pengeluaran dan tetap sesuai rencana</string>
+    <string name="guide">Panduan</string>
+    <string name="next">Berikutnya</string>
+    <string name="this_action_can_contain_ads">Tindakan ini mungkin berisi iklan…</string>
+
+    <!-- Navigation & Main Screen -->
+    <string name="home">Beranda</string>
+    <string name="statistic">Statistik</string>
+    <string name="budget">Anggaran</string>
+    <string name="settings">Pengaturan</string>
+    <string name="total_balance">Total saldo</string>
+    <string name="total_expenditure">Total pengeluaran</string>
+    <string name="total_income">Total pemasukan</string>
+    <string name="add_your_first_transaction">Tambahkan transaksi pertama Anda.</string>
+    <string name="no_transactions_yet">Belum Ada Transaksi</string>
+    <string name="no_transactions_desc">Transaksi Anda akan muncul di sini setelah Anda mulai menambahkannya.</string>
+    <string name="vs_last_month">vs bulan lalu</string>
+    <string name="please_add_transaction_first">Silakan tambahkan transaksi terlebih dahulu</string>
+    <string name="tap_here_to_exit">Ketuk di sini untuk keluar</string>
+    <string name="recent_transactions">Transaksi Terbaru</string>
+    <string name="overview">Ringkasan</string>
+    <string name="this_month">Bulan Ini</string>
+    <string name="last_month">Bulan Lalu</string>
+    <string name="all_transactions">Semua Transaksi</string>
+    <string name="view_all">Lihat semua</string>
+    <string name="view_all_count">Lihat semua (%1$d)</string>
+    <string name="view_all_transactions_count">Lihat semua %1$d transaksi</string>
+    <string name="today">Hari ini</string>
+    <string name="yesterday">Kemarin</string>
+    <string name="all_time">Semua waktu</string>
+    <string name="search_transactions_hint">Cari catatan, kategori, jumlah…</string>
+    <string name="no_matching_transactions">Tidak ada transaksi yang cocok</string>
+    <string name="collapse_all">Ciutkan semua</string>
+    <string name="expand_all">Luaskan semua</string>
+    <string name="tap_to_set_budget">Ketuk untuk atur batas pengeluaran bulanan</string>
+
+    <!-- Notification Prompt & Banner -->
+    <string name="notice">Pemberitahuan</string>
+    <string name="allow_alerts_currency_updates">Izinkan peringatan untuk pembaruan\nkurs mata uang secara langsung!</string>
+    <string name="turn_on">Aktifkan</string>
+    <string name="allow_app_notify_you">Izinkan Money Manager: Smart Saver mengirimkan notifikasi kepada Anda?</string>
+    <string name="turn_on_notifications_desc">Aktifkan notifikasi agar selalu mendapatkan info terbaru.</string>
+    <string name="allow">Izinkan</string>
+    <string name="dont_allow">Jangan Izinkan</string>
+
+    <!-- Transactions & Statistics -->
+    <string name="add">Tambah</string>
+    <string name="expense">Pengeluaran</string>
+    <string name="income">Pemasukan</string>
+    <string name="loan">Pinjaman</string>
+    <string name="borrow">Utang</string>
+    <string name="amount">Jumlah</string>
+    <string name="category">Kategori</string>
+    <string name="note">Catatan</string>
+    <string name="add_a_description">Tambahkan deskripsi</string>
+    <string name="lender">Pemberi pinjaman</string>
+    <string name="select_date">Pilih tanggal</string>
+    <string name="date_time">Tanggal &amp; waktu</string>
+    <string name="select_time">Pilih waktu</string>
+    <string name="select_month">Pilih bulan</string>
+    <string name="transactions">Transaksi</string>
+    <string name="date">Tanggal</string>
+    <string name="month">Bulan</string>
+    <string name="balance">Saldo</string>
+    <string name="total">Total</string>
+    <string name="edit">Ubah</string>
+    <string name="save">Simpan</string>
+    <string name="cancel">Batal</string>
+    <string name="delete">Hapus</string>
+    <string name="delete_transaction">Hapus Transaksi</string>
+    <string name="delete_transaction_confirm">Apakah Anda yakin ingin menghapus transaksi ini?</string>
+    <string name="none_option">Tidak ada</string>
+
+    <!-- Budget -->
+    <string name="budget_detail">Detail Anggaran</string>
+    <string name="add_budget">Tambah Anggaran</string>
+    <string name="budget_name">Nama Anggaran</string>
+    <string name="net_worth">Kekayaan bersih</string>
+    <string name="remaining">Tersisa</string>
+    <string name="budget_colon_value">Anggaran: %1$s</string>
+    <string name="expenses_colon_value">Pengeluaran: %1$s</string>
+    <string name="remain_colon_value">Sisa: %1$s</string>
+    <string name="monthly_budget">Anggaran Bulanan</string>
+    <string name="set_monthly_budget">Atur Anggaran Bulanan</string>
+    <string name="edit_budget">Ubah Anggaran</string>
+    <string name="delete_budget">Hapus Anggaran</string>
+    <string name="delete_budget_confirm">Apakah Anda yakin ingin menghapus anggaran ini?</string>
+    <string name="budget_saved">Anggaran disimpan</string>
+    <string name="budget_deleted">Anggaran dihapus</string>
+    <string name="budget_already_exists">Anggaran untuk kategori ini sudah ada</string>
+    <string name="set_category_limit_desc">Pilih kategori dan atur batas pengeluaran bulanan</string>
+    <string name="all_categories_have_budgets">Semua kategori sudah memiliki anggaran</string>
+    <string name="now">Sekarang</string>
+    <string name="category_budgets">Anggaran Kategori</string>
+    <string name="custom_budget">Kustom</string>
+    <string name="auto_tracked">Dilacak otomatis</string>
+    <string name="spent">Terpakai</string>
+    <string name="left">Sisa</string>
+    <string name="over_budget">Melebihi anggaran</string>
+    <string name="over_by_value">Lebih %1$s</string>
+    <string name="spent_of_value">%1$s / %2$s</string>
+    <string name="daily_limit">Batas harian</string>
+    <string name="per_day_value">%1$s/hari</string>
+    <string name="daily_avg">Rata-rata/hari</string>
+    <string name="no_budgets_title">Belum ada anggaran kategori</string>
+    <string name="no_budgets_desc">Atur batas bulanan per kategori untuk melacak pengeluaran secara otomatis.</string>
+    <string name="budget_allocated_exceeds_hint">Alokasi (%1$s) melebihi batas bulanan (%2$s)</string>
+    <string name="no_budget_transactions">Belum ada pengeluaran di anggaran ini bulan ini</string>
+    <string name="add_expense">Tambah Pengeluaran</string>
+    <string name="auto_linked_budget_hint">Dilacak otomatis di anggaran %1$s</string>
+    <string name="skip">Lewati</string>
+    <string name="year">Tahun</string>
+    <string name="yearly_report">Laporan Tahunan</string>
+    <string name="net_savings">Bersih</string>
+    <string name="net_loan">Pinjaman Bersih</string>
+    <string name="lent">Dipinjamkan</string>
+    <string name="borrowed">Dipinjam</string>
+    <string name="vs_prev_month_up">↑ %1$d%% vs bulan lalu</string>
+    <string name="vs_prev_month_down">↓ %1$d%% vs bulan lalu</string>
+    <string name="vs_prev_month_same">Sama seperti bulan lalu</string>
+    <string name="chart_breakdown">Rincian</string>
+    <string name="chart_trend">Tren</string>
+    <string name="income_allocation">Alokasi Pemasukan</string>
+    <string name="saved">Ditabung</string>
+    <string name="overspent">Pengeluaran berlebih</string>
+    <string name="of_income_value">%1$s dari pemasukan</string>
+    <string name="add_income_to_see_savings">Tambahkan pemasukan untuk melihat rasio tabungan</string>
+    <string name="transactions_count">%1$d transaksi</string>
+    <string name="category_transactions">Transaksi Kategori</string>
+    <string name="no_note">Tanpa catatan</string>
+    <string name="cashflow">Arus Kas</string>
+    <string name="edit_transaction">Ubah Transaksi</string>
+    <string name="add_transaction">Tambah Transaksi</string>
+    <string name="person_name_hint">Nama orang atau pemberi pinjaman</string>
+    <string name="used_percent">%1$d%% terpakai</string>
+    <string name="week">Minggu</string>
+    <string name="custom_range">Kustom</string>
+    <string name="current_period">Saat ini</string>
+    <string name="monthly_table">Tabel 12 Bln</string>
+    <string name="filters">Filter</string>
+    <string name="reset">Reset</string>
+    <string name="apply">Terapkan</string>
+    <string name="all">Semua</string>
+    <string name="quick_period">Periode Cepat</string>
+    <string name="last_7_days">7 hari terakhir</string>
+    <string name="last_30_days">30 hari terakhir</string>
+    <string name="sort_by">Urutkan menurut</string>
+    <string name="sort_highest_amount">Jumlah tertinggi</string>
+    <string name="sort_most_transactions">Transaksi terbanyak</string>
+    <string name="select_date_range">Pilih rentang tanggal</string>
+    <string name="vs_prev_period_up">↑ %1$d%% vs sebelumnya</string>
+    <string name="vs_prev_period_down">↓ %1$d%% vs sebelumnya</string>
+    <string name="vs_prev_period_same">Sama seperti sebelumnya</string>
+
+    <!-- Settings & Language & Currency -->
+    <string name="general">Umum</string>
+    <string name="about_us">Tentang Kami</string>
+    <string name="currency">Mata Uang</string>
+    <string name="currency_unit">Satuan mata uang</string>
+    <string name="search">Cari</string>
+    <string name="language">Bahasa</string>
+    <string name="languages">Bahasa</string>
+    <string name="please_select_language_to_continue">Silakan pilih bahasa untuk melanjutkan</string>
+    <string name="share">Bagikan</string>
+    <string name="privacy_policy">Kebijakan privasi</string>
+    <string name="rating">Penilaian</string>
+
+    <!-- Interest Screen -->
+    <string name="interest">Minat</string>
+    <string name="please_select_at_least_2_options_to_continue">*Silakan pilih minimal 2 opsi untuk melanjutkan.</string>
+    <string name="interest_bills_utilities">💡 Tagihan &amp; Utilitas</string>
+    <string name="interest_food_dining">🍽️ Makanan &amp; Minuman</string>
+    <string name="interest_shopping">🛍️ Belanja</string>
+    <string name="interest_transportation">🚗 Transportasi</string>
+    <string name="interest_healthcare">🏥 Kesehatan</string>
+
+    <!-- Uninstall Retention Screen -->
+    <string name="uninstall">Hapus Instalasi</string>
+    <string name="uninstall_question">Masalah apa yang Anda temui saat menggunakan aplikasi?</string>
+    <string name="not_much_more_useful_nthan_the_defaults">Tidak jauh lebih berguna daripada aplikasi bawaan</string>
+    <string name="unresponsive_or_laggy">Tidak responsif atau\nlambat</string>
+    <string name="explore">Jelajahi</string>
+    <string name="try_again">Coba Lagi</string>
+    <string name="dont_uninstall_yet">Jangan hapus instalasi dulu</string>
+    <string name="still_want_to_uninstall">Tetap ingin menghapus instalasi</string>
+
+    <!-- Validation & Feedback Messages -->
+    <string name="msg_enter_amount">Silakan masukkan jumlah</string>
+    <string name="msg_select_category">Silakan pilih kategori</string>
+    <string name="msg_transaction_saved">Transaksi berhasil disimpan</string>
+    <string name="msg_enter_all_fields">Silakan isi semua kolom</string>
+    <string name="msg_invalid_amount">Jumlah tidak valid</string>
+    <string name="msg_enter_budget_amount">Silakan masukkan jumlah anggaran</string>
+    <string name="msg_budget_exceeds_limit">Total semua anggaran harus lebih kecil dari %1$s</string>
+    <string name="msg_choose_language">Silakan pilih bahasa untuk melanjutkan</string>
+    <string name="msg_transaction_not_found">Transaksi tidak ditemukan</string>
+    <string name="msg_transaction_details_not_found">Detail transaksi tidak ditemukan</string>
+    <string name="msg_unable_delete_transaction">Tidak dapat menghapus transaksi</string>
+    <string name="msg_transaction_deleted">Transaksi berhasil dihapus</string>
+
+    <!-- Category Display Names -->
+    <string name="category_food">Makanan</string>
+    <string name="category_social">Sosial</string>
+    <string name="category_traffic">Transportasi</string>
+    <string name="category_shopping">Belanja</string>
+    <string name="category_grocery">Bahan Makanan</string>
+    <string name="category_education">Pendidikan</string>
+    <string name="category_bills">Tagihan</string>
+    <string name="category_rentals">Sewa</string>
+    <string name="category_medical">Medis</string>
+    <string name="category_investment">Investasi</string>
+    <string name="category_gift">Hadiah</string>
+    <string name="category_other">Lainnya</string>
+    <string name="category_salary">Gaji</string>
+    <string name="category_invest">Hasil Investasi</string>
+    <string name="category_business">Bisnis</string>
+    <string name="category_interest">Bunga</string>
+    <string name="category_extra_income">Pendapatan Tambahan</string>
+    <string name="category_loan">Pinjaman</string>
+    <string name="category_borrow">Utang</string>
+
+    <!-- Notifications -->
+    <string name="open">Buka</string>
+    <string name="open_now">Buka Sekarang</string>
+    <string name="continued">Lanjutkan</string>
+    <string name="title_screen_shoot_done">Screenshot Struk Tersimpan?</string>
+    <string name="body_screen_shoot_done">Catat pembayaran ini di Money Manager sebelum Anda lupa.</string>
+    <string name="title_dowload_done">Laporan atau Faktur Tersimpan?</string>
+    <string name="body_dowload_done">Catat agar anggaran Anda tetap mutakhir: </string>
+    <string name="title_out_done">Akhiri Hari dengan Tepat?</string>
+    <string name="body_out_done">Tinjau pengeluaran, pemasukan, dan progres anggaran hari ini.</string>
+    <string name="noti_app_installed_title">Lacak Pengeluaran Aplikasi Baru</string>
+    <string name="noti_app_installed_body">Berlangganan atau membeli di %1$s? Catat di Money Manager.</string>
+    <string name="noti_app_removed_title">Cek Langganan Aktif</string>
+    <string name="noti_app_removed_body">Menghapus aplikasi? Tinjau anggaran Tagihan Anda agar tidak ada biaya tambahan.</string>
+    <string name="noti_app_removed_btn">Cek Anggaran</string>
+    <string name="noti_app_updated_title">Perbarui Terus Keuangan Anda</string>
+    <string name="noti_app_updated_body">Tinjau pengeluaran, pemasukan, dan progres tabungan hari ini.</string>
+    <string name="noti_app_updated_btn">Buka Aplikasi</string>
+
+    <string-array name="special_titles_v2">
+        <item>🌙 Ringkasan Pengeluaran Hari Ini</item>
+        <item>✨ Tabungan Anda Terus Bertambah</item>
+        <item>📈 Wawasan Arus Kas Malam</item>
+        <item>🔔 Ada Tagihan Jatuh Tempo?</item>
+        <item>🤝 Catat Terus Pinjaman</item>
+        <item>🎯 Siap untuk Besok?</item>
+    </string-array>
+
+    <string-array name="special_messages_v2">
+        <item>Luangkan 10 detik untuk mencatat pengeluaran hari ini agar anggaran tetap terjaga.</item>
+        <item>Lihat berapa banyak yang sudah Anda tabung bulan ini dan pantau saldo terus bertambah.</item>
+        <item>Bandingkan kurva pemasukan dan pengeluaran bulan ini untuk menemukan peluang hemat ekstra.</item>
+        <item>Tinjau sewa, tagihan, dan pengeluaran rutin mendatang agar tidak ada kejutan.</item>
+        <item>Baru meminjamkan atau meminjam uang? Catat dengan jelas agar jadwal pelunasan tidak terlewat.</item>
+        <item>Tinjau sisa anggaran bulanan Anda malam ini dan mulai hari esok dengan percaya diri.</item>
+    </string-array>
+
+    <string-array name="special_titles_news">
+        <item>☕ Cek Keuangan Pagi</item>
+        <item>🧾 Catat Pengeluaran Hari Ini</item>
+        <item>📊 Berapa Banyak yang Anda Tabung?</item>
+        <item>🛡️ Tetap Sesuai Anggaran</item>
+        <item>🛍️ Berencana Belanja?</item>
+        <item>💰 Pantau Aliran Pemasukan Anda</item>
+    </string-array>
+
+    <string-array name="special_messages_news">
+        <item>Awali hari dengan cerdas — cek batas pengeluaran harian sebelum kopi pertama Anda.</item>
+        <item>Baru beli makan siang atau bayar tagihan? Catat dalam 5 detik agar tetap akurat.</item>
+        <item>Lihat berapa % pemasukan Anda yang masuk ke Makanan, Tagihan, dan Tabungan bulan ini.</item>
+        <item>Cek sisa anggaran kategori sebelum melakukan pembelian berikutnya.</item>
+        <item>Lihat sekilas saldo bulanan Anda sebelum membayar di kasir.</item>
+        <item>Baru gajian atau dapat penghasilan tambahan? Tambahkan sekarang untuk memperbarui rasio tabungan.</item>
+    </string-array>
+</resources>

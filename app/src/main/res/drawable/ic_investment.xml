@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+
+    <!-- Pastel Teal Circle Badge -->
+    <path android:pathData="M24,1 A23,23 0 1,0 24,47 A23,23 0 1,0 24,1 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:endColor="#99F6E4"
+                android:endX="42"
+                android:endY="42"
+                android:startColor="#F0FDFA"
+                android:startX="6"
+                android:startY="6"
+                android:type="linear" />
+        </aapt:attr>
+    </path>
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M24,1.6 A22.4,22.4 0 1,0 24,46.4 A22.4,22.4 0 1,0 24,1.6 Z"
+        android:strokeWidth="1"
+        android:strokeColor="#220D9488" />
+
+    <!-- Ascending 3-Bar Chart (Duotone Teal) -->
+    <path
+        android:fillColor="#2DD4BF"
+        android:pathData="M15.8,26.8 H17 C18,26.8 18.8,27.6 18.8,28.6 V34.8 H14 V28.6 C14,27.6 14.8,26.8 15.8,26.8 Z" />
+    <path
+        android:fillColor="#14B8A6"
+        android:pathData="M23.4,22.8 H24.6 C25.6,22.8 26.4,23.6 26.4,24.6 V34.8 H21.6 V24.6 C21.6,23.6 22.4,22.8 23.4,22.8 Z" />
+    <path
+        android:fillColor="#0D9488"
+        android:pathData="M31,18.8 H32.2 C33.2,18.8 34,19.6 34,20.6 V34.8 H29.2 V20.6 C29.2,19.6 30,18.8 31,18.8 Z" />
+
+    <!-- Crisp Rising Trend Line + Arrowhead -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M14.8,22 L21.8,16.8 L25.6,19 L33,13.4"
+        android:strokeWidth="2.3"
+        android:strokeColor="#0F766E"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M29,13.2 H33.4 V17.4"
+        android:strokeWidth="2.3"
+        android:strokeColor="#0F766E"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+</vector>

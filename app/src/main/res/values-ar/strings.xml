@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="months">
+        <item>يناير</item>
+        <item>فبراير</item>
+        <item>مارس</item>
+        <item>أبريل</item>
+        <item>مايو</item>
+        <item>يونيو</item>
+        <item>يوليو</item>
+        <item>أغسطس</item>
+        <item>سبتمبر</item>
+        <item>أكتوبر</item>
+        <item>نوفمبر</item>
+        <item>ديسمبر</item>
+    </string-array>
+
+    <string-array name="months_short">
+        <item>يناير</item>
+        <item>فبراير</item>
+        <item>مارس</item>
+        <item>أبريل</item>
+        <item>مايو</item>
+        <item>يونيو</item>
+        <item>يوليو</item>
+        <item>أغسطس</item>
+        <item>سبتمبر</item>
+        <item>أكتوبر</item>
+        <item>نوفمبر</item>
+        <item>ديسمبر</item>
+    </string-array>
+
+    <!-- Onboarding & Guide -->
+    <string name="note_continue1">أدِر أموالك بكل سهولة</string>
+    <string name="note_continue2">نظّم مصروفاتك</string>
+    <string name="note_continue3">تتبّع تقدمك المالي</string>
+    <string name="note_continue4">حدد الأهداف وادخر أكثر</string>
+    <string name="intro_slide_1_des">تتبّع الدخل والمصروفات والرصيد في مكان واحد.</string>
+    <string name="intro_slide_2_des">صنّف المعاملات لتعرف أين تذهب أموالك</string>
+    <string name="intro_slide_3_des">استعرض دخلك ومصروفاتك ومدخراتك بصريًا مع مرور الوقت</string>
+    <string name="intro_slide_4_des">خطط لميزانيتك، وحدد أهداف الادخار، واكتسب عادات مالية أفضل</string>
+    <string name="note_guide1">اضغط على «الميزانية» لإدارة مصروفاتك</string>
+    <string name="note_guide2">اطّلع على رصيدك المتبقي بنظرة سريعة</string>
+    <string name="note_guide3">تنقّل بين الميزانيات بكل سهولة</string>
+    <string name="note_guide4">حلّل مصروفاتك وابقَ على المسار الصحيح</string>
+    <string name="guide">الدليل</string>
+    <string name="next">التالي</string>
+    <string name="this_action_can_contain_ads">قد يحتوي هذا الإجراء على إعلانات…</string>
+
+    <!-- Navigation & Main Screen -->
+    <string name="home">الرئيسية</string>
+    <string name="statistic">الإحصائيات</string>
+    <string name="budget">الميزانية</string>
+    <string name="settings">الإعدادات</string>
+    <string name="total_balance">إجمالي الرصيد</string>
+    <string name="total_expenditure">إجمالي المصروفات</string>
+    <string name="total_income">إجمالي الدخل</string>
+    <string name="add_your_first_transaction">أضف معاملتك الأولى.</string>
+    <string name="no_transactions_yet">لا توجد معاملات بعد</string>
+    <string name="no_transactions_desc">ستظهر معاملاتك هنا بمجرد أن تبدأ في إضافتها.</string>
+    <string name="vs_last_month">مقارنة بالشهر الماضي</string>
+    <string name="please_add_transaction_first">يرجى إضافة معاملة أولًا</string>
+    <string name="tap_here_to_exit">اضغط هنا للخروج</string>
+    <string name="recent_transactions">أحدث المعاملات</string>
+    <string name="overview">نظرة عامة</string>
+    <string name="this_month">هذا الشهر</string>
+    <string name="last_month">الشهر الماضي</string>
+    <string name="all_transactions">كل المعاملات</string>
+    <string name="view_all">عرض الكل</string>
+    <string name="view_all_count">عرض الكل (%1$d)</string>
+    <string name="view_all_transactions_count">عرض كل المعاملات (%1$d)</string>
+    <string name="today">اليوم</string>
+    <string name="yesterday">أمس</string>
+    <string name="all_time">كل الأوقات</string>
+    <string name="search_transactions_hint">ابحث في الملاحظة، الفئة، المبلغ…</string>
+    <string name="no_matching_transactions">لا توجد معاملات مطابقة</string>
+    <string name="collapse_all">طي الكل</string>
+    <string name="expand_all">توسيع الكل</string>
+    <string name="tap_to_set_budget">اضغط لتحديد حد الإنفاق الشهري</string>
+
+    <!-- Notification Prompt & Banner -->
+    <string name="notice">إشعار</string>
+    <string name="allow_alerts_currency_updates">اسمح بالتنبيهات للحصول على\nتحديثات أسعار العملات مباشرة!</string>
+    <string name="turn_on">تشغيل</string>
+    <string name="allow_app_notify_you">هل تسمح لتطبيق Money Manager: Smart Saver بإرسال إشعارات إليك؟</string>
+    <string name="turn_on_notifications_desc">فعّل الإشعارات لتبقى على اطلاع دائم.</string>
+    <string name="allow">سماح</string>
+    <string name="dont_allow">عدم السماح</string>
+
+    <!-- Transactions & Statistics -->
+    <string name="add">إضافة</string>
+    <string name="expense">مصروف</string>
+    <string name="income">دخل</string>
+    <string name="loan">قرض</string>
+    <string name="borrow">اقتراض</string>
+    <string name="amount">المبلغ</string>
+    <string name="category">الفئة</string>
+    <string name="note">ملاحظة</string>
+    <string name="add_a_description">أضف وصفًا</string>
+    <string name="lender">المقرض</string>
+    <string name="select_date">اختر التاريخ</string>
+    <string name="date_time">التاريخ والوقت</string>
+    <string name="select_time">اختر الوقت</string>
+    <string name="select_month">اختر الشهر</string>
+    <string name="transactions">المعاملات</string>
+    <string name="date">التاريخ</string>
+    <string name="month">الشهر</string>
+    <string name="balance">الرصيد</string>
+    <string name="total">الإجمالي</string>
+    <string name="edit">تعديل</string>
+    <string name="save">حفظ</string>
+    <string name="cancel">إلغاء</string>
+    <string name="delete">حذف</string>
+    <string name="delete_transaction">حذف المعاملة</string>
+    <string name="delete_transaction_confirm">هل أنت متأكد من أنك تريد حذف هذه المعاملة؟</string>
+    <string name="none_option">لا يوجد</string>
+
+    <!-- Budget -->
+    <string name="budget_detail">تفاصيل الميزانية</string>
+    <string name="add_budget">إضافة ميزانية</string>
+    <string name="budget_name">اسم الميزانية</string>
+    <string name="net_worth">صافي الثروة</string>
+    <string name="remaining">المتبقي</string>
+    <string name="budget_colon_value">الميزانية: %1$s</string>
+    <string name="expenses_colon_value">المصروفات: %1$s</string>
+    <string name="remain_colon_value">المتبقي: %1$s</string>
+    <string name="monthly_budget">الميزانية الشهرية</string>
+    <string name="set_monthly_budget">تعيين الميزانية الشهرية</string>
+    <string name="edit_budget">تعديل الميزانية</string>
+    <string name="delete_budget">حذف الميزانية</string>
+    <string name="delete_budget_confirm">هل أنت متأكد من أنك تريد حذف هذه الميزانية؟</string>
+    <string name="budget_saved">تم حفظ الميزانية</string>
+    <string name="budget_deleted">تم حذف الميزانية</string>
+    <string name="budget_already_exists">توجد ميزانية لهذه الفئة بالفعل</string>
+    <string name="set_category_limit_desc">اختر فئة وحدّد حدًا شهريًا للإنفاق</string>
+    <string name="all_categories_have_budgets">جميع الفئات لديها ميزانية بالفعل</string>
+    <string name="now">الآن</string>
+    <string name="category_budgets">ميزانيات الفئات</string>
+    <string name="custom_budget">مخصصة</string>
+    <string name="auto_tracked">تتبع تلقائي</string>
+    <string name="spent">المنفق</string>
+    <string name="left">المتبقي</string>
+    <string name="over_budget">تجاوز الميزانية</string>
+    <string name="over_by_value">تجاوز بـ %1$s</string>
+    <string name="spent_of_value">%1$s / %2$s</string>
+    <string name="daily_limit">الحد اليومي</string>
+    <string name="per_day_value">%1$s/يوم</string>
+    <string name="daily_avg">المعدل اليومي</string>
+    <string name="no_budgets_title">لا توجد ميزانيات فئات بعد</string>
+    <string name="no_budgets_desc">حدّد حدودًا شهرية لكل فئة لتتبع مصروفاتك تلقائيًا.</string>
+    <string name="budget_allocated_exceeds_hint">المبلغ المخصص (%1$s) يتجاوز الحد الشهري (%2$s)</string>
+    <string name="no_budget_transactions">لا توجد مصروفات في هذه الميزانية هذا الشهر</string>
+    <string name="add_expense">إضافة مصروف</string>
+    <string name="auto_linked_budget_hint">تتبع تلقائي في ميزانية %1$s</string>
+    <string name="skip">تخطي</string>
+    <string name="year">السنة</string>
+    <string name="yearly_report">التقرير السنوي</string>
+    <string name="net_savings">الصافي</string>
+    <string name="net_loan">صافي القروض</string>
+    <string name="lent">أقرضت</string>
+    <string name="borrowed">اقترضت</string>
+    <string name="vs_prev_month_up">↑ %1$d%% عن الشهر الماضي</string>
+    <string name="vs_prev_month_down">↓ %1$d%% عن الشهر الماضي</string>
+    <string name="vs_prev_month_same">نفس الشهر الماضي</string>
+    <string name="chart_breakdown">التوزيع</string>
+    <string name="chart_trend">الاتجاه</string>
+    <string name="income_allocation">توزيع الدخل</string>
+    <string name="saved">مدّخر</string>
+    <string name="overspent">إنفاق زائد</string>
+    <string name="of_income_value">%1$s من الدخل</string>
+    <string name="add_income_to_see_savings">أضف دخلًا لعرض معدل الادخار</string>
+    <string name="transactions_count">%1$d معاملة</string>
+    <string name="category_transactions">معاملات الفئة</string>
+    <string name="no_note">لا توجد ملاحظة</string>
+    <string name="cashflow">التدفق النقدي</string>
+    <string name="edit_transaction">تعديل المعاملة</string>
+    <string name="add_transaction">إضافة معاملة</string>
+    <string name="person_name_hint">اسم الشخص أو المقرض</string>
+    <string name="used_percent">%1$d%% مستخدم</string>
+    <string name="week">الأسبوع</string>
+    <string name="custom_range">مخصص</string>
+    <string name="current_period">الحالي</string>
+    <string name="monthly_table">جدول 12 شهرًا</string>
+    <string name="filters">التصفية</string>
+    <string name="reset">إعادة ضبط</string>
+    <string name="apply">تطبيق</string>
+    <string name="all">الكل</string>
+    <string name="quick_period">فترة سريعة</string>
+    <string name="last_7_days">آخر 7 أيام</string>
+    <string name="last_30_days">آخر 30 يومًا</string>
+    <string name="sort_by">ترتيب حسب</string>
+    <string name="sort_highest_amount">الأعلى مبلغًا</string>
+    <string name="sort_most_transactions">الأكثر معاملات</string>
+    <string name="select_date_range">اختر نطاق التاريخ</string>
+    <string name="vs_prev_period_up">↑ %1$d%% عن الفترة السابقة</string>
+    <string name="vs_prev_period_down">↓ %1$d%% عن الفترة السابقة</string>
+    <string name="vs_prev_period_same">نفس الفترة السابقة</string>
+
+    <!-- Settings & Language & Currency -->
+    <string name="general">عام</string>
+    <string name="about_us">من نحن</string>
+    <string name="currency">العملة</string>
+    <string name="currency_unit">وحدة العملة</string>
+    <string name="search">بحث</string>
+    <string name="language">اللغة</string>
+    <string name="languages">اللغات</string>
+    <string name="please_select_language_to_continue">يرجى اختيار اللغة للمتابعة</string>
+    <string name="share">مشاركة</string>
+    <string name="privacy_policy">سياسة الخصوصية</string>
+    <string name="rating">التقييم</string>
+
+    <!-- Interest Screen -->
+    <string name="interest">الاهتمامات</string>
+    <string name="please_select_at_least_2_options_to_continue">*يرجى اختيار خيارين على الأقل للمتابعة.</string>
+    <string name="interest_bills_utilities">💡 الفواتير والمرافق</string>
+    <string name="interest_food_dining">🍽️ الطعام والمطاعم</string>
+    <string name="interest_shopping">🛍️ التسوق</string>
+    <string name="interest_transportation">🚗 المواصلات</string>
+    <string name="interest_healthcare">🏥 الرعاية الصحية</string>
+
+    <!-- Uninstall Retention Screen -->
+    <string name="uninstall">إلغاء التثبيت</string>
+    <string name="uninstall_question">ما المشكلة التي واجهتها أثناء الاستخدام؟</string>
+    <string name="not_much_more_useful_nthan_the_defaults">ليس أكثر فائدة بكثير من التطبيقات الافتراضية</string>
+    <string name="unresponsive_or_laggy">لا يستجيب أو\nبطيء جدًا</string>
+    <string name="explore">استكشف</string>
+    <string name="try_again">أعد المحاولة</string>
+    <string name="dont_uninstall_yet">عدم الإزالة الآن</string>
+    <string name="still_want_to_uninstall">ما زلت أريد إلغاء التثبيت</string>
+
+    <!-- Validation & Feedback Messages -->
+    <string name="msg_enter_amount">يرجى إدخال المبلغ</string>
+    <string name="msg_select_category">يرجى اختيار فئة</string>
+    <string name="msg_transaction_saved">تم حفظ المعاملة بنجاح</string>
+    <string name="msg_enter_all_fields">يرجى ملء جميع الحقول</string>
+    <string name="msg_invalid_amount">مبلغ غير صالح</string>
+    <string name="msg_enter_budget_amount">يرجى إدخال مبلغ الميزانية</string>
+    <string name="msg_budget_exceeds_limit">يجب أن يكون مجموع جميع الميزانيات أقل من %1$s</string>
+    <string name="msg_choose_language">يرجى اختيار لغة للمتابعة</string>
+    <string name="msg_transaction_not_found">لم يتم العثور على المعاملة</string>
+    <string name="msg_transaction_details_not_found">لم يتم العثور على تفاصيل المعاملة</string>
+    <string name="msg_unable_delete_transaction">تعذّر حذف المعاملة</string>
+    <string name="msg_transaction_deleted">تم حذف المعاملة بنجاح</string>
+
+    <!-- Category Display Names -->
+    <string name="category_food">طعام</string>
+    <string name="category_social">اجتماعي</string>
+    <string name="category_traffic">مواصلات</string>
+    <string name="category_shopping">تسوق</string>
+    <string name="category_grocery">بقالة</string>
+    <string name="category_education">تعليم</string>
+    <string name="category_bills">فواتير</string>
+    <string name="category_rentals">إيجار</string>
+    <string name="category_medical">صحة</string>
+    <string name="category_investment">استثمار</string>
+    <string name="category_gift">هدايا</string>
+    <string name="category_other">أخرى</string>
+    <string name="category_salary">راتب</string>
+    <string name="category_invest">استثمارات</string>
+    <string name="category_business">أعمال</string>
+    <string name="category_interest">فوائد</string>
+    <string name="category_extra_income">دخل إضافي</string>
+    <string name="category_loan">قرض</string>
+    <string name="category_borrow">اقتراض</string>
+
+    <!-- Notifications -->
+    <string name="open">فتح</string>
+    <string name="open_now">افتح الآن!</string>
+    <string name="continued">متابعة</string>
+    <string name="title_screen_shoot_done">هل حفظت لقطة شاشة لإيصال؟</string>
+    <string name="body_screen_shoot_done">سجّل هذه الدفعة في Money Manager قبل أن تنسى.</string>
+    <string name="title_dowload_done">هل حفظت كشف حساب أو فاتورة؟</string>
+    <string name="body_dowload_done">سجّلها لإبقاء ميزانيتك محدّثة: </string>
+    <string name="title_out_done">هل ننهي اليوم بشكل رائع؟</string>
+    <string name="body_out_done">راجع مصروفات اليوم ودخلك ومدى التزامك بالميزانية.</string>
+    <string name="noti_app_installed_title">تتبّع إنفاق التطبيق الجديد</string>
+    <string name="noti_app_installed_body">هل اشتركت أو اشتريت في %1$s؟ سجّله في Money Manager.</string>
+    <string name="noti_app_removed_title">تحقّق من الاشتراكات النشطة</string>
+    <string name="noti_app_removed_body">هل أزلت تطبيقًا؟ راجع ميزانية الفواتير لتجنّب أي رسوم إضافية.</string>
+    <string name="noti_app_removed_btn">فحص الميزانية</string>
+    <string name="noti_app_updated_title">حافظ على تحديث أموالك</string>
+    <string name="noti_app_updated_body">راجع مصروفات اليوم ودخلك وتقدّم مدخراتك.</string>
+    <string name="noti_app_updated_btn">فتح التطبيق</string>
+
+    <string-array name="special_titles_v2">
+        <item>🌙 ملخّص إنفاق اليوم</item>
+        <item>✨ مدخراتك تنمو</item>
+        <item>📈 نظرة مسائية على التدفق النقدي</item>
+        <item>🔔 هل هناك فواتير مستحقة قريبًا؟</item>
+        <item>🤝 تابع القروض والديون</item>
+        <item>🎯 هل أنت مستعد للغد؟</item>
+    </string-array>
+
+    <string-array name="special_messages_v2">
+        <item>خصّص 10 ثوانٍ لتسجيل مصروفات اليوم وحافظ على التزامك بالميزانية.</item>
+        <item>تحقّق مما ادّخرته هذا الشهر وشاهد رصيدك ينمو.</item>
+        <item>قارن منحنى الدخل والمصروفات هذا الشهر لاكتشاف فرص توفير إضافية.</item>
+        <item>راجع الإيجار والفواتير والمصروفات المتكررة القادمة حتى لا تتفاجأ.</item>
+        <item>هل أقرضت أو اقترضت مالًا مؤخرًا؟ سجّله بوضوح كي لا يفوتك السداد.</item>
+        <item>راجع ما تبقّى من ميزانيتك الشهرية الليلة وابدأ غدًا بثقة.</item>
+    </string-array>
+
+    <string-array name="special_titles_news">
+        <item>☕ فحص المال الصباحي</item>
+        <item>🧾 سجّل مصروفات اليوم</item>
+        <item>📊 كم ادّخرت؟</item>
+        <item>🛡️ التزم بميزانيتك</item>
+        <item>🛍️ هل تخطّط للشراء؟</item>
+        <item>💰 تتبّع تدفّق دخلك</item>
+    </string-array>
+
+    <string-array name="special_messages_news">
+        <item>ابدأ يومك بذكاء — تحقّق من حدّ الإنفاق اليومي قبل قهوتك الأولى.</item>
+        <item>هل تناولت الغداء أو دفعت فاتورة للتو؟ سجّلها في 5 ثوانٍ لدقة حساباتك.</item>
+        <item>اعرف نسبة ما يذهب من دخلك إلى الطعام والفواتير والادخار هذا الشهر.</item>
+        <item>تحقّق من الرصيد المتبقي في ميزانية الفئة قبل عملية الشراء التالية.</item>
+        <item>ألقِ نظرة سريعة على رصيدك الشهري قبل إتمام الدفع.</item>
+        <item>هل استلمت راتبك أو حقّقت دخلًا إضافيًا؟ أضفه الآن لتحديث معدل ادخارك.</item>
+    </string-array>
+</resources>

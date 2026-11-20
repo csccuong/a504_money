@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/surface_canvas">
+
+    <!-- Unified Navy Header -->
+    <LinearLayout
+        android:id="@+id/view_header_bg"
+        style="@style/AppContainer.HeaderNavy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            style="@style/AppText.ScreenTitleLight"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/budget" />
+
+        <include
+            android:id="@+id/period_stepper"
+            layout="@layout/view_period_stepper" />
+    </LinearLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:clipToPadding="false"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/view_header_bg">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="@dimen/ds_space_lg"
+            android:paddingTop="14dp"
+            android:paddingBottom="@dimen/ds_space_2xl">
+
+            <!-- Monthly Budget Overview Card -->
+            <LinearLayout
+                style="@style/AppContainer.Card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_total_balance_label"
+                        style="@style/AppText.FieldLabel"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/monthly_budget"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:id="@+id/tv_budget_status_badge"
+                        style="@style/AppText.Micro"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/ds_space_sm"
+                        android:background="@drawable/bg_badge_green"
+                        android:fontFamily="@font/roboto_bold"
+                        android:paddingHorizontal="10dp"
+                        android:paddingVertical="3dp"
+                        android:text="0%"
+                        android:textColor="@color/semantic_income" />
+
+                    <ImageView
+                        android:id="@+id/iv_edit_balance"
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:background="@drawable/bg_circle_soft"
+                        android:padding="7dp"
+                        android:src="@drawable/ic_edit_clean" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_remaining_hero"
+                    style="@style/AppText.Hero"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="$0" />
+
+                <TextView
+                    android:id="@+id/tv_remaining_subtitle"
+                    style="@style/AppText.Caption"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:text="@string/remaining" />
+
+                <com.google.android.material.progressindicator.LinearProgressIndicator
+                    android:id="@+id/progress_monthly"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="14dp"
+                    android:max="100"
+                    android:progress="0"
+                    app:indicatorColor="@color/semantic_income"
+                    app:trackColor="@color/surface_subtle"
+                    app:trackCornerRadius="6dp"
+                    app:trackThickness="10dp" />
+
+                <!-- 3-Column Metrics Strip -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/ds_space_lg"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            style="@style/AppText.Micro"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/budget" />
+
+                        <TextView
+                            android:id="@+id/tv_total_budget"
+                            style="@style/AppText.BodyMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3dp"
+                            android:ellipsize="end"
+                            android:fontFamily="@font/roboto_bold"
+                            android:maxLines="1"
+                            android:text="$0" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <TextView
+                            style="@style/AppText.Micro"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/spent" />
+
+                        <TextView
+                            android:id="@+id/tv_expenses"
+                            style="@style/AppText.BodyMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3dp"
+                            android:ellipsize="end"
+                            android:fontFamily="@font/roboto_bold"
+                            android:maxLines="1"
+                            android:text="$0"
+                            android:textColor="@color/semantic_expense" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="end"
+                        android:orientation="vertical">
+
+                        <TextView
+                            style="@style/AppText.Micro"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/daily_limit" />
+
+                        <TextView
+                            android:id="@+id/tv_daily_limit"
+                            style="@style/AppText.BodyMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3dp"
+                            android:ellipsize="end"
+                            android:fontFamily="@font/roboto_bold"
+                            android:maxLines="1"
+                            android:text="$0/day"
+                            android:textColor="@color/brand_primary" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_allocation_hint"
+                    style="@style/AppText.Caption"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/ds_space_md"
+                    android:background="@drawable/bg_badge_amber"
+                    android:fontFamily="@font/roboto_medium"
+                    android:paddingHorizontal="12dp"
+                    android:paddingVertical="7dp"
+                    android:textColor="@color/semantic_warning"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/btn_set_monthly_budget"
+                    style="@style/AppButton.Primary"
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:layout_marginTop="14dp"
+                    android:text="@string/set_monthly_budget"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <!-- Native Ad Container -->
+            <FrameLayout
+                android:id="@+id/fr_ads"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/ds_space_md"
+                android:background="@drawable/bg_ads_native">
+
+                <RelativeLayout
+                    android:id="@+id/shimmer_native_language"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <include layout="@layout/ads_shimmer_native_home" />
+                </RelativeLayout>
+            </FrameLayout>
+
+            <!-- Category Budgets Header -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/ds_space_lg"
+                android:layout_marginBottom="10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/AppText.SectionTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/category_budgets" />
+
+                <LinearLayout
+                    android:id="@+id/btn_add_budget"
+                    android:layout_width="wrap_content"
+                    android:layout_height="34dp"
+                    android:background="@drawable/bg_chip_soft"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingHorizontal="12dp">
+
+                    <ImageView
+                        android:layout_width="14dp"
+                        android:layout_height="14dp"
+                        android:layout_marginEnd="4dp"
+                        android:src="@drawable/ic_plus_clean"
+                        app:tint="@color/brand_primary" />
+
+                    <TextView
+                        style="@style/AppText.Caption"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_bold"
+                        android:text="@string/add_budget"
+                        android:textColor="@color/brand_primary" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_budgets"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:nestedScrollingEnabled="false" />
+
+            <!-- Empty Budgets State -->
+            <LinearLayout
+                android:id="@+id/layout_empty_budgets"
+                style="@style/AppContainer.Card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="@dimen/ds_space_2xl"
+                android:visibility="gone">
+
+                <ImageView
+                    android:layout_width="52dp"
+                    android:layout_height="52dp"
+                    android:alpha="0.85"
+                    android:src="@drawable/ic_no_data" />
+
+                <TextView
+                    style="@style/AppText.CardTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:gravity="center"
+                    android:text="@string/no_budgets_title" />
+
+                <TextView
+                    style="@style/AppText.Secondary"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:gravity="center"
+                    android:text="@string/no_budgets_desc" />
+
+                <TextView
+                    android:id="@+id/btn_empty_add_budget"
+                    style="@style/AppButton.Primary"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/ds_button_height_sm"
+                    android:layout_marginTop="14dp"
+                    android:paddingHorizontal="20dp"
+                    android:text="@string/add_budget"
+                    android:textSize="13sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

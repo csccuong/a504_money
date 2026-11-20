@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/AppContainer.BottomSheet"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <View style="@style/AppSheetHandle" />
+
+    <ImageView
+        android:id="@+id/later"
+        style="@style/AppButton.IconAction"
+        android:layout_gravity="end"
+        android:layout_marginTop="4dp"
+        android:src="@drawable/ic_cancel"
+        app:tint="@color/text_muted" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="128dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="4dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/img_noty" />
+
+    <TextView
+        style="@style/AppText.ScreenTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:maxLines="2"
+        android:text="@string/allow_app_notify_you" />
+
+    <TextView
+        style="@style/AppText.Secondary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:gravity="center"
+        android:maxLines="2"
+        android:text="@string/turn_on_notifications_desc" />
+
+    <TextView
+        android:id="@+id/set"
+        style="@style/AppButton.Primary"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ds_button_height"
+        android:layout_marginTop="20dp"
+        android:text="@string/allow" />
+
+    <TextView
+        android:id="@+id/notNow"
+        style="@style/AppButton.Secondary"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ds_button_height"
+        android:layout_marginTop="10dp"
+        android:text="@string/dont_allow" />
+</LinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Reusable Translucent Header Period Stepper (< Nov 2026 >) -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_period_stepper"
+    android:layout_width="wrap_content"
+    android:layout_height="34dp"
+    android:background="@drawable/bg_chip_header"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingHorizontal="4dp">
+
+    <ImageView
+        android:id="@+id/btn_prev_period"
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:padding="4dp"
+        android:src="@drawable/ic_chevron_left_clean" />
+
+    <TextView
+        android:id="@+id/tv_period_label"
+        style="@style/AppText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:fontFamily="@font/roboto_bold"
+        android:maxLines="1"
+        android:paddingHorizontal="8dp"
+        android:text="Nov 2026"
+        android:textColor="@color/white"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:id="@+id/btn_next_period"
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:padding="4dp"
+        android:src="@drawable/ic_chevron_right_clean" />
+</LinearLayout>

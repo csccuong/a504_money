@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+
+    <!-- Pastel Executive Sapphire Circle Badge -->
+    <path android:pathData="M24,1 A23,23 0 1,0 24,47 A23,23 0 1,0 24,1 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:endColor="#BFDBFE"
+                android:endX="42"
+                android:endY="42"
+                android:startColor="#EFF6FF"
+                android:startX="6"
+                android:startY="6"
+                android:type="linear" />
+        </aapt:attr>
+    </path>
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M24,1.6 A22.4,22.4 0 1,0 24,46.4 A22.4,22.4 0 1,0 24,1.6 Z"
+        android:strokeWidth="1"
+        android:strokeColor="#222563EB" />
+
+    <!-- Briefcase Handle -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M19.5,18.4 V15.5 C19.5,14.3 20.5,13.3 21.7,13.3 H26.3 C27.5,13.3 28.5,14.3 28.5,15.5 V18.4"
+        android:strokeWidth="2.4"
+        android:strokeColor="#1D4ED8"
+        android:strokeLineCap="round" />
+
+    <!-- Briefcase Lower Body -->
+    <path
+        android:fillColor="#2563EB"
+        android:pathData="M15.4,18.2 H32.6 C34.3,18.2 35.6,19.5 35.6,21.2 V31.6 C35.6,33.3 34.3,34.6 32.6,34.6 H15.4 C13.7,34.6 12.4,33.3 12.4,31.6 V21.2 C12.4,19.5 13.7,18.2 15.4,18.2 Z" />
+
+    <!-- Briefcase Top Curved Flap (Soft Sapphire Duotone) -->
+    <path
+        android:fillColor="#60A5FA"
+        android:pathData="M15.4,18.2 H32.6 C34.3,18.2 35.6,19.5 35.6,21.2 V23.8 C32.1,25.7 28.1,26.6 24,26.6 C19.9,26.6 15.9,25.7 12.4,23.8 V21.2 C12.4,19.5 13.7,18.2 15.4,18.2 Z" />
+
+    <!-- Center White Clasp -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M22.8,24.4 H25.2 C25.9,24.4 26.4,24.9 26.4,25.6 V27.4 C26.4,28.1 25.9,28.6 25.2,28.6 H22.8 C22.1,28.6 21.6,28.1 21.6,27.4 V25.6 C21.6,24.9 22.1,24.4 22.8,24.4 Z" />
+</vector>

@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="months">
+        <item>जानेवारी</item>
+        <item>फेब्रुवारी</item>
+        <item>मार्च</item>
+        <item>एप्रिल</item>
+        <item>मे</item>
+        <item>जून</item>
+        <item>जुलै</item>
+        <item>ऑगस्ट</item>
+        <item>सप्टेंबर</item>
+        <item>ऑक्टोबर</item>
+        <item>नोव्हेंबर</item>
+        <item>डिसेंबर</item>
+    </string-array>
+
+    <string-array name="months_short">
+        <item>जाने</item>
+        <item>फेब्रु</item>
+        <item>मार्च</item>
+        <item>एप्रि</item>
+        <item>मे</item>
+        <item>जून</item>
+        <item>जुलै</item>
+        <item>ऑग</item>
+        <item>सप्टें</item>
+        <item>ऑक्टो</item>
+        <item>नोव्हें</item>
+        <item>डिसें</item>
+    </string-array>
+
+    <!-- Onboarding & Guide -->
+    <string name="note_continue1">तुमचा पैसा सहजपणे व्यवस्थापित करा</string>
+    <string name="note_continue2">तुमचा खर्च सुव्यवस्थित करा</string>
+    <string name="note_continue3">तुमची आर्थिक प्रगती ट्रॅक करा</string>
+    <string name="note_continue4">ध्येये ठरवा आणि अधिक बचत करा</string>
+    <string name="intro_slide_1_des">उत्पन्न, खर्च आणि शिल्लक सर्व एकाच ठिकाणी ट्रॅक करा.</string>
+    <string name="intro_slide_2_des">तुमचा पैसा कुठे जातो हे पाहण्यासाठी व्यवहारांचे वर्गीकरण करा</string>
+    <string name="intro_slide_3_des">कालांतराने तुमचे उत्पन्न, खर्च आणि बचत व्हिज्युअलाइझ करा</string>
+    <string name="intro_slide_4_des">तुमचे बजेट आखा, बचतीची ध्येये ठरवा आणि चांगल्या सवयी लावून घ्या</string>
+    <string name="note_guide1">तुमचा खर्च व्यवस्थापित करण्यासाठी ‘बजेट’ वर टॅप करा</string>
+    <string name="note_guide2">एका नजरेत तुमची शिल्लक रक्कम पहा</string>
+    <string name="note_guide3">विविध बजेटमध्ये सहजपणे स्विच करा</string>
+    <string name="note_guide4">खर्चाचे विश्लेषण करा आणि योग्य मार्गावर राहा</string>
+    <string name="guide">मार्गदर्शक</string>
+    <string name="next">पुढे</string>
+    <string name="this_action_can_contain_ads">या क्रियेमध्ये जाहिराती असू शकतात…</string>
+
+    <!-- Navigation & Main Screen -->
+    <string name="home">होम</string>
+    <string name="statistic">आकडेवारी</string>
+    <string name="budget">बजेट</string>
+    <string name="settings">सेटिंग्ज</string>
+    <string name="total_balance">एकूण शिल्लक</string>
+    <string name="total_expenditure">एकूण खर्च</string>
+    <string name="total_income">एकूण उत्पन्न</string>
+    <string name="add_your_first_transaction">तुमचा पहिला व्यवहार जोडा.</string>
+    <string name="no_transactions_yet">अद्याप कोणतेही व्यवहार नाहीत</string>
+    <string name="no_transactions_desc">तुम्ही व्यवहार जोडण्यास सुरुवात केल्यावर ते येथे दिसतील.</string>
+    <string name="vs_last_month">मागील महिन्याच्या तुलनेत</string>
+    <string name="please_add_transaction_first">कृपया आधी व्यवहार जोडा</string>
+    <string name="tap_here_to_exit">बाहेर पडण्यासाठी येथे टॅप करा</string>
+    <string name="recent_transactions">अलीकडील व्यवहार</string>
+    <string name="overview">आढावा</string>
+    <string name="this_month">हा महिना</string>
+    <string name="last_month">मागील महिना</string>
+    <string name="all_transactions">सर्व व्यवहार</string>
+    <string name="view_all">सर्व पहा</string>
+    <string name="view_all_count">सर्व पहा (%1$d)</string>
+    <string name="view_all_transactions_count">सर्व %1$d व्यवहार पहा</string>
+    <string name="today">आज</string>
+    <string name="yesterday">काल</string>
+    <string name="all_time">सर्व कालावधी</string>
+    <string name="search_transactions_hint">टीप, श्रेणी, रक्कम शोधा…</string>
+    <string name="no_matching_transactions">जुळणारे कोणतेही व्यवहार नाहीत</string>
+    <string name="collapse_all">सर्व संकुचित करा</string>
+    <string name="expand_all">सर्व विस्तृत करा</string>
+    <string name="tap_to_set_budget">मासिक खर्च मर्यादा सेट करण्यासाठी टॅप करा</string>
+
+    <!-- Notification Prompt & Banner -->
+    <string name="notice">सूचना</string>
+    <string name="allow_alerts_currency_updates">थेट चलन दर अपडेट्स मिळवण्यासाठी\nसूचनांना परवानगी द्या!</string>
+    <string name="turn_on">चालू करा</string>
+    <string name="allow_app_notify_you">Money Manager: Smart Saver ला तुम्हाला सूचना पाठवण्याची परवानगी द्यायची का?</string>
+    <string name="turn_on_notifications_desc">अपडेट राहण्यासाठी सूचना चालू करा.</string>
+    <string name="allow">परवानगी द्या</string>
+    <string name="dont_allow">परवानगी देऊ नका</string>
+
+    <!-- Transactions & Statistics -->
+    <string name="add">जोडा</string>
+    <string name="expense">खर्च</string>
+    <string name="income">उत्पन्न</string>
+    <string name="loan">कर्ज</string>
+    <string name="borrow">उधार</string>
+    <string name="amount">रक्कम</string>
+    <string name="category">श्रेणी</string>
+    <string name="note">टीप</string>
+    <string name="add_a_description">वर्णन जोडा</string>
+    <string name="lender">कर्जदाता</string>
+    <string name="select_date">तारीख निवडा</string>
+    <string name="date_time">तारीख आणि वेळ</string>
+    <string name="select_time">वेळ निवडा</string>
+    <string name="select_month">महिना निवडा</string>
+    <string name="transactions">व्यवहार</string>
+    <string name="date">तारीख</string>
+    <string name="month">महिना</string>
+    <string name="balance">शिल्लक</string>
+    <string name="total">एकूण</string>
+    <string name="edit">संपादित करा</string>
+    <string name="save">जतन करा</string>
+    <string name="cancel">रद्द करा</string>
+    <string name="delete">हटवा</string>
+    <string name="delete_transaction">व्यवहार हटवा</string>
+    <string name="delete_transaction_confirm">तुम्हाला खात्री आहे की तुम्ही हा व्यवहार हटवू इच्छिता?</string>
+    <string name="none_option">काहीही नाही</string>
+
+    <!-- Budget -->
+    <string name="budget_detail">बजेट तपशील</string>
+    <string name="add_budget">बजेट जोडा</string>
+    <string name="budget_name">बजेटचे नाव</string>
+    <string name="net_worth">एकूण संपत्ती</string>
+    <string name="remaining">शिल्लक</string>
+    <string name="budget_colon_value">बजेट: %1$s</string>
+    <string name="expenses_colon_value">खर्च: %1$s</string>
+    <string name="remain_colon_value">शिल्लक: %1$s</string>
+    <string name="monthly_budget">मासिक बजेट</string>
+    <string name="set_monthly_budget">मासिक बजेट सेट करा</string>
+    <string name="edit_budget">बजेट संपादित करा</string>
+    <string name="delete_budget">बजेट हटवा</string>
+    <string name="delete_budget_confirm">तुम्हाला खात्री आहे की तुम्ही हे बजेट हटवू इच्छिता?</string>
+    <string name="budget_saved">बजेट जतन केले</string>
+    <string name="budget_deleted">बजेट हटवले</string>
+    <string name="budget_already_exists">या श्रेणीसाठी बजेट आधीच अस्तित्वात आहे</string>
+    <string name="set_category_limit_desc">एक श्रेणी निवडा आणि मासिक खर्चाची मर्यादा सेट करा</string>
+    <string name="all_categories_have_budgets">सर्व श्रेणींसाठी आधीच बजेट आहे</string>
+    <string name="now">आता</string>
+    <string name="category_budgets">श्रेणी बजेट</string>
+    <string name="custom_budget">कस्टम</string>
+    <string name="auto_tracked">ऑटो-ट्रॅक</string>
+    <string name="spent">खर्च</string>
+    <string name="left">शिल्लक</string>
+    <string name="over_budget">बजेटपेक्षा जास्त</string>
+    <string name="over_by_value">%1$s जास्त</string>
+    <string name="spent_of_value">%1$s / %2$s</string>
+    <string name="daily_limit">दैनिक मर्यादा</string>
+    <string name="per_day_value">%1$s/दिवस</string>
+    <string name="daily_avg">दैनिक सरासरी</string>
+    <string name="no_budgets_title">अद्याप कोणतेही श्रेणी बजेट नाही</string>
+    <string name="no_budgets_desc">खर्च आपोआप ट्रॅक करण्यासाठी श्रेणीनुसार मासिक मर्यादा सेट करा.</string>
+    <string name="budget_allocated_exceeds_hint">वाटप केलेली रक्कम (%1$s) मासिक मर्यादेपेक्षा (%2$s) जास्त आहे</string>
+    <string name="no_budget_transactions">या महिन्यात या बजेटमध्ये कोणताही खर्च नाही</string>
+    <string name="add_expense">खर्च जोडा</string>
+    <string name="auto_linked_budget_hint">%1$s बजेटमध्ये ऑटो-ट्रॅक केले</string>
+    <string name="skip">वगळा</string>
+    <string name="year">वर्ष</string>
+    <string name="yearly_report">वार्षिक अहवाल</string>
+    <string name="net_savings">निव्वळ</string>
+    <string name="net_loan">निव्वळ कर्ज</string>
+    <string name="lent">उधार दिले</string>
+    <string name="borrowed">उधार घेतले</string>
+    <string name="vs_prev_month_up">↑ %1$d%% मागील महिन्यापेक्षा</string>
+    <string name="vs_prev_month_down">↓ %1$d%% मागील महिन्यापेक्षा</string>
+    <string name="vs_prev_month_same">मागील महिन्यासारखेच</string>
+    <string name="chart_breakdown">विभाजन</string>
+    <string name="chart_trend">कल</string>
+    <string name="income_allocation">उत्पन्न वाटप</string>
+    <string name="saved">बचत</string>
+    <string name="overspent">जास्त खर्च</string>
+    <string name="of_income_value">उत्पन्नाच्या %1$s</string>
+    <string name="add_income_to_see_savings">तुमचा बचत दर पाहण्यासाठी उत्पन्न जोडा</string>
+    <string name="transactions_count">%1$d व्यवहार</string>
+    <string name="category_transactions">श्रेणी व्यवहार</string>
+    <string name="no_note">टीप नाही</string>
+    <string name="cashflow">रोख प्रवाह</string>
+    <string name="edit_transaction">व्यवहार संपादित करा</string>
+    <string name="add_transaction">व्यवहार जोडा</string>
+    <string name="person_name_hint">व्यक्ती किंवा कर्जदात्याचे नाव</string>
+    <string name="used_percent">%1$d%% वापरले</string>
+    <string name="week">आठवडा</string>
+    <string name="custom_range">कस्टम</string>
+    <string name="current_period">सध्याचे</string>
+    <string name="monthly_table">12 महिने तक्ता</string>
+    <string name="filters">फिल्टर्स</string>
+    <string name="reset">रीसेट</string>
+    <string name="apply">लागू करा</string>
+    <string name="all">सर्व</string>
+    <string name="quick_period">जलद कालावधी</string>
+    <string name="last_7_days">मागील 7 दिवस</string>
+    <string name="last_30_days">मागील 30 दिवस</string>
+    <string name="sort_by">क्रमवारी लावा</string>
+    <string name="sort_highest_amount">सर्वाधिक रक्कम</string>
+    <string name="sort_most_transactions">सर्वाधिक व्यवहार</string>
+    <string name="select_date_range">तारीख कालावधी निवडा</string>
+    <string name="vs_prev_period_up">↑ %1$d%% मागील कालावधीपेक्षा</string>
+    <string name="vs_prev_period_down">↓ %1$d%% मागील कालावधीपेक्षा</string>
+    <string name="vs_prev_period_same">मागील कालावधीसारखेच</string>
+
+    <!-- Settings & Language & Currency -->
+    <string name="general">सामान्य</string>
+    <string name="about_us">आमच्याबद्दल</string>
+    <string name="currency">चलन</string>
+    <string name="currency_unit">चलन एकक</string>
+    <string name="search">शोधा</string>
+    <string name="language">भाषा</string>
+    <string name="languages">भाषा</string>
+    <string name="please_select_language_to_continue">सुरू ठेवण्यासाठी कृपया भाषा निवडा</string>
+    <string name="share">शेअर करा</string>
+    <string name="privacy_policy">गोपनीयता धोरण</string>
+    <string name="rating">रेटिंग</string>
+
+    <!-- Interest Screen -->
+    <string name="interest">आवड</string>
+    <string name="please_select_at_least_2_options_to_continue">*सुरू ठेवण्यासाठी कृपया किमान 2 पर्याय निवडा.</string>
+    <string name="interest_bills_utilities">💡 बिले आणि सुविधा</string>
+    <string name="interest_food_dining">🍽️ अन्न आणि जेवण</string>
+    <string name="interest_shopping">🛍️ खरेदी</string>
+    <string name="interest_transportation">🚗 वाहतूक</string>
+    <string name="interest_healthcare">🏥 आरोग्यसेवा</string>
+
+    <!-- Uninstall Retention Screen -->
+    <string name="uninstall">अनइंस्टॉल करा</string>
+    <string name="uninstall_question">वापरताना तुम्हाला कोणती समस्या आली?</string>
+    <string name="not_much_more_useful_nthan_the_defaults">डीफॉल्ट ॲप्सपेक्षा फारसे उपयुक्त नाही</string>
+    <string name="unresponsive_or_laggy">प्रतिसाद न देणारे किंवा\nसंथ</string>
+    <string name="explore">एक्सप्लोर करा</string>
+    <string name="try_again">पुन्हा प्रयत्न करा</string>
+    <string name="dont_uninstall_yet">आत्ता अनइंस्टॉल करू नका</string>
+    <string name="still_want_to_uninstall">तरीही अनइंस्टॉल करायचे आहे</string>
+
+    <!-- Validation & Feedback Messages -->
+    <string name="msg_enter_amount">कृपया रक्कम प्रविष्ट करा</string>
+    <string name="msg_select_category">कृपया एक श्रेणी निवडा</string>
+    <string name="msg_transaction_saved">व्यवहार यशस्वीरित्या जतन केला</string>
+    <string name="msg_enter_all_fields">कृपया सर्व रकाने भरा</string>
+    <string name="msg_invalid_amount">अवैध रक्कम</string>
+    <string name="msg_enter_budget_amount">कृपया बजेटची रक्कम प्रविष्ट करा</string>
+    <string name="msg_budget_exceeds_limit">सर्व बजेटची एकूण बेरीज %1$s पेक्षा कमी असावी</string>
+    <string name="msg_choose_language">सुरू ठेवण्यासाठी कृपया एक भाषा निवडा</string>
+    <string name="msg_transaction_not_found">व्यवहार आढळला नाही</string>
+    <string name="msg_transaction_details_not_found">व्यवहाराचा तपशील आढळला नाही</string>
+    <string name="msg_unable_delete_transaction">व्यवहार हटवता आला नाही</string>
+    <string name="msg_transaction_deleted">व्यवहार यशस्वीरित्या हटवला</string>
+
+    <!-- Category Display Names (JSON storage keys remain English) -->
+    <string name="category_food">अन्न</string>
+    <string name="category_social">सामाजिक</string>
+    <string name="category_traffic">वाहतूक</string>
+    <string name="category_shopping">खरेदी</string>
+    <string name="category_grocery">किराणा</string>
+    <string name="category_education">शिक्षण</string>
+    <string name="category_bills">बिले</string>
+    <string name="category_rentals">भाडे</string>
+    <string name="category_medical">वैद्यकीय</string>
+    <string name="category_investment">गुंतवणूक</string>
+    <string name="category_gift">भेटवस्तू</string>
+    <string name="category_other">इतर</string>
+    <string name="category_salary">पगार</string>
+    <string name="category_invest">गुंतवणूक</string>
+    <string name="category_business">व्यवसाय</string>
+    <string name="category_interest">व्याज</string>
+    <string name="category_extra_income">अतिरिक्त उत्पन्न</string>
+    <string name="category_loan">कर्ज</string>
+    <string name="category_borrow">उधार</string>
+
+    <!-- Notifications -->
+    <string name="open">उघडा</string>
+    <string name="open_now">आत्ता उघडा!</string>
+    <string name="continued">सुरू ठेवा</string>
+    <string name="title_screen_shoot_done">पावतीचा स्क्रीनशॉट सेव्ह झाला?</string>
+    <string name="body_screen_shoot_done">विसरण्यापूर्वी हे पेमेंट Money Manager मध्ये नोंदवा.</string>
+    <string name="title_dowload_done">स्टेटमेंट किंवा इनव्हॉइस सेव्ह झाले?</string>
+    <string name="body_dowload_done">तुमचे बजेट अद्ययावत ठेवण्यासाठी याची नोंद करा: </string>
+    <string name="title_out_done">दिवसाचा शेवट योग्य प्रकारे करायचा का?</string>
+    <string name="body_out_done">आजचा खर्च, उत्पन्न आणि तुमच्या बजेटच्या प्रगतीचा आढावा घ्या.</string>
+    <string name="noti_app_installed_title">नवीन ॲप खर्च ट्रॅक करा</string>
+    <string name="noti_app_installed_body">%1$s मध्ये सबस्क्रिप्शन घेतले किंवा खरेदी केली? Money Manager मध्ये नोंदवा.</string>
+    <string name="noti_app_removed_title">सक्रिय सबस्क्रिप्शन तपासा</string>
+    <string name="noti_app_removed_body">ॲप काढून टाकले का? अतिरिक्त शुल्क टाळण्यासाठी तुमच्या बिलांच्या बजेटचा आढावा घ्या.</string>
+    <string name="noti_app_removed_btn">बजेट तपासा</string>
+    <string name="noti_app_updated_title">तुमचे आर्थिक व्यवहार अद्ययावत ठेवा</string>
+    <string name="noti_app_updated_body">आजचा खर्च, उत्पन्न आणि बचतीच्या प्रगतीचा आढावा घ्या.</string>
+    <string name="noti_app_updated_btn">ॲप उघडा</string>
+
+    <string-array name="special_titles_v2">
+        <item>🌙 आजच्या खर्चाचा आढावा</item>
+        <item>✨ तुमची बचत वाढत आहे</item>
+        <item>📈 संध्याकाळचा रोख प्रवाह आढावा</item>
+        <item>🔔 कोणती बिले लवकरच भरायची आहेत का?</item>
+        <item>🤝 कर्ज आणि उधारीची नोंद ठेवा</item>
+        <item>🎯 उद्यासाठी तयार आहात का?</item>
+    </string-array>
+
+    <string-array name="special_messages_v2">
+        <item>आजचे खर्च नोंदवण्यासाठी १० सेकंद द्या आणि तुमचे बजेट नियंत्रणात ठेवा.</item>
+        <item>या महिन्यात तुम्ही किती बचत केली आहे ते तपासा आणि तुमची शिल्लक वाढताना पहा.</item>
+        <item>अतिरिक्त बचत शोधण्यासाठी या महिन्याच्या उत्पन्न आणि खर्चाच्या आलेखाची तुलना करा.</item>
+        <item>येणारे भाडे, बिले आणि नियमित खर्चाचा आढावा घ्या जेणेकरून अचानक धक्का बसणार नाही.</item>
+        <item>अलीकडे पैसे उधार दिले किंवा घेतले आहेत का? परतफेड चुकू नये म्हणून स्पष्टपणे नोंदवा.</item>
+        <item>आज रात्री तुमचे उर्वरित मासिक बजेट पहा आणि आत्मविश्वासाने उद्याची सुरुवात करा.</item>
+    </string-array>
+
+    <string-array name="special_titles_news">
+        <item>☕ सकाळची आर्थिक तपासणी</item>
+        <item>🧾 आजचे खर्च नोंदवा</item>
+        <item>📊 तुम्ही किती बचत केली?</item>
+        <item>🛡️ तुमच्या बजेटमध्ये रहा</item>
+        <item>🛍️ खरेदीचा विचार करत आहात?</item>
+        <item>💰 तुमच्या उत्पन्नाचा प्रवाह ट्रॅक करा</item>
+    </string-array>
+
+    <string-array name="special_messages_news">
+        <item>दिवसाची स्मार्ट सुरुवात करा — तुमच्या पहिल्या कॉफीपूर्वी दैनंदिन खर्चाची मर्यादा तपासा.</item>
+        <item>दुपारचे जेवण घेतले किंवा बिल भरले का? अचूक नोंदीसाठी ५ सेकंदांत नोंदवा.</item>
+        <item>या महिन्यात तुमच्या उत्पन्नापैकी किती % अन्न, बिले आणि बचतीवर खर्च होतो ते पहा.</item>
+        <item>पुढील खरेदी करण्यापूर्वी तुमच्या श्रेणीचे उर्वरित बजेट तपासा.</item>
+        <item>चेकआउट करण्यापूर्वी तुमच्या मासिक शिल्लकेवर एक नजर टाका.</item>
+        <item>पगार मिळाला किंवा अतिरिक्त उत्पन्न मिळाले का? तुमचा बचत दर अपडेट करण्यासाठी आत्ता जोडा.</item>
+    </string-array>
+</resources>

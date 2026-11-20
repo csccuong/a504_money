@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/surface_canvas">
+
+    <!-- Compact 2-Row Navy Header (Title + 12M Table, Single Unified Period Control) -->
+    <LinearLayout
+        android:id="@+id/view_header_bg"
+        style="@style/AppContainer.HeaderNavy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!-- Row 1: Title + 12-Month Yearly Report CTA -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_total_balance_label"
+                style="@style/AppText.ScreenTitleLight"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/statistic" />
+
+            <LinearLayout
+                android:id="@+id/next_statistic"
+                android:layout_width="wrap_content"
+                android:layout_height="34dp"
+                android:background="@drawable/bg_chip_header"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingHorizontal="12dp">
+
+                <ImageView
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:layout_marginEnd="6dp"
+                    android:src="@drawable/ic_yearly_report" />
+
+                <TextView
+                    style="@style/AppText.Caption"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_medium"
+                    android:text="@string/monthly_table"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Row 2: Single Unified Time Filter ([Month ∨] Pill + < Nov 2026 > Stepper) -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/btn_period_mode"
+                android:layout_width="wrap_content"
+                android:layout_height="34dp"
+                android:background="@drawable/bg_chip_header"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingStart="12dp"
+                android:paddingEnd="8dp">
+
+                <TextView
+                    android:id="@+id/tv_period_mode"
+                    style="@style/AppText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/roboto_bold"
+                    android:maxLines="1"
+                    android:text="@string/month"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_marginStart="4dp"
+                    android:alpha="0.9"
+                    android:src="@drawable/ic_figma_arrow_down"
+                    app:tint="@color/white" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <include
+                android:id="@+id/period_stepper"
+                layout="@layout/view_period_stepper" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:clipToPadding="false"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/view_header_bg">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="@dimen/ds_space_lg"
+            android:paddingTop="14dp"
+            android:paddingBottom="48dp">
+
+            <!-- Single Clean 3-Tab Switch on the Entire Screen (Overview | Income | Loan) -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/bg_segmented_track"
+                android:orientation="horizontal"
+                android:padding="3dp">
+
+                <TextView
+                    android:id="@+id/tab_overview"
+                    style="@style/AppText.Caption"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_segmented_selected"
+                    android:clickable="true"
+                    android:ellipsize="end"
+                    android:focusable="true"
+                    android:fontFamily="@font/roboto_bold"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:text="@string/overview"
+                    android:textColor="@color/brand_primary" />
+
+                <TextView
+                    android:id="@+id/tab_income"
+                    style="@style/AppText.Caption"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:ellipsize="end"
+                    android:focusable="true"
+                    android:fontFamily="@font/roboto_medium"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:text="@string/income"
+                    android:textColor="@color/text_secondary" />
+
+                <TextView
+                    android:id="@+id/tab_loan"
+                    style="@style/AppText.Caption"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:ellipsize="end"
+                    android:focusable="true"
+                    android:fontFamily="@font/roboto_medium"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:text="@string/loan"
+                    android:textColor="@color/text_secondary" />
+            </LinearLayout>
+
+            <!-- Unified Hero Analytics Card (Income Allocation Ring + Integrated 3-Metric Strip) -->
+            <LinearLayout
+                android:id="@+id/card_hero_chart"
+                style="@style/AppContainer.Card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:orientation="vertical">
+
+                <!-- Clean 1-Row Card Header: Title + Optional Previous-Period Badge -->
+                <LinearLayout
+                    android:id="@+id/ll_chart_header"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_chart_title"
+                        style="@style/AppText.CardTitle"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:layout_weight="1"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:text="@string/income_allocation" />
+
+                    <TextView
+                        android:id="@+id/tv_comparison_badge"
+                        style="@style/AppText.Micro"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_badge_blue"
+                        android:fontFamily="@font/roboto_bold"
+                        android:paddingHorizontal="9dp"
+                        android:paddingVertical="3dp"
+                        android:textColor="@color/semantic_info"
+                        android:visibility="gone" />
+                </LinearLayout>
+
+                <!-- Main Allocation / Breakdown Donut Ring -->
+                <com.github.mikephil.charting.charts.PieChart
+                    android:id="@+id/pie_chart"
+                    android:layout_width="match_parent"
+                    android:layout_height="236dp"
+                    android:layout_marginTop="10dp" />
+
+                <!-- Subtle Prompt When Expense Exists Without Income -->
+                <LinearLayout
+                    android:id="@+id/btn_add_income_hint"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/bg_chip_soft"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingHorizontal="12dp"
+                    android:paddingVertical="8dp"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:layout_width="14dp"
+                        android:layout_height="14dp"
+                        android:layout_marginEnd="6dp"
+                        android:src="@drawable/ic_plus_clean"
+                        app:tint="@color/brand_primary" />
+
+                    <TextView
+                        style="@style/AppText.Micro"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_bold"
+                        android:text="@string/add_income_to_see_savings"
+                        android:textColor="@color/brand_primary" />
+                </LinearLayout>
+
+                <!-- Clean Empty State -->
+                <LinearLayout
+                    android:id="@+id/layout_no_data"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:paddingVertical="30dp"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:layout_width="52dp"
+                        android:layout_height="52dp"
+                        android:alpha="0.85"
+                        android:src="@drawable/ic_no_data" />
+
+                    <TextView
+                        style="@style/AppText.Secondary"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:fontFamily="@font/roboto_medium"
+                        android:gravity="center"
+                        android:text="@string/please_add_transaction_first" />
+                </LinearLayout>
+
+                <!-- Integrated 3-Column Metrics Strip (Income | Spent | Saved) -->
+                <View
+                    style="@style/AppDivider"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginBottom="12dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tv_metric1_label"
+                            style="@style/AppText.Micro"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/income" />
+
+                        <TextView
+                            android:id="@+id/tv_metric1_value"
+                            style="@style/AppText.BodyMedium"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3dp"
+                            android:ellipsize="end"
+                            android:fontFamily="@font/roboto_bold"
+                            android:gravity="center"
+                            android:maxLines="1"
+                            android:text="$0"
+                            android:textColor="@color/semantic_income"
+                            app:autoSizeMaxTextSize="14sp"
+                            app:autoSizeMinTextSize="10sp"
+                            app:autoSizeTextType="uniform" />
+
+                        <TextView
+                            android:id="@+id/tv_metric1_sub"
+                            style="@style/AppText.Micro"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dp"
+                            android:textColor="@color/text_muted"
+                            android:visibility="gone" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="34dp"
+                        android:layout_gravity="center_vertical"
+                        android:background="@color/divider_light" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tv_metric2_label"
+                            style="@style/AppText.Micro"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/spent" />
+
+                        <TextView
+                            android:id="@+id/tv_metric2_value"
+                            style="@style/AppText.BodyMedium"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3dp"
+                            android:ellipsize="end"
+                            android:fontFamily="@font/roboto_bold"
+                            android:gravity="center"
+                            android:maxLines="1"
+                            android:text="$0"
+                            android:textColor="@color/semantic_expense"
+                            app:autoSizeMaxTextSize="14sp"
+                            app:autoSizeMinTextSize="10sp"
+                            app:autoSizeTextType="uniform" />
+
+                        <TextView
+                            android:id="@+id/tv_metric2_sub"
+                            style="@style/AppText.Micro"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dp"
+                            android:textColor="@color/text_muted"
+                            android:visibility="gone" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="34dp"
+                        android:layout_gravity="center_vertical"
+                        android:background="@color/divider_light" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tv_metric3_label"
+                            style="@style/AppText.Micro"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/saved" />
+
+                        <TextView
+                            android:id="@+id/tv_total_balance"
+                            style="@style/AppText.BodyMedium"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3dp"
+                            android:ellipsize="end"
+                            android:fontFamily="@font/roboto_bold"
+                            android:gravity="center"
+                            android:maxLines="1"
+                            android:text="$0"
+                            app:autoSizeMaxTextSize="14sp"
+                            app:autoSizeMinTextSize="10sp"
+                            app:autoSizeTextType="uniform" />
+
+                        <TextView
+                            android:id="@+id/tv_metric3_sub"
+                            style="@style/AppText.Micro"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dp"
+                            android:fontFamily="@font/roboto_bold"
+                            android:textColor="@color/semantic_income"
+                            android:visibility="gone" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- Native Ad Container -->
+            <FrameLayout
+                android:id="@+id/fr_ads"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/bg_ads_native">
+
+                <RelativeLayout
+                    android:id="@+id/shimmer_native_language"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <include layout="@layout/ads_shimmer_native_home" />
+                </RelativeLayout>
+            </FrameLayout>
+
+            <!-- Detailed Category & Savings Allocation Breakdown Card -->
+            <LinearLayout
+                android:id="@+id/card_breakdown"
+                style="@style/AppContainer.Card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_breakdown_heading"
+                        style="@style/AppText.SectionTitle"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/chart_breakdown" />
+
+                    <TextView
+                        android:id="@+id/tv_breakdown_basis"
+                        style="@style/AppText.Micro"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_chip_soft"
+                        android:fontFamily="@font/roboto_bold"
+                        android:paddingHorizontal="9dp"
+                        android:paddingVertical="3dp"
+                        android:textColor="@color/brand_primary"
+                        android:visibility="gone" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_category_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

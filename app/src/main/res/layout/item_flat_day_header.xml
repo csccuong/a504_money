@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/header_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground"
+        android:paddingHorizontal="14dp"
+        android:paddingVertical="11dp">
+
+        <TextView
+            android:id="@+id/tv_date_number"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:background="@drawable/bg_chip_soft"
+            android:fontFamily="@font/roboto_bold"
+            android:gravity="center"
+            android:text="20"
+            android:textColor="@color/brand_primary"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:id="@+id/ll_date_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="8dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/tv_day_count_badge"
+            app:layout_constraintStart_toEndOf="@id/tv_date_number"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_goneMarginStart="0dp">
+
+            <TextView
+                android:id="@+id/tv_day_primary"
+                style="@style/AppText.BodyMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:fontFamily="@font/roboto_bold"
+                android:maxLines="1"
+                android:text="Today"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/tv_day_secondary"
+                style="@style/AppText.Micro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:ellipsize="end"
+                android:fontFamily="@font/roboto_regular"
+                android:maxLines="1"
+                android:text="Nov 2026"
+                android:textColor="@color/text_muted" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_day_count_badge"
+            style="@style/AppText.Micro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/bg_chip_soft"
+            android:fontFamily="@font/roboto_bold"
+            android:minWidth="22dp"
+            android:gravity="center"
+            android:paddingHorizontal="7dp"
+            android:paddingVertical="2dp"
+            android:text="3"
+            android:textColor="@color/brand_primary"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/tv_day_net"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_day_net"
+            style="@style/AppText.BodyMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="4dp"
+            android:fontFamily="@font/roboto_bold"
+            android:text="-$25"
+            android:textSize="13sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/iv_expand_chevron"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_goneMarginEnd="0dp" />
+
+        <ImageView
+            android:id="@+id/iv_expand_chevron"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:src="@drawable/ic_chevron_down_clean"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:tint="@color/text_muted" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <View
+        android:id="@+id/view_header_divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginHorizontal="14dp"
+        android:background="@color/divider_light" />
+
+</LinearLayout>

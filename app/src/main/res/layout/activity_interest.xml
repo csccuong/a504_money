@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/surface_canvas">
+
+    <!-- Unified Navy Header -->
+    <LinearLayout
+        android:id="@+id/interest"
+        style="@style/AppContainer.HeaderNavy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            style="@style/AppText.ScreenTitleLight"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/interest" />
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:minWidth="64dp">
+
+            <TextView
+                android:id="@+id/btnContinue"
+                style="@style/AppButton.HeaderChip"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:alpha="0.45"
+                android:enabled="false"
+                android:fontFamily="@font/roboto_bold"
+                android:paddingHorizontal="16dp"
+                android:text="@string/next"
+                android:textSize="13sp" />
+
+            <androidx.core.widget.ContentLoadingProgressBar
+                android:id="@+id/btn_next_loading"
+                style="@style/Widget.AppCompat.ProgressBar"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:layout_gravity="center"
+                android:indeterminate="true"
+                android:indeterminateTint="@color/white"
+                android:visibility="visible" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:clipToPadding="false"
+        app:layout_constraintBottom_toTopOf="@id/fr_ads"
+        app:layout_constraintTop_toBottomOf="@id/interest">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="@dimen/ds_space_lg"
+            android:paddingTop="@dimen/ds_space_lg"
+            android:paddingBottom="10dp">
+
+            <CheckBox
+                android:id="@+id/cbTrackExpenses"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/interest_selector"
+                android:button="@null"
+                android:fontFamily="@font/roboto_medium"
+                android:minHeight="52dp"
+                android:paddingHorizontal="16dp"
+                android:paddingVertical="12dp"
+                android:text="@string/interest_bills_utilities"
+                android:textColor="@color/text_primary"
+                android:textSize="15sp" />
+
+            <CheckBox
+                android:id="@+id/cbMonitorSavings"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/interest_selector"
+                android:button="@null"
+                android:fontFamily="@font/roboto_medium"
+                android:minHeight="52dp"
+                android:paddingHorizontal="16dp"
+                android:paddingVertical="12dp"
+                android:text="@string/interest_food_dining"
+                android:textColor="@color/text_primary"
+                android:textSize="15sp" />
+
+            <CheckBox
+                android:id="@+id/cbAnalyzeSpending"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/interest_selector"
+                android:button="@null"
+                android:fontFamily="@font/roboto_medium"
+                android:minHeight="52dp"
+                android:paddingHorizontal="16dp"
+                android:paddingVertical="12dp"
+                android:text="@string/interest_shopping"
+                android:textColor="@color/text_primary"
+                android:textSize="15sp" />
+
+            <CheckBox
+                android:id="@+id/cbOptimizeSpending"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/interest_selector"
+                android:button="@null"
+                android:fontFamily="@font/roboto_medium"
+                android:minHeight="52dp"
+                android:paddingHorizontal="16dp"
+                android:paddingVertical="12dp"
+                android:text="@string/interest_transportation"
+                android:textColor="@color/text_primary"
+                android:textSize="15sp" />
+
+            <CheckBox
+                android:id="@+id/cbPlanInvestments"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/interest_selector"
+                android:button="@null"
+                android:fontFamily="@font/roboto_medium"
+                android:minHeight="52dp"
+                android:paddingHorizontal="16dp"
+                android:paddingVertical="12dp"
+                android:text="@string/interest_healthcare"
+                android:textColor="@color/text_primary"
+                android:textSize="15sp" />
+
+            <TextView
+                style="@style/AppText.Caption"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="12dp"
+                android:text="@string/please_select_at_least_2_options_to_continue" />
+        </LinearLayout>
+    </ScrollView>
+
+    <FrameLayout
+        android:id="@+id/fr_ads"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginBottom="6dp"
+        android:background="@drawable/bg_ads_native"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <RelativeLayout
+            android:id="@+id/shimmer_native_language"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <include layout="@layout/ads_shimmer_native_language" />
+        </RelativeLayout>
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

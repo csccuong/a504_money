@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="months">
+        <item>జనవరి</item>
+        <item>ఫిబ్రవరి</item>
+        <item>మార్చి</item>
+        <item>ఏప్రిల్</item>
+        <item>మే</item>
+        <item>జూన్</item>
+        <item>జూలై</item>
+        <item>ఆగస్టు</item>
+        <item>సెప్టెంబర్</item>
+        <item>అక్టోబర్</item>
+        <item>నవంబర్</item>
+        <item>డిసెంబర్</item>
+    </string-array>
+
+    <string-array name="months_short">
+        <item>జన</item>
+        <item>ఫిబ్ర</item>
+        <item>మార్చి</item>
+        <item>ఏప్రి</item>
+        <item>మే</item>
+        <item>జూన్</item>
+        <item>జూలై</item>
+        <item>ఆగ</item>
+        <item>సెప్టెం</item>
+        <item>అక్టో</item>
+        <item>నవం</item>
+        <item>డిసెం</item>
+    </string-array>
+
+    <!-- Onboarding & Guide -->
+    <string name="note_continue1">మీ డబ్బును సులభంగా నిర్వహించండి</string>
+    <string name="note_continue2">మీ ఖర్చులను క్రమబద్ధీకరించండి</string>
+    <string name="note_continue3">మీ ఆర్థిక పురోగతిని ట్రాక్ చేయండి</string>
+    <string name="note_continue4">లక్ష్యాలను ఏర్పరచుకుని మరింత ఆదా చేయండి</string>
+    <string name="intro_slide_1_des">ఆదాయం, ఖర్చులు మరియు బ్యాలెన్స్ అన్నీ ఒకే చోట ట్రాక్ చేయండి.</string>
+    <string name="intro_slide_2_des">మీ డబ్బు ఎక్కడికి వెళ్తుందో చూడటానికి లావాదేవీలను వర్గీకరించండి</string>
+    <string name="intro_slide_3_des">కాలక్రమేణా మీ ఆదాయం, ఖర్చులు మరియు పొదుపులను విజువలైజ్ చేయండి</string>
+    <string name="intro_slide_4_des">మీ బడ్జెట్‌ను ప్లాన్ చేయండి, పొదుపు లక్ష్యాలను పెట్టుకుని మంచి అలవాట్లు పెంచుకోండి</string>
+    <string name="note_guide1">మీ ఖర్చులను నిర్వహించడానికి ‘బడ్జెట్’ పై ట్యాప్ చేయండి</string>
+    <string name="note_guide2">మీ మిగిలిన బ్యాలెన్స్‌ను ఒక్క చూపులో చూడండి</string>
+    <string name="note_guide3">బడ్జెట్‌ల మధ్య సులభంగా మారండి</string>
+    <string name="note_guide4">ఖర్చులను విశ్లేషించి సరైన దారిలో ఉండండి</string>
+    <string name="guide">గైడ్</string>
+    <string name="next">తదుపరి</string>
+    <string name="this_action_can_contain_ads">ఈ చర్యలో ప్రకటనలు ఉండవచ్చు…</string>
+
+    <!-- Navigation & Main Screen -->
+    <string name="home">హోమ్</string>
+    <string name="statistic">గణాంకాలు</string>
+    <string name="budget">బడ్జెట్</string>
+    <string name="settings">సెట్టింగ్‌లు</string>
+    <string name="total_balance">మొత్తం బ్యాలెన్స్</string>
+    <string name="total_expenditure">మొత్తం ఖర్చు</string>
+    <string name="total_income">మొత్తం ఆదాయం</string>
+    <string name="add_your_first_transaction">మీ మొదటి లావాదేవీని జోడించండి.</string>
+    <string name="no_transactions_yet">ఇంకా లావాదేవీలు లేవు</string>
+    <string name="no_transactions_desc">మీరు లావాదేవీలను జోడించడం ప్రారంభించిన తర్వాత అవి ఇక్కడ కనిపిస్తాయి.</string>
+    <string name="vs_last_month">గత నెలతో పోలిస్తే</string>
+    <string name="please_add_transaction_first">దయచేసి ముందుగా లావాదేవీని జోడించండి</string>
+    <string name="tap_here_to_exit">నిష్క్రమించడానికి ఇక్కడ ట్యాప్ చేయండి</string>
+    <string name="recent_transactions">ఇటీవలి లావాదేవీలు</string>
+    <string name="overview">అవలోకనం</string>
+    <string name="this_month">ఈ నెల</string>
+    <string name="last_month">గత నెల</string>
+    <string name="all_transactions">అన్ని లావాదేవీలు</string>
+    <string name="view_all">అన్నీ చూడండి</string>
+    <string name="view_all_count">అన్నీ చూడండి (%1$d)</string>
+    <string name="view_all_transactions_count">మొత్తం %1$d లావాదేవీలను చూడండి</string>
+    <string name="today">ఈ రోజు</string>
+    <string name="yesterday">నిన్న</string>
+    <string name="all_time">మొత్తం కాలం</string>
+    <string name="search_transactions_hint">గమనిక, వర్గం, మొత్తం శోధించండి…</string>
+    <string name="no_matching_transactions">సరిపోయే లావాదేవీలు లేవు</string>
+    <string name="collapse_all">అన్నీ కుదించు</string>
+    <string name="expand_all">అన్నీ విస్తరించు</string>
+    <string name="tap_to_set_budget">నెలవారీ ఖర్చు పరిమితిని సెట్ చేయడానికి ట్యాప్ చేయండి</string>
+
+    <!-- Notification Prompt & Banner -->
+    <string name="notice">నోటీసు</string>
+    <string name="allow_alerts_currency_updates">లైవ్ కరెన్సీ రేటు అప్‌డేట్‌లను పొందడానికి\nఅలర్ట్‌లను అనుమతించండి!</string>
+    <string name="turn_on">ఆన్ చేయండి</string>
+    <string name="allow_app_notify_you">మీకు నోటిఫికేషన్‌లు పంపడానికి Money Manager: Smart Saver ను అనుమతించాలా?</string>
+    <string name="turn_on_notifications_desc">అప్‌డేట్‌గా ఉండటానికి నోటిఫికేషన్‌లను ఆన్ చేయండి.</string>
+    <string name="allow">అనుమతించు</string>
+    <string name="dont_allow">అనుమతించవద్దు</string>
+
+    <!-- Transactions & Statistics -->
+    <string name="add">జోడించు</string>
+    <string name="expense">ఖర్చు</string>
+    <string name="income">ఆదాయం</string>
+    <string name="loan">రుణం</string>
+    <string name="borrow">అప్పు</string>
+    <string name="amount">మొత్తం</string>
+    <string name="category">వర్గం</string>
+    <string name="note">గమనిక</string>
+    <string name="add_a_description">వివరణ జోడించండి</string>
+    <string name="lender">రుణదాత</string>
+    <string name="select_date">తేదీని ఎంచుకోండి</string>
+    <string name="date_time">తేదీ మరియు సమయం</string>
+    <string name="select_time">సమయాన్ని ఎంచుకోండి</string>
+    <string name="select_month">నెలను ఎంచుకోండి</string>
+    <string name="transactions">లావాదేవీలు</string>
+    <string name="date">తేదీ</string>
+    <string name="month">నెల</string>
+    <string name="balance">బ్యాలెన్స్</string>
+    <string name="total">మొత్తం</string>
+    <string name="edit">సవరించు</string>
+    <string name="save">సేవ్ చేయి</string>
+    <string name="cancel">రద్దు చేయి</string>
+    <string name="delete">తొలగించు</string>
+    <string name="delete_transaction">లావాదేవీని తొలగించు</string>
+    <string name="delete_transaction_confirm">మీరు ఖచ్చితంగా ఈ లావాదేవీని తొలగించాలనుకుంటున్నారా?</string>
+    <string name="none_option">ఏదీ కాదు</string>
+
+    <!-- Budget -->
+    <string name="budget_detail">బడ్జెట్ వివరాలు</string>
+    <string name="add_budget">బడ్జెట్ జోడించు</string>
+    <string name="budget_name">బడ్జెట్ పేరు</string>
+    <string name="net_worth">నికర విలువ</string>
+    <string name="remaining">మిగిలినది</string>
+    <string name="budget_colon_value">బడ్జెట్: %1$s</string>
+    <string name="expenses_colon_value">ఖర్చులు: %1$s</string>
+    <string name="remain_colon_value">మిగిలినది: %1$s</string>
+    <string name="monthly_budget">నెలవారీ బడ్జెట్</string>
+    <string name="set_monthly_budget">నెలవారీ బడ్జెట్ సెట్ చేయి</string>
+    <string name="edit_budget">బడ్జెట్ సవరించు</string>
+    <string name="delete_budget">బడ్జెట్ తొలగించు</string>
+    <string name="delete_budget_confirm">మీరు ఖచ్చితంగా ఈ బడ్జెట్‌ను తొలగించాలనుకుంటున్నారా?</string>
+    <string name="budget_saved">బడ్జెట్ సేవ్ చేయబడింది</string>
+    <string name="budget_deleted">బడ్జెట్ తొలగించబడింది</string>
+    <string name="budget_already_exists">ఈ వర్గానికి బడ్జెట్ ఇప్పటికే ఉంది</string>
+    <string name="set_category_limit_desc">ఒక వర్గాన్ని ఎంచుకుని నెలవారీ ఖర్చు పరిమితిని సెట్ చేయండి</string>
+    <string name="all_categories_have_budgets">అన్ని వర్గాలకు ఇప్పటికే బడ్జెట్ ఉంది</string>
+    <string name="now">ఇప్పుడు</string>
+    <string name="category_budgets">వర్గ బడ్జెట్‌లు</string>
+    <string name="custom_budget">కస్టమ్</string>
+    <string name="auto_tracked">ఆటో-ట్రాక్</string>
+    <string name="spent">ఖర్చయింది</string>
+    <string name="left">మిగిలింది</string>
+    <string name="over_budget">బడ్జెట్ మించింది</string>
+    <string name="over_by_value">%1$s అధికం</string>
+    <string name="spent_of_value">%1$s / %2$s</string>
+    <string name="daily_limit">రోజువారీ పరిమితి</string>
+    <string name="per_day_value">%1$s/రోజు</string>
+    <string name="daily_avg">రోజువారీ సగటు</string>
+    <string name="no_budgets_title">ఇంకా వర్గ బడ్జెట్‌లు లేవు</string>
+    <string name="no_budgets_desc">ఖర్చులను స్వయంచాలకంగా ట్రాక్ చేయడానికి వర్గాల వారీగా నెలవారీ పరిమితులను సెట్ చేయండి.</string>
+    <string name="budget_allocated_exceeds_hint">కేటాయించినది (%1$s) నెలవారీ పరిమితిని (%2$s) మించింది</string>
+    <string name="no_budget_transactions">ఈ నెలలో ఈ బడ్జెట్‌లో ఖర్చులు లేవు</string>
+    <string name="add_expense">ఖర్చు జోడించు</string>
+    <string name="auto_linked_budget_hint">%1$s బడ్జెట్‌లో ఆటో-ట్రాక్ చేయబడింది</string>
+    <string name="skip">దాటవేయి</string>
+    <string name="year">సంవత్సరం</string>
+    <string name="yearly_report">వార్షిక నివేదిక</string>
+    <string name="net_savings">నికర</string>
+    <string name="net_loan">నికర రుణం</string>
+    <string name="lent">ఇచ్చినది</string>
+    <string name="borrowed">తీసుకున్నది</string>
+    <string name="vs_prev_month_up">↑ %1$d%% గత నెల కంటే</string>
+    <string name="vs_prev_month_down">↓ %1$d%% గత నెల కంటే</string>
+    <string name="vs_prev_month_same">గత నెల లాగే</string>
+    <string name="chart_breakdown">విభజన</string>
+    <string name="chart_trend">ట్రెండ్</string>
+    <string name="income_allocation">ఆదాయ కేటాయింపు</string>
+    <string name="saved">పొదుపు</string>
+    <string name="overspent">అధిక ఖర్చు</string>
+    <string name="of_income_value">ఆదాయంలో %1$s</string>
+    <string name="add_income_to_see_savings">మీ పొదుపు రేటును చూడటానికి ఆదాయాన్ని జోడించండి</string>
+    <string name="transactions_count">%1$d లావాదేవీలు</string>
+    <string name="category_transactions">వర్గ లావాదేవీలు</string>
+    <string name="no_note">గమనిక లేదు</string>
+    <string name="cashflow">నగదు ప్రవాహం</string>
+    <string name="edit_transaction">లావాదేవీని సవరించు</string>
+    <string name="add_transaction">లావాదేవీ జోడించు</string>
+    <string name="person_name_hint">వ్యక్తి లేదా రుణదాత పేరు</string>
+    <string name="used_percent">%1$d%% వినియోగం</string>
+    <string name="week">వారం</string>
+    <string name="custom_range">కస్టమ్</string>
+    <string name="current_period">ప్రస్తుతం</string>
+    <string name="monthly_table">12 నెలల పట్టిక</string>
+    <string name="filters">ఫిల్టర్‌లు</string>
+    <string name="reset">రీసెట్</string>
+    <string name="apply">వర్తింపజేయి</string>
+    <string name="all">అన్నీ</string>
+    <string name="quick_period">త్వరిత వ్యవధి</string>
+    <string name="last_7_days">గత 7 రోజులు</string>
+    <string name="last_30_days">గత 30 రోజులు</string>
+    <string name="sort_by">క్రమబద్ధీకరించు</string>
+    <string name="sort_highest_amount">అత్యధిక మొత్తం</string>
+    <string name="sort_most_transactions">అత్యధిక లావాదేవీలు</string>
+    <string name="select_date_range">తేదీ పరిధిని ఎంచుకోండి</string>
+    <string name="vs_prev_period_up">↑ %1$d%% మునుపటి కంటే</string>
+    <string name="vs_prev_period_down">↓ %1$d%% మునుపటి కంటే</string>
+    <string name="vs_prev_period_same">మునుపటి లాగే</string>
+
+    <!-- Settings & Language & Currency -->
+    <string name="general">సాధారణం</string>
+    <string name="about_us">మా గురించి</string>
+    <string name="currency">కరెన్సీ</string>
+    <string name="currency_unit">కరెన్సీ యూనిట్</string>
+    <string name="search">శోధించు</string>
+    <string name="language">భాష</string>
+    <string name="languages">భాషలు</string>
+    <string name="please_select_language_to_continue">కొనసాగడానికి దయచేసి భాషను ఎంచుకోండి</string>
+    <string name="share">షేర్ చేయి</string>
+    <string name="privacy_policy">గోప్యతా విధానం</string>
+    <string name="rating">రేటింగ్</string>
+
+    <!-- Interest Screen -->
+    <string name="interest">ఆసక్తి</string>
+    <string name="please_select_at_least_2_options_to_continue">*కొనసాగడానికి దయచేసి కనీసం 2 ఎంపికలను ఎంచుకోండి.</string>
+    <string name="interest_bills_utilities">💡 బిల్లులు &amp; యుటిలిటీలు</string>
+    <string name="interest_food_dining">🍽️ ఆహారం &amp; డైనింగ్</string>
+    <string name="interest_shopping">🛍️ షాపింగ్</string>
+    <string name="interest_transportation">🚗 రవాణా</string>
+    <string name="interest_healthcare">🏥 ఆరోగ్య సంరక్షణ</string>
+
+    <!-- Uninstall Retention Screen -->
+    <string name="uninstall">అన్‌ఇన్‌స్టాల్ చేయి</string>
+    <string name="uninstall_question">ఉపయోగించేటప్పుడు మీరు ఎలాంటి సమస్యను ఎదుర్కొన్నారు?</string>
+    <string name="not_much_more_useful_nthan_the_defaults">డిఫాల్ట్ యాప్‌ల కంటే పెద్దగా ఉపయోగకరంగా లేదు</string>
+    <string name="unresponsive_or_laggy">స్పందించడం లేదు లేదా\nనెమ్మదిగా ఉంది</string>
+    <string name="explore">అన్వేషించు</string>
+    <string name="try_again">మళ్లీ ప్రయత్నించు</string>
+    <string name="dont_uninstall_yet">ఇప్పుడే అన్‌ఇన్‌స్టాల్ చేయవద్దు</string>
+    <string name="still_want_to_uninstall">అయినా అన్‌ఇన్‌స్టాల్ చేయాలనుకుంటున్నాను</string>
+
+    <!-- Validation & Feedback Messages -->
+    <string name="msg_enter_amount">దయచేసి మొత్తాన్ని నమోదు చేయండి</string>
+    <string name="msg_select_category">దయచేసి ఒక వర్గాన్ని ఎంచుకోండి</string>
+    <string name="msg_transaction_saved">లావాదేవీ విజయవంతంగా సేవ్ చేయబడింది</string>
+    <string name="msg_enter_all_fields">దయచేసి అన్ని ఫీల్డ్‌లను పూరించండి</string>
+    <string name="msg_invalid_amount">చెల్లని మొత్తం</string>
+    <string name="msg_enter_budget_amount">దయచేసి బడ్జెట్ మొత్తాన్ని నమోదు చేయండి</string>
+    <string name="msg_budget_exceeds_limit">అన్ని బడ్జెట్‌ల మొత్తం %1$s కంటే తక్కువగా ఉండాలి</string>
+    <string name="msg_choose_language">కొనసాగడానికి దయచేసి ఒక భాషను ఎంచుకోండి</string>
+    <string name="msg_transaction_not_found">లావాదేవీ కనుగొనబడలేదు</string>
+    <string name="msg_transaction_details_not_found">లావాదేవీ వివరాలు కనుగొనబడలేదు</string>
+    <string name="msg_unable_delete_transaction">లావాదేవీని తొలగించడం సాధ్యం కాలేదు</string>
+    <string name="msg_transaction_deleted">లావాదేవీ విజయవంతంగా తొలగించబడింది</string>
+
+    <!-- Category Display Names (JSON storage keys remain English) -->
+    <string name="category_food">ఆహారం</string>
+    <string name="category_social">సామాజికం</string>
+    <string name="category_traffic">రవాణా</string>
+    <string name="category_shopping">షాపింగ్</string>
+    <string name="category_grocery">కిరాణా</string>
+    <string name="category_education">విద్య</string>
+    <string name="category_bills">బిల్లులు</string>
+    <string name="category_rentals">అద్దెలు</string>
+    <string name="category_medical">వైద్యం</string>
+    <string name="category_investment">పెట్టుబడి</string>
+    <string name="category_gift">బహుమతి</string>
+    <string name="category_other">ఇతర</string>
+    <string name="category_salary">జీతం</string>
+    <string name="category_invest">పెట్టుబడి</string>
+    <string name="category_business">వ్యాపారం</string>
+    <string name="category_interest">వడ్డీ</string>
+    <string name="category_extra_income">అదనపు ఆదాయం</string>
+    <string name="category_loan">రుణం</string>
+    <string name="category_borrow">అప్పు</string>
+
+    <!-- Notifications -->
+    <string name="open">తెరువు</string>
+    <string name="open_now">ఇప్పుడే తెరవండి!</string>
+    <string name="continued">కొనసాగించు</string>
+    <string name="title_screen_shoot_done">రసీదు స్క్రీన్‌షాట్ సేవ్ అయిందా?</string>
+    <string name="body_screen_shoot_done">మర్చిపోకముందే ఈ చెల్లింపును Money Manager యాప్‌లో నమోదు చేయండి.</string>
+    <string name="title_dowload_done">స్టేట్‌మెంట్ లేదా ఇన్‌వాయిస్ సేవ్ అయిందా?</string>
+    <string name="body_dowload_done">మీ బడ్జెట్‌ను అప్‌డేట్‌గా ఉంచడానికి దీన్ని నమోదు చేయండి: </string>
+    <string name="title_out_done">రోజును సరిగ్గా ముగించాలనుకుంటున్నారా?</string>
+    <string name="body_out_done">నేటి ఖర్చులు, ఆదాయం మరియు మీ బడ్జెట్ పురోగతిని సమీక్షించండి.</string>
+    <string name="noti_app_installed_title">కొత్త యాప్ ఖర్చును ట్రాక్ చేయండి</string>
+    <string name="noti_app_installed_body">%1$s లో సబ్‌స్క్రైబ్ చేశారా లేదా కొనుగోలు చేశారా? Money Manager లో నమోదు చేయండి.</string>
+    <string name="noti_app_removed_title">యాక్టివ్ సబ్‌స్క్రిప్షన్‌లను తనిఖీ చేయండి</string>
+    <string name="noti_app_removed_body">యాప్‌ను తొలగించారా? అదనపు ఛార్జీలను నివారించడానికి మీ బిల్లుల బడ్జెట్‌ను సమీక్షించండి.</string>
+    <string name="noti_app_removed_btn">బడ్జెట్ తనిఖీ చేయండి</string>
+    <string name="noti_app_updated_title">మీ ఆర్థిక వివరాలను అప్‌డేట్‌గా ఉంచండి</string>
+    <string name="noti_app_updated_body">నేటి ఖర్చులు, ఆదాయం మరియు పొదుపు పురోగతిని సమీక్షించండి.</string>
+    <string name="noti_app_updated_btn">యాప్ తెరవండి</string>
+
+    <string-array name="special_titles_v2">
+        <item>🌙 నేటి ఖర్చుల సారాంశం</item>
+        <item>✨ మీ పొదుపు పెరుగుతోంది</item>
+        <item>📈 సాయంత్రం నగదు ప్రవాహ విశ్లేషణ</item>
+        <item>🔔 త్వరలో చెల్లించాల్సిన బిల్లులు ఉన్నాయా?</item>
+        <item>🤝 రుణాలను ట్రాక్ చేయండి</item>
+        <item>🎯 రేపటికి సిద్ధంగా ఉన్నారా?</item>
+    </string-array>
+
+    <string-array name="special_messages_v2">
+        <item>నేటి ఖర్చులను నమోదు చేయడానికి 10 సెకన్లు కేటాయించి మీ బడ్జెట్‌ను సరైన మార్గంలో ఉంచండి.</item>
+        <item>ఈ నెలలో మీరు ఎంత పొదుపు చేశారో తనిఖీ చేసి మీ బ్యాలెన్స్ పెరగడం చూడండి.</item>
+        <item>అదనపు పొదుపు అవకాశాలను గుర్తించడానికి ఈ నెల ఆదాయం మరియు ఖర్చుల గ్రాఫ్‌ను పోల్చండి.</item>
+        <item>అనుకోని ఇబ్బందులు లేకుండా ఉండేందుకు రాబోయే అద్దె, బిల్లులు మరియు నిరంతర ఖర్చులను సమీక్షించండి.</item>
+        <item>ఇటీవల డబ్బు అప్పు ఇచ్చారా లేదా తీసుకున్నారా? తిరిగి చెల్లింపును మిస్ కాకుండా స్పష్టంగా నమోదు చేయండి.</item>
+        <item>ఈ రాత్రి మీ మిగిలిన నెలవారీ బడ్జెట్‌ను సమీక్షించి ఆత్మవిశ్వాసంతో రేపటిని ప్రారంభించండి.</item>
+    </string-array>
+
+    <string-array name="special_titles_news">
+        <item>☕ ఉదయపు ఆర్థిక తనిఖీ</item>
+        <item>🧾 నేటి ఖర్చులను నమోదు చేయండి</item>
+        <item>📊 మీరు ఎంత పొదుపు చేశారు?</item>
+        <item>🛡️ మీ బడ్జెట్ పరిధిలో ఉండండి</item>
+        <item>🛍️ కొనుగోలు చేయాలని ప్లాన్ చేస్తున్నారా?</item>
+        <item>💰 మీ ఆదాయ ప్రవాహాన్ని ట్రాక్ చేయండి</item>
+    </string-array>
+
+    <string-array name="special_messages_news">
+        <item>రోజును స్మార్ట్‌గా ప్రారంభించండి — మీ మొదటి కాఫీకి ముందే రోజువారీ ఖర్చు పరిమితిని తనిఖీ చేయండి.</item>
+        <item>భోజనం చేశారా లేదా బిల్లు చెల్లించారా? ఖచ్చితమైన లెక్కల కోసం 5 సెకన్లలో నమోదు చేయండి.</item>
+        <item>ఈ నెలలో మీ ఆదాయంలో ఎంత % ఆహారం, బిల్లులు మరియు పొదుపుకు వెళ్తుందో చూడండి.</item>
+        <item>మీ తదుపరి కొనుగోలుకు ముందే ఆ విభాగంలో మిగిలిన బడ్జెట్‌ను తనిఖీ చేయండి.</item>
+        <item>చెక్‌అవుట్ చేయడానికి ముందు మీ నెలవారీ బ్యాలెన్స్‌పై ఒకసారి త్వరగా దృష్టి పెట్టండి.</item>
+        <item>జీతం వచ్చిందా లేదా అదనపు ఆదాయం పొందారా? మీ పొదుపు రేటును అప్‌డేట్ చేయడానికి ఇప్పుడే జోడించండి.</item>
+    </string-array>
+</resources>

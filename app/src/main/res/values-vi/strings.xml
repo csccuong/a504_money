@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="months">
+        <item>Tháng 1</item>
+        <item>Tháng 2</item>
+        <item>Tháng 3</item>
+        <item>Tháng 4</item>
+        <item>Tháng 5</item>
+        <item>Tháng 6</item>
+        <item>Tháng 7</item>
+        <item>Tháng 8</item>
+        <item>Tháng 9</item>
+        <item>Tháng 10</item>
+        <item>Tháng 11</item>
+        <item>Tháng 12</item>
+    </string-array>
+
+    <string-array name="months_short">
+        <item>Thg 1</item>
+        <item>Thg 2</item>
+        <item>Thg 3</item>
+        <item>Thg 4</item>
+        <item>Thg 5</item>
+        <item>Thg 6</item>
+        <item>Thg 7</item>
+        <item>Thg 8</item>
+        <item>Thg 9</item>
+        <item>Thg 10</item>
+        <item>Thg 11</item>
+        <item>Thg 12</item>
+    </string-array>
+
+    <!-- Onboarding & Guide -->
+    <string name="note_continue1">Quản lý tiền bạc dễ dàng</string>
+    <string name="note_continue2">Sắp xếp chi tiêu của bạn</string>
+    <string name="note_continue3">Theo dõi tiến độ tài chính</string>
+    <string name="note_continue4">Đặt mục tiêu &amp; Tiết kiệm hơn</string>
+    <string name="intro_slide_1_des">Theo dõi thu nhập, chi tiêu và số dư tại một nơi.</string>
+    <string name="intro_slide_2_des">Phân loại giao dịch để biết tiền của bạn đi đâu</string>
+    <string name="intro_slide_3_des">Trực quan hóa thu nhập, chi tiêu và tiết kiệm theo thời gian</string>
+    <string name="intro_slide_4_des">Lập kế hoạch ngân sách, đặt mục tiêu tiết kiệm và xây dựng thói quen tốt hơn</string>
+    <string name="note_guide1">Nhấn ‘Ngân sách’ để quản lý chi tiêu</string>
+    <string name="note_guide2">Xem nhanh số dư còn lại của bạn</string>
+    <string name="note_guide3">Chuyển đổi giữa các ngân sách dễ dàng</string>
+    <string name="note_guide4">Phân tích chi tiêu và giữ đúng kế hoạch</string>
+    <string name="guide">Hướng dẫn</string>
+    <string name="next">Tiếp theo</string>
+    <string name="this_action_can_contain_ads">Hành động này có thể chứa quảng cáo…</string>
+
+    <!-- Navigation & Main Screen -->
+    <string name="home">Trang chủ</string>
+    <string name="statistic">Thống kê</string>
+    <string name="budget">Ngân sách</string>
+    <string name="settings">Cài đặt</string>
+    <string name="total_balance">Tổng số dư</string>
+    <string name="total_expenditure">Tổng chi tiêu</string>
+    <string name="total_income">Tổng thu nhập</string>
+    <string name="add_your_first_transaction">Thêm giao dịch đầu tiên của bạn.</string>
+    <string name="no_transactions_yet">Chưa có giao dịch nào</string>
+    <string name="no_transactions_desc">Các giao dịch của bạn sẽ xuất hiện ở đây sau khi bạn bắt đầu thêm.</string>
+    <string name="vs_last_month">so với tháng trước</string>
+    <string name="please_add_transaction_first">Vui lòng thêm giao dịch trước</string>
+    <string name="tap_here_to_exit">Nhấn vào đây để thoát</string>
+    <string name="recent_transactions">Giao dịch gần đây</string>
+    <string name="overview">Tổng quan</string>
+    <string name="this_month">Tháng này</string>
+    <string name="last_month">Tháng trước</string>
+    <string name="all_transactions">Tất cả giao dịch</string>
+    <string name="view_all">Xem tất cả</string>
+    <string name="view_all_count">Xem tất cả (%1$d)</string>
+    <string name="view_all_transactions_count">Xem tất cả %1$d giao dịch</string>
+    <string name="today">Hôm nay</string>
+    <string name="yesterday">Hôm qua</string>
+    <string name="all_time">Tất cả</string>
+    <string name="search_transactions_hint">Tìm ghi chú, danh mục, số tiền…</string>
+    <string name="no_matching_transactions">Không có giao dịch phù hợp</string>
+    <string name="collapse_all">Thu gọn tất cả</string>
+    <string name="expand_all">Mở rộng tất cả</string>
+    <string name="tap_to_set_budget">Chạm để đặt hạn mức chi tiêu hàng tháng</string>
+
+    <!-- Notification Prompt & Banner -->
+    <string name="notice">Thông báo</string>
+    <string name="allow_alerts_currency_updates">Cho phép thông báo để nhận\ncập nhật tỷ giá trực tiếp!</string>
+    <string name="turn_on">Bật</string>
+    <string name="allow_app_notify_you">Cho phép Money Manager: Smart Saver gửi thông báo cho bạn?</string>
+    <string name="turn_on_notifications_desc">Bật thông báo để luôn cập nhật thông tin mới nhất.</string>
+    <string name="allow">Cho phép</string>
+    <string name="dont_allow">Không cho phép</string>
+
+    <!-- Transactions & Statistics -->
+    <string name="add">Thêm</string>
+    <string name="expense">Chi tiêu</string>
+    <string name="income">Thu nhập</string>
+    <string name="loan">Cho vay</string>
+    <string name="borrow">Đi vay</string>
+    <string name="amount">Số tiền</string>
+    <string name="category">Danh mục</string>
+    <string name="note">Ghi chú</string>
+    <string name="add_a_description">Thêm mô tả</string>
+    <string name="lender">Người cho vay</string>
+    <string name="select_date">Chọn ngày</string>
+    <string name="date_time">Ngày giờ</string>
+    <string name="select_time">Chọn giờ</string>
+    <string name="select_month">Chọn tháng</string>
+    <string name="transactions">Giao dịch</string>
+    <string name="date">Ngày</string>
+    <string name="month">Tháng</string>
+    <string name="balance">Số dư</string>
+    <string name="total">Tổng cộng</string>
+    <string name="edit">Sửa</string>
+    <string name="save">Lưu</string>
+    <string name="cancel">Hủy</string>
+    <string name="delete">Xóa</string>
+    <string name="delete_transaction">Xóa giao dịch</string>
+    <string name="delete_transaction_confirm">Bạn có chắc chắn muốn xóa giao dịch này không?</string>
+    <string name="none_option">Không có</string>
+
+    <!-- Budget -->
+    <string name="budget_detail">Chi tiết ngân sách</string>
+    <string name="add_budget">Thêm ngân sách</string>
+    <string name="budget_name">Tên ngân sách</string>
+    <string name="net_worth">Tài sản ròng</string>
+    <string name="remaining">Còn lại</string>
+    <string name="budget_colon_value">Ngân sách: %1$s</string>
+    <string name="expenses_colon_value">Chi tiêu: %1$s</string>
+    <string name="remain_colon_value">Còn lại: %1$s</string>
+    <string name="monthly_budget">Ngân sách tháng</string>
+    <string name="set_monthly_budget">Đặt ngân sách tháng</string>
+    <string name="edit_budget">Sửa ngân sách</string>
+    <string name="delete_budget">Xóa ngân sách</string>
+    <string name="delete_budget_confirm">Bạn có chắc chắn muốn xóa ngân sách này không?</string>
+    <string name="budget_saved">Đã lưu ngân sách</string>
+    <string name="budget_deleted">Đã xóa ngân sách</string>
+    <string name="budget_already_exists">Ngân sách cho danh mục này đã tồn tại</string>
+    <string name="set_category_limit_desc">Chọn danh mục và đặt hạn mức chi tiêu hàng tháng</string>
+    <string name="all_categories_have_budgets">Tất cả danh mục đều đã có ngân sách</string>
+    <string name="now">Bây giờ</string>
+    <string name="category_budgets">Ngân sách danh mục</string>
+    <string name="custom_budget">Tùy chỉnh</string>
+    <string name="auto_tracked">Tự động theo dõi</string>
+    <string name="spent">Đã chi</string>
+    <string name="left">Còn lại</string>
+    <string name="over_budget">Vượt ngân sách</string>
+    <string name="over_by_value">Vượt %1$s</string>
+    <string name="spent_of_value">%1$s / %2$s</string>
+    <string name="daily_limit">Hạn mức ngày</string>
+    <string name="per_day_value">%1$s/ngày</string>
+    <string name="daily_avg">Trung bình ngày</string>
+    <string name="no_budgets_title">Chưa có ngân sách danh mục</string>
+    <string name="no_budgets_desc">Đặt hạn mức hằng tháng theo danh mục để tự động theo dõi chi tiêu.</string>
+    <string name="budget_allocated_exceeds_hint">Đã phân bổ (%1$s) vượt hạn mức tháng (%2$s)</string>
+    <string name="no_budget_transactions">Chưa có chi tiêu nào trong ngân sách này tháng này</string>
+    <string name="add_expense">Thêm chi tiêu</string>
+    <string name="auto_linked_budget_hint">Tự động theo dõi trong ngân sách %1$s</string>
+    <string name="skip">Bỏ qua</string>
+    <string name="year">Năm</string>
+    <string name="yearly_report">Báo cáo năm</string>
+    <string name="net_savings">Ròng</string>
+    <string name="net_loan">Vay ròng</string>
+    <string name="lent">Đã cho vay</string>
+    <string name="borrowed">Đã vay</string>
+    <string name="vs_prev_month_up">↑ %1$d%% so với tháng trước</string>
+    <string name="vs_prev_month_down">↓ %1$d%% so với tháng trước</string>
+    <string name="vs_prev_month_same">Bằng tháng trước</string>
+    <string name="chart_breakdown">Phân bổ</string>
+    <string name="chart_trend">Xu hướng</string>
+    <string name="income_allocation">Phân bổ thu nhập</string>
+    <string name="saved">Tiết kiệm</string>
+    <string name="overspent">Vượt thu</string>
+    <string name="of_income_value">%1$s thu nhập</string>
+    <string name="add_income_to_see_savings">Thêm thu nhập để xem tỷ lệ tiết kiệm</string>
+    <string name="transactions_count">%1$d giao dịch</string>
+    <string name="category_transactions">Giao dịch danh mục</string>
+    <string name="no_note">Không có ghi chú</string>
+    <string name="cashflow">Dòng tiền</string>
+    <string name="edit_transaction">Sửa giao dịch</string>
+    <string name="add_transaction">Thêm giao dịch</string>
+    <string name="person_name_hint">Tên người hoặc người cho vay</string>
+    <string name="used_percent">Đã dùng %1$d%%</string>
+    <string name="week">Tuần</string>
+    <string name="custom_range">Tùy chỉnh</string>
+    <string name="current_period">Hiện tại</string>
+    <string name="monthly_table">Bảng 12T</string>
+    <string name="filters">Bộ lọc</string>
+    <string name="reset">Đặt lại</string>
+    <string name="apply">Áp dụng</string>
+    <string name="all">Tất cả</string>
+    <string name="quick_period">Thời gian nhanh</string>
+    <string name="last_7_days">7 ngày qua</string>
+    <string name="last_30_days">30 ngày qua</string>
+    <string name="sort_by">Sắp xếp theo</string>
+    <string name="sort_highest_amount">Số tiền cao nhất</string>
+    <string name="sort_most_transactions">Nhiều giao dịch nhất</string>
+    <string name="select_date_range">Chọn khoảng ngày</string>
+    <string name="vs_prev_period_up">↑ %1$d%% so với kỳ trước</string>
+    <string name="vs_prev_period_down">↓ %1$d%% so với kỳ trước</string>
+    <string name="vs_prev_period_same">Bằng kỳ trước</string>
+
+    <!-- Settings & Language & Currency -->
+    <string name="general">Chung</string>
+    <string name="about_us">Về chúng tôi</string>
+    <string name="currency">Tiền tệ</string>
+    <string name="currency_unit">Đơn vị tiền tệ</string>
+    <string name="search">Tìm kiếm</string>
+    <string name="language">Ngôn ngữ</string>
+    <string name="languages">Ngôn ngữ</string>
+    <string name="please_select_language_to_continue">Vui lòng chọn ngôn ngữ để tiếp tục</string>
+    <string name="share">Chia sẻ</string>
+    <string name="privacy_policy">Chính sách bảo mật</string>
+    <string name="rating">Đánh giá</string>
+
+    <!-- Interest Screen -->
+    <string name="interest">Quan tâm</string>
+    <string name="please_select_at_least_2_options_to_continue">*Vui lòng chọn ít nhất 2 mục để tiếp tục.</string>
+    <string name="interest_bills_utilities">💡 Hóa đơn &amp; Tiện ích</string>
+    <string name="interest_food_dining">🍽️ Ăn uống</string>
+    <string name="interest_shopping">🛍️ Mua sắm</string>
+    <string name="interest_transportation">🚗 Di chuyển</string>
+    <string name="interest_healthcare">🏥 Chăm sóc sức khỏe</string>
+
+    <!-- Uninstall Retention Screen -->
+    <string name="uninstall">Gỡ cài đặt</string>
+    <string name="uninstall_question">Bạn gặp vấn đề gì trong quá trình sử dụng?</string>
+    <string name="not_much_more_useful_nthan_the_defaults">Không hữu ích hơn nhiều so với ứng dụng mặc định</string>
+    <string name="unresponsive_or_laggy">Không phản hồi hoặc\ngiật lag</string>
+    <string name="explore">Khám phá</string>
+    <string name="try_again">Thử lại</string>
+    <string name="dont_uninstall_yet">Chưa gỡ cài đặt</string>
+    <string name="still_want_to_uninstall">Vẫn muốn gỡ cài đặt</string>
+
+    <!-- Validation & Feedback Messages -->
+    <string name="msg_enter_amount">Vui lòng nhập số tiền</string>
+    <string name="msg_select_category">Vui lòng chọn danh mục</string>
+    <string name="msg_transaction_saved">Lưu giao dịch thành công</string>
+    <string name="msg_enter_all_fields">Vui lòng điền đầy đủ thông tin</string>
+    <string name="msg_invalid_amount">Số tiền không hợp lệ</string>
+    <string name="msg_enter_budget_amount">Vui lòng nhập số tiền ngân sách</string>
+    <string name="msg_budget_exceeds_limit">Tổng tất cả ngân sách phải nhỏ hơn %1$s</string>
+    <string name="msg_choose_language">Vui lòng chọn ngôn ngữ để tiếp tục</string>
+    <string name="msg_transaction_not_found">Không tìm thấy giao dịch</string>
+    <string name="msg_transaction_details_not_found">Không tìm thấy chi tiết giao dịch</string>
+    <string name="msg_unable_delete_transaction">Không thể xóa giao dịch</string>
+    <string name="msg_transaction_deleted">Xóa giao dịch thành công</string>
+
+    <!-- Category Display Names (JSON storage keys remain English) -->
+    <string name="category_food">Ăn uống</string>
+    <string name="category_social">Giao tiếp</string>
+    <string name="category_traffic">Di chuyển</string>
+    <string name="category_shopping">Mua sắm</string>
+    <string name="category_grocery">Tạp hóa</string>
+    <string name="category_education">Giáo dục</string>
+    <string name="category_bills">Hóa đơn</string>
+    <string name="category_rentals">Tiền thuê</string>
+    <string name="category_medical">Y tế</string>
+    <string name="category_investment">Đầu tư</string>
+    <string name="category_gift">Quà tặng</string>
+    <string name="category_other">Khác</string>
+    <string name="category_salary">Tiền lương</string>
+    <string name="category_invest">Đầu tư</string>
+    <string name="category_business">Kinh doanh</string>
+    <string name="category_interest">Tiền lãi</string>
+    <string name="category_extra_income">Thu nhập thêm</string>
+    <string name="category_loan">Cho vay</string>
+    <string name="category_borrow">Đi vay</string>
+
+    <!-- Notifications -->
+    <string name="open">Mở</string>
+    <string name="open_now">Mở ngay!</string>
+    <string name="continued">Tiếp tục</string>
+    <string name="title_screen_shoot_done">Đã lưu ảnh chụp biên lai?</string>
+    <string name="body_screen_shoot_done">Ghi lại khoản thanh toán này vào Money Manager trước khi bạn quên.</string>
+    <string name="title_dowload_done">Đã lưu sao kê hoặc hóa đơn?</string>
+    <string name="body_dowload_done">Ghi lại để cập nhật ngân sách của bạn: </string>
+    <string name="title_out_done">Khép lại ngày mới thật gọn gàng?</string>
+    <string name="body_out_done">Xem lại chi tiêu, thu nhập hôm nay và tiến độ ngân sách của bạn.</string>
+    <string name="noti_app_installed_title">Theo dõi chi tiêu ứng dụng mới</string>
+    <string name="noti_app_installed_body">Đã đăng ký gói hoặc mua hàng trong %1$s? Ghi lại vào Money Manager.</string>
+    <string name="noti_app_removed_title">Kiểm tra các gói đăng ký đang hoạt động</string>
+    <string name="noti_app_removed_body">Vừa gỡ một ứng dụng? Xem lại ngân sách Hóa đơn để tránh phát sinh phí.</string>
+    <string name="noti_app_removed_btn">Kiểm tra ngân sách</string>
+    <string name="noti_app_updated_title">Luôn cập nhật tài chính của bạn</string>
+    <string name="noti_app_updated_body">Xem lại chi tiêu, thu nhập hôm nay và tiến độ tiết kiệm.</string>
+    <string name="noti_app_updated_btn">Mở ứng dụng</string>
+
+    <string-array name="special_titles_v2">
+        <item>🌙 Tổng kết chi tiêu hôm nay</item>
+        <item>✨ Khoản tiết kiệm đang tăng lên</item>
+        <item>📈 Góc nhìn dòng tiền buổi tối</item>
+        <item>🔔 Có hóa đơn nào sắp đến hạn?</item>
+        <item>🤝 Theo dõi các khoản vay mượn</item>
+        <item>🎯 Sẵn sàng cho ngày mai?</item>
+    </string-array>
+
+    <string-array name="special_messages_v2">
+        <item>Dành 10 giây ghi lại chi tiêu hôm nay để giữ ngân sách đúng kế hoạch.</item>
+        <item>Kiểm tra xem tháng này bạn đã tiết kiệm được bao nhiêu và xem số dư tăng lên.</item>
+        <item>So sánh biểu đồ thu nhập và chi tiêu tháng này để tìm thêm cơ hội tiết kiệm.</item>
+        <item>Xem trước tiền thuê nhà, hóa đơn và chi phí định kỳ sắp tới để không bị bất ngờ.</item>
+        <item>Gần đây có cho vay hay đi vay không? Ghi chép rõ ràng để không lỡ hạn trả.</item>
+        <item>Kiểm tra phần ngân sách tháng còn lại tối nay để bắt đầu ngày mai thật tự tin.</item>
+    </string-array>
+
+    <string-array name="special_titles_news">
+        <item>☕ Kiểm tra tài chính buổi sáng</item>
+        <item>🧾 Ghi lại chi tiêu hôm nay</item>
+        <item>📊 Bạn đã tiết kiệm bao nhiêu?</item>
+        <item>🛡️ Chi tiêu trong ngân sách</item>
+        <item>🛍️ Đang định mua sắm?</item>
+        <item>💰 Theo dõi dòng thu nhập</item>
+    </string-array>
+
+    <string-array name="special_messages_news">
+        <item>Bắt đầu ngày mới thông minh — kiểm tra hạn mức chi tiêu ngày trước ly cà phê đầu tiên.</item>
+        <item>Vừa ăn trưa hay thanh toán hóa đơn? Ghi lại trong 5 giây để số liệu luôn chính xác.</item>
+        <item>Xem tháng này bao nhiêu % thu nhập của bạn dành cho Ăn uống, Hóa đơn và Tiết kiệm.</item>
+        <item>Kiểm tra ngân sách còn lại của danh mục trước khi mua món đồ tiếp theo.</item>
+        <item>Xem nhanh số dư hàng tháng của bạn trước khi thanh toán.</item>
+        <item>Vừa nhận lương hoặc có thêm thu nhập? Thêm ngay để cập nhật tỷ lệ tiết kiệm.</item>
+    </string-array>
+</resources>

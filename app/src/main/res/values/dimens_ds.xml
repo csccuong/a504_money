@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ================================================================ -->
+    <!-- DESIGN SYSTEM: SPACING SCALE                                     -->
+    <!-- ================================================================ -->
+    <dimen name="ds_space_xs">4dp</dimen>
+    <dimen name="ds_space_sm">8dp</dimen>
+    <dimen name="ds_space_md">12dp</dimen>
+    <dimen name="ds_space_lg">16dp</dimen>
+    <dimen name="ds_space_xl">20dp</dimen>
+    <dimen name="ds_space_2xl">24dp</dimen>
+
+    <!-- ================================================================ -->
+    <!-- DESIGN SYSTEM: CORNER RADII                                      -->
+    <!-- ================================================================ -->
+    <dimen name="ds_radius_sm">10dp</dimen>
+    <dimen name="ds_radius_md">14dp</dimen>
+    <dimen name="ds_radius_lg">16dp</dimen>
+    <dimen name="ds_radius_header">24dp</dimen>
+    <dimen name="ds_radius_sheet">24dp</dimen>
+
+    <!-- ================================================================ -->
+    <!-- DESIGN SYSTEM: COMPONENT DIMENSIONS                              -->
+    <!-- ================================================================ -->
+    <dimen name="ds_toolbar_height">56dp</dimen>
+    <dimen name="ds_button_height">50dp</dimen>
+    <dimen name="ds_button_height_sm">40dp</dimen>
+    <dimen name="ds_input_height">50dp</dimen>
+    <dimen name="ds_tab_height">38dp</dimen>
+    <dimen name="ds_nav_height">64dp</dimen>
+    <dimen name="ds_icon_action">40dp</dimen>
+
+    <!-- ================================================================ -->
+    <!-- DESIGN SYSTEM: TYPOGRAPHY SCALE                                  -->
+    <!-- ================================================================ -->
+    <dimen name="ds_text_hero">28sp</dimen>
+    <dimen name="ds_text_h1">22sp</dimen>
+    <dimen name="ds_text_h2">18sp</dimen>
+    <dimen name="ds_text_title">16sp</dimen>
+    <dimen name="ds_text_body">14sp</dimen>
+    <dimen name="ds_text_caption">12sp</dimen>
+    <dimen name="ds_text_micro">11sp</dimen>
+</resources>

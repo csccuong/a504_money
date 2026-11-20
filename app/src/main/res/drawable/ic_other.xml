@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+
+    <!-- Pastel Slate Mist Circle Badge -->
+    <path android:pathData="M24,1 A23,23 0 1,0 24,47 A23,23 0 1,0 24,1 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:endColor="#E2E8F0"
+                android:endX="42"
+                android:endY="42"
+                android:startColor="#F8FAFC"
+                android:startX="6"
+                android:startY="6"
+                android:type="linear" />
+        </aapt:attr>
+    </path>
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M24,1.6 A22.4,22.4 0 1,0 24,46.4 A22.4,22.4 0 1,0 24,1.6 Z"
+        android:strokeWidth="1"
+        android:strokeColor="#2264748B" />
+
+    <!-- 4-Tile Modern Bento Grid with Figma Indigo Accent -->
+    <!-- Top-Left -->
+    <path
+        android:fillColor="#475569"
+        android:pathData="M16.6,14 H19.6 C21,14 22.2,15.2 22.2,16.6 V19.6 C22.2,21 21,22.2 19.6,22.2 H16.6 C15.2,22.2 14,21 14,19.6 V16.6 C14,15.2 15.2,14 16.6,14 Z" />
+
+    <!-- Top-Right (Figma Brand Indigo Accent Circle) -->
+    <path
+        android:fillColor="#6155F5"
+        android:pathData="M29.9,14 A4.1,4.1 0 1,0 29.9,22.2 A4.1,4.1 0 1,0 29.9,14 Z" />
+
+    <!-- Bottom-Left (Soft Duotone Slate) -->
+    <path
+        android:fillColor="#94A3B8"
+        android:pathData="M16.6,25.8 H19.6 C21,25.8 22.2,27 22.2,28.4 V31.4 C22.2,32.8 21,34 19.6,34 H16.6 C15.2,34 14,32.8 14,31.4 V28.4 C14,27 15.2,25.8 16.6,25.8 Z" />
+
+    <!-- Bottom-Right -->
+    <path
+        android:fillColor="#475569"
+        android:pathData="M28.4,25.8 H31.4 C32.8,25.8 34,27 34,28.4 V31.4 C34,32.8 32.8,34 31.4,34 H28.4 C27,34 25.8,32.8 25.8,31.4 V28.4 C25.8,27 27,25.8 28.4,25.8 Z" />
+</vector>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/surface_canvas">
+
+        <LinearLayout
+            android:id="@+id/cardToolbar"
+            style="@style/AppContainer.HeaderNavy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="@dimen/ds_space_lg"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/iv_back"
+                    style="@style/AppButton.BackHeader"
+                    android:src="@drawable/ic_back"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:tint="@color/white" />
+
+                <TextView
+                    android:id="@+id/tv_title"
+                    style="@style/AppText.ScreenTitleLight"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginEnd="8dp"
+                    android:text="@string/languages"
+                    android:textSize="20sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/frNext"
+                    app:layout_constraintStart_toEndOf="@id/iv_back"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <FrameLayout
+                    android:id="@+id/frNext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="34dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <TextView
+                        android:id="@+id/iv_select"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:background="@drawable/bg_save_button"
+                        android:clickable="true"
+                        android:drawablePadding="6dp"
+                        android:focusable="true"
+                        android:fontFamily="@font/roboto_bold"
+                        android:gravity="center"
+                        android:includeFontPadding="false"
+                        android:paddingHorizontal="14dp"
+                        android:text="@string/save"
+                        android:textColor="@color/white"
+                        android:textSize="13sp"
+                        app:drawableStartCompat="@drawable/ic_done" />
+                </FrameLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_please_language"
+            style="@style/AppText.Secondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/ds_space_lg"
+            android:layout_marginTop="@dimen/ds_space_md"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:text="@string/please_select_language_to_continue"
+            app:layout_constraintTop_toBottomOf="@id/cardToolbar" />
+
+        <com.money.tracker.budget.planner.moneymanager.utils.language.UILanguageCustom
+            android:id="@+id/uiLanguage"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginHorizontal="@dimen/ds_space_md"
+            android:layout_marginTop="@dimen/ds_space_sm"
+            android:layout_marginBottom="10dp"
+            app:layout_constraintBottom_toTopOf="@+id/fr_ads"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_please_language" />
+
+        <FrameLayout
+            android:id="@+id/fr_ads"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+            <RelativeLayout
+                android:id="@+id/shimmer_native_language"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <include layout="@layout/ads_shimmer_native_language" />
+            </RelativeLayout>
+        </FrameLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

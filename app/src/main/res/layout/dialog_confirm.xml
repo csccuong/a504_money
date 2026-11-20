@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_dialog_card"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingHorizontal="22dp"
+    android:paddingTop="24dp"
+    android:paddingBottom="20dp">
+
+    <FrameLayout
+        android:id="@+id/icon_badge_container"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:background="@drawable/bg_dialog_icon_danger">
+
+        <ImageView
+            android:id="@+id/iv_dialog_icon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_delete_clean"
+            app:tint="@color/semantic_expense" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tv_dialog_title"
+        style="@style/AppText.ScreenTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:maxLines="2"
+        android:text="@string/delete_transaction" />
+
+    <TextView
+        android:id="@+id/tv_dialog_message"
+        style="@style/AppText.Secondary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:lineSpacingExtra="2dp"
+        android:text="@string/delete_transaction_confirm" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_marginTop="22dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/btn_negative"
+            style="@style/AppButton.Secondary"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="6dp"
+            android:layout_weight="1"
+            android:minHeight="0dp"
+            android:text="@string/cancel" />
+
+        <TextView
+            android:id="@+id/btn_positive"
+            style="@style/AppButton.DangerSolid"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="6dp"
+            android:layout_weight="1"
+            android:minHeight="0dp"
+            android:text="@string/delete" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,34 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+        maven { url 'https://maven.google.com' }
+        maven { url "https://jitpack.io" }
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
+        maven { url 'https://maven.google.com' }
+        maven {
+            url 'https://dl-maven-android.mintegral.com/repository/mbridge_android_sdk_oversea'
+        }
+        maven {
+            url 'https://artifact.bytedance.com/repository/pangle/'
+        }
+        maven {
+            url 'https://maven.pkg.github.com/cscappstudio/csc_ads_lib'
+            credentials {
+                username = "csccuong"
+                password = "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"
+            }
+        }
+    }
+}
+
+rootProject.name = "aimoney"
+include ':app'

@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="months">
+        <item>1월</item>
+        <item>2월</item>
+        <item>3월</item>
+        <item>4월</item>
+        <item>5월</item>
+        <item>6월</item>
+        <item>7월</item>
+        <item>8월</item>
+        <item>9월</item>
+        <item>10월</item>
+        <item>11월</item>
+        <item>12월</item>
+    </string-array>
+
+    <string-array name="months_short">
+        <item>1월</item>
+        <item>2월</item>
+        <item>3월</item>
+        <item>4월</item>
+        <item>5월</item>
+        <item>6월</item>
+        <item>7월</item>
+        <item>8월</item>
+        <item>9월</item>
+        <item>10월</item>
+        <item>11월</item>
+        <item>12월</item>
+    </string-array>
+
+    <!-- Onboarding & Guide -->
+    <string name="note_continue1">쉽고 간편한 자산 관리</string>
+    <string name="note_continue2">지출을 깔끔하게 정리하세요</string>
+    <string name="note_continue3">재정 상태를 한눈에 추적하세요</string>
+    <string name="note_continue4">목표를 세우고 더 많이 저축하세요</string>
+    <string name="intro_slide_1_des">수입, 지출, 잔액을 한곳에서 간편하게 관리하세요.</string>
+    <string name="intro_slide_2_des">거래 내역을 분류해 돈이 어디로 쓰이는지 확인하세요</string>
+    <string name="intro_slide_3_des">시간에 따른 수입, 지출, 저축 변화를 시각적으로 확인하세요</string>
+    <string name="intro_slide_4_des">예산을 계획하고 저축 목표를 세워 더 나은 소비 습관을 만들어 보세요</string>
+    <string name="note_guide1">‘예산’을 탭해 지출을 관리하세요</string>
+    <string name="note_guide2">남은 잔액을 한눈에 확인하세요</string>
+    <string name="note_guide3">여러 예산을 손쉽게 전환하세요</string>
+    <string name="note_guide4">지출을 분석하고 계획을 유지하세요</string>
+    <string name="guide">가이드</string>
+    <string name="next">다음</string>
+    <string name="this_action_can_contain_ads">이 작업에는 광고가 포함될 수 있습니다…</string>
+
+    <!-- Navigation & Main Screen -->
+    <string name="home">홈</string>
+    <string name="statistic">통계</string>
+    <string name="budget">예산</string>
+    <string name="settings">설정</string>
+    <string name="total_balance">총 잔액</string>
+    <string name="total_expenditure">총 지출</string>
+    <string name="total_income">총 수입</string>
+    <string name="add_your_first_transaction">첫 거래를 추가해 보세요.</string>
+    <string name="no_transactions_yet">아직 거래가 없습니다</string>
+    <string name="no_transactions_desc">거래를 추가하면 여기에 표시됩니다.</string>
+    <string name="vs_last_month">지난달 대비</string>
+    <string name="please_add_transaction_first">먼저 거래를 추가해 주세요</string>
+    <string name="tap_here_to_exit">여기를 탭해 종료하세요</string>
+    <string name="recent_transactions">최근 거래</string>
+    <string name="overview">요약</string>
+    <string name="this_month">이번 달</string>
+    <string name="last_month">지난달</string>
+    <string name="all_transactions">전체 거래</string>
+    <string name="view_all">모두 보기</string>
+    <string name="view_all_count">모두 보기 (%1$d)</string>
+    <string name="view_all_transactions_count">거래 %1$d건 모두 보기</string>
+    <string name="today">오늘</string>
+    <string name="yesterday">어제</string>
+    <string name="all_time">전체 기간</string>
+    <string name="search_transactions_hint">메모, 카테고리, 금액 검색…</string>
+    <string name="no_matching_transactions">일치하는 거래가 없습니다</string>
+    <string name="collapse_all">모두 접기</string>
+    <string name="expand_all">모두 펼치기</string>
+    <string name="tap_to_set_budget">탭하여 월간 지출 한도 설정</string>
+
+    <!-- Notification Prompt & Banner -->
+    <string name="notice">알림</string>
+    <string name="allow_alerts_currency_updates">알림을 허용하고 실시간\n환율 정보를 받아보세요!</string>
+    <string name="turn_on">켜기</string>
+    <string name="allow_app_notify_you">Money Manager: Smart Saver에서 알림을 보내도록 허용하시겠습니까?</string>
+    <string name="turn_on_notifications_desc">최신 소식을 받으려면 알림을 켜세요.</string>
+    <string name="allow">허용</string>
+    <string name="dont_allow">허용 안 함</string>
+
+    <!-- Transactions & Statistics -->
+    <string name="add">추가</string>
+    <string name="expense">지출</string>
+    <string name="income">수입</string>
+    <string name="loan">대여</string>
+    <string name="borrow">차입</string>
+    <string name="amount">금액</string>
+    <string name="category">카테고리</string>
+    <string name="note">메모</string>
+    <string name="add_a_description">설명 추가</string>
+    <string name="lender">빌려준 사람</string>
+    <string name="select_date">날짜 선택</string>
+    <string name="date_time">날짜 및 시간</string>
+    <string name="select_time">시간 선택</string>
+    <string name="select_month">월 선택</string>
+    <string name="transactions">거래 내역</string>
+    <string name="date">날짜</string>
+    <string name="month">월</string>
+    <string name="balance">잔액</string>
+    <string name="total">합계</string>
+    <string name="edit">편집</string>
+    <string name="save">저장</string>
+    <string name="cancel">취소</string>
+    <string name="delete">삭제</string>
+    <string name="delete_transaction">거래 삭제</string>
+    <string name="delete_transaction_confirm">이 거래를 삭제하시겠습니까?</string>
+    <string name="none_option">없음</string>
+
+    <!-- Budget -->
+    <string name="budget_detail">예산 상세</string>
+    <string name="add_budget">예산 추가</string>
+    <string name="budget_name">예산 이름</string>
+    <string name="net_worth">순자산</string>
+    <string name="remaining">남은 금액</string>
+    <string name="budget_colon_value">예산: %1$s</string>
+    <string name="expenses_colon_value">지출: %1$s</string>
+    <string name="remain_colon_value">남음: %1$s</string>
+    <string name="monthly_budget">월간 예산</string>
+    <string name="set_monthly_budget">월간 예산 설정</string>
+    <string name="edit_budget">예산 편집</string>
+    <string name="delete_budget">예산 삭제</string>
+    <string name="delete_budget_confirm">이 예산을 삭제하시겠습니까?</string>
+    <string name="budget_saved">예산이 저장되었습니다</string>
+    <string name="budget_deleted">예산이 삭제되었습니다</string>
+    <string name="budget_already_exists">이 카테고리의 예산이 이미 존재합니다</string>
+    <string name="set_category_limit_desc">카테고리를 선택하고 월 지출 한도를 설정하세요</string>
+    <string name="all_categories_have_budgets">모든 카테고리에 이미 예산이 있습니다</string>
+    <string name="now">지금</string>
+    <string name="category_budgets">카테고리별 예산</string>
+    <string name="custom_budget">직접 설정</string>
+    <string name="auto_tracked">자동 집계</string>
+    <string name="spent">사용</string>
+    <string name="left">남음</string>
+    <string name="over_budget">예산 초과</string>
+    <string name="over_by_value">%1$s 초과</string>
+    <string name="spent_of_value">%1$s / %2$s</string>
+    <string name="daily_limit">일일 한도</string>
+    <string name="per_day_value">%1$s/일</string>
+    <string name="daily_avg">일 평균</string>
+    <string name="no_budgets_title">아직 카테고리별 예산이 없습니다</string>
+    <string name="no_budgets_desc">카테고리별 월간 한도를 설정해 지출을 자동으로 집계하세요.</string>
+    <string name="budget_allocated_exceeds_hint">배정된 예산(%1$s)이 월간 한도(%2$s)를 초과합니다</string>
+    <string name="no_budget_transactions">이번 달 이 예산의 지출이 없습니다</string>
+    <string name="add_expense">지출 추가</string>
+    <string name="auto_linked_budget_hint">%1$s 예산에 자동 집계됨</string>
+    <string name="skip">건너뛰기</string>
+    <string name="year">연</string>
+    <string name="yearly_report">연간 리포트</string>
+    <string name="net_savings">순액</string>
+    <string name="net_loan">순 대여</string>
+    <string name="lent">빌려줌</string>
+    <string name="borrowed">빌림</string>
+    <string name="vs_prev_month_up">↑ 전월 대비 %1$d%%</string>
+    <string name="vs_prev_month_down">↓ 전월 대비 %1$d%%</string>
+    <string name="vs_prev_month_same">전월과 동일</string>
+    <string name="chart_breakdown">항목별</string>
+    <string name="chart_trend">추이</string>
+    <string name="income_allocation">수입 배분</string>
+    <string name="saved">저축</string>
+    <string name="overspent">초과 지출</string>
+    <string name="of_income_value">수입의 %1$s</string>
+    <string name="add_income_to_see_savings">수입을 추가해 저축률을 확인하세요</string>
+    <string name="transactions_count">%1$d건</string>
+    <string name="category_transactions">카테고리별 거래</string>
+    <string name="no_note">메모 없음</string>
+    <string name="cashflow">현금 흐름</string>
+    <string name="edit_transaction">거래 편집</string>
+    <string name="add_transaction">거래 추가</string>
+    <string name="person_name_hint">상대방 또는 빌려준 사람 이름</string>
+    <string name="used_percent">%1$d%% 사용</string>
+    <string name="week">주</string>
+    <string name="custom_range">직접 설정</string>
+    <string name="current_period">현재</string>
+    <string name="monthly_table">12개월 표</string>
+    <string name="filters">필터</string>
+    <string name="reset">초기화</string>
+    <string name="apply">적용</string>
+    <string name="all">전체</string>
+    <string name="quick_period">빠른 기간</string>
+    <string name="last_7_days">최근 7일</string>
+    <string name="last_30_days">최근 30일</string>
+    <string name="sort_by">정렬 기준</string>
+    <string name="sort_highest_amount">금액 높은 순</string>
+    <string name="sort_most_transactions">거래 많은 순</string>
+    <string name="select_date_range">날짜 범위 선택</string>
+    <string name="vs_prev_period_up">↑ 이전 대비 %1$d%%</string>
+    <string name="vs_prev_period_down">↓ 이전 대비 %1$d%%</string>
+    <string name="vs_prev_period_same">이전과 동일</string>
+
+    <!-- Settings & Language & Currency -->
+    <string name="general">일반</string>
+    <string name="about_us">앱 정보</string>
+    <string name="currency">통화</string>
+    <string name="currency_unit">통화 단위</string>
+    <string name="search">검색</string>
+    <string name="language">언어</string>
+    <string name="languages">언어</string>
+    <string name="please_select_language_to_continue">계속하려면 언어를 선택해 주세요</string>
+    <string name="share">공유</string>
+    <string name="privacy_policy">개인정보 처리방침</string>
+    <string name="rating">평가하기</string>
+
+    <!-- Interest Screen -->
+    <string name="interest">관심사</string>
+    <string name="please_select_at_least_2_options_to_continue">*계속하려면 2개 이상 선택해 주세요.</string>
+    <string name="interest_bills_utilities">💡 공과금 및 요금</string>
+    <string name="interest_food_dining">🍽️ 식사 및 외식</string>
+    <string name="interest_shopping">🛍️ 쇼핑</string>
+    <string name="interest_transportation">🚗 교통</string>
+    <string name="interest_healthcare">🏥 의료 및 건강</string>
+
+    <!-- Uninstall Retention Screen -->
+    <string name="uninstall">제거</string>
+    <string name="uninstall_question">사용 중 어떤 문제가 있었나요?</string>
+    <string name="not_much_more_useful_nthan_the_defaults">기본 기능보다 크게 유용하지 않음</string>
+    <string name="unresponsive_or_laggy">반응 없음 또는\n느림</string>
+    <string name="explore">살펴보기</string>
+    <string name="try_again">다시 시도</string>
+    <string name="dont_uninstall_yet">아직 제거하지 않기</string>
+    <string name="still_want_to_uninstall">그래도 제거하기</string>
+
+    <!-- Validation & Feedback Messages -->
+    <string name="msg_enter_amount">금액을 입력해 주세요</string>
+    <string name="msg_select_category">카테고리를 선택해 주세요</string>
+    <string name="msg_transaction_saved">거래가 저장되었습니다</string>
+    <string name="msg_enter_all_fields">모든 항목을 입력해 주세요</string>
+    <string name="msg_invalid_amount">올바르지 않은 금액입니다</string>
+    <string name="msg_enter_budget_amount">예산 금액을 입력해 주세요</string>
+    <string name="msg_budget_exceeds_limit">모든 예산의 합계는 %1$s 미만이어야 합니다</string>
+    <string name="msg_choose_language">계속하려면 언어를 선택해 주세요</string>
+    <string name="msg_transaction_not_found">거래를 찾을 수 없습니다</string>
+    <string name="msg_transaction_details_not_found">거래 상세 정보를 찾을 수 없습니다</string>
+    <string name="msg_unable_delete_transaction">거래를 삭제할 수 없습니다</string>
+    <string name="msg_transaction_deleted">거래가 삭제되었습니다</string>
+
+    <!-- Category Display Names -->
+    <string name="category_food">식비</string>
+    <string name="category_social">교제</string>
+    <string name="category_traffic">교통</string>
+    <string name="category_shopping">쇼핑</string>
+    <string name="category_grocery">식료품</string>
+    <string name="category_education">교육</string>
+    <string name="category_bills">공과금</string>
+    <string name="category_rentals">임대료</string>
+    <string name="category_medical">의료</string>
+    <string name="category_investment">투자</string>
+    <string name="category_gift">선물</string>
+    <string name="category_other">기타</string>
+    <string name="category_salary">급여</string>
+    <string name="category_invest">투자 수익</string>
+    <string name="category_business">사업</string>
+    <string name="category_interest">이자</string>
+    <string name="category_extra_income">부수입</string>
+    <string name="category_loan">대여</string>
+    <string name="category_borrow">차입</string>
+
+    <!-- Notifications -->
+    <string name="open">열기</string>
+    <string name="open_now">지금 열기</string>
+    <string name="continued">계속</string>
+    <string name="title_screen_shoot_done">영수증 스크린샷을 저장하셨나요?</string>
+    <string name="body_screen_shoot_done">잊어버리기 전에 Money Manager에 결제 내역을 기록하세요.</string>
+    <string name="title_dowload_done">명세서나 청구서를 저장하셨나요?</string>
+    <string name="body_dowload_done">기록하여 예산을 최신 상태로 유지하세요: </string>
+    <string name="title_out_done">오늘 하루를 잘 마무리할까요?</string>
+    <string name="body_out_done">오늘의 지출, 수입 및 예산 현황을 확인해 보세요.</string>
+    <string name="noti_app_installed_title">새 앱 지출 추적</string>
+    <string name="noti_app_installed_body">%1$s에서 구독하거나 결제하셨나요? Money Manager에 기록하세요.</string>
+    <string name="noti_app_removed_title">활성 구독 확인</string>
+    <string name="noti_app_removed_body">앱을 삭제하셨나요? 추가 요금을 방지하려면 공과금 예산을 확인하세요.</string>
+    <string name="noti_app_removed_btn">예산 확인</string>
+    <string name="noti_app_updated_title">재정 상태를 최신으로 유지하세요</string>
+    <string name="noti_app_updated_body">오늘의 지출, 수입 및 저축 현황을 확인하세요.</string>
+    <string name="noti_app_updated_btn">앱 열기</string>
+
+    <string-array name="special_titles_v2">
+        <item>🌙 오늘의 지출 요약</item>
+        <item>✨ 저축이 늘어나고 있어요</item>
+        <item>📈 저녁 현금 흐름 인사이트</item>
+        <item>🔔 곧 납부할 청구서가 있나요?</item>
+        <item>🤝 대여 및 차입 내역 관리</item>
+        <item>🎯 내일 준비되셨나요?</item>
+    </string-array>
+
+    <string-array name="special_messages_v2">
+        <item>10초만 투자해 오늘의 지출을 기록하고 예산을 계획대로 유지하세요.</item>
+        <item>이번 달 저축액을 확인하고 잔액이 늘어나는 모습을 지켜보세요.</item>
+        <item>이번 달 수입과 지출 곡선을 비교해 추가 저축 여력을 찾아보세요.</item>
+        <item>예정된 월세, 공과금, 고정 지출을 미리 점검해 예상치 못한 지출을 막으세요.</item>
+        <item>최근 돈을 빌려주거나 빌렸나요? 상환일을 놓치지 않도록 명확히 기록하세요.</item>
+        <item>오늘 밤 이번 달 남은 예산을 확인하고 자신감 있게 내일을 시작하세요.</item>
+    </string-array>
+
+    <string-array name="special_titles_news">
+        <item>☕ 아침 재정 체크</item>
+        <item>🧾 오늘의 지출 기록하기</item>
+        <item>📊 얼마나 저축하셨나요?</item>
+        <item>🛡️ 예산 범위 지키기</item>
+        <item>🛍️ 구매를 계획 중이신가요?</item>
+        <item>💰 수입 흐름 추적하기</item>
+    </string-array>
+
+    <string-array name="special_messages_news">
+        <item>스마트하게 하루를 시작하세요 — 모닝커피 전에 일일 지출 한도를 확인해 보세요.</item>
+        <item>방금 점심을 먹었거나 요금을 납부했나요? 5초 만에 기록해 정확도를 유지하세요.</item>
+        <item>이번 달 수입 중 식비, 공과금, 저축에 각각 몇 %가 쓰였는지 확인하세요.</item>
+        <item>다음 결제 전에 해당 카테고리의 남은 예산을 먼저 확인해 보세요.</item>
+        <item>결제하기 전에 이번 달 잔액을 가볍게 확인해 보세요.</item>
+        <item>급여나 부수입이 생겼나요? 지금 추가하여 저축률을 업데이트하세요.</item>
+    </string-array>
+</resources>

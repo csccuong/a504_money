@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="months">
+        <item>Ocak</item>
+        <item>Şubat</item>
+        <item>Mart</item>
+        <item>Nisan</item>
+        <item>Mayıs</item>
+        <item>Haziran</item>
+        <item>Temmuz</item>
+        <item>Ağustos</item>
+        <item>Eylül</item>
+        <item>Ekim</item>
+        <item>Kasım</item>
+        <item>Aralık</item>
+    </string-array>
+
+    <string-array name="months_short">
+        <item>Oca</item>
+        <item>Şub</item>
+        <item>Mar</item>
+        <item>Nis</item>
+        <item>May</item>
+        <item>Haz</item>
+        <item>Tem</item>
+        <item>Ağu</item>
+        <item>Eyl</item>
+        <item>Eki</item>
+        <item>Kas</item>
+        <item>Ara</item>
+    </string-array>
+
+    <!-- Onboarding & Guide -->
+    <string name="note_continue1">Paranızı Kolayca Yönetin</string>
+    <string name="note_continue2">Harcamalarınızı Düzenleyin</string>
+    <string name="note_continue3">Finansal İlerlemenizi Takip Edin</string>
+    <string name="note_continue4">Hedef Belirleyin ve Daha Fazla Biriktirin</string>
+    <string name="intro_slide_1_des">Gelir, gider ve bakiyenizi tek bir yerde takip edin.</string>
+    <string name="intro_slide_2_des">Paranızın nereye gittiğini görmek için işlemleri kategorilere ayırın</string>
+    <string name="intro_slide_3_des">Zaman içindeki gelir, gider ve birikimlerinizi görselleştirin</string>
+    <string name="intro_slide_4_des">Bütçenizi planlayın, birikim hedefleri belirleyin ve daha iyi alışkanlıklar edinin</string>
+    <string name="note_guide1">Harcamalarınızı yönetmek için ‘Bütçe’ sekmesine dokunun</string>
+    <string name="note_guide2">Kalan bakiyenizi tek bakışta görün</string>
+    <string name="note_guide3">Bütçeler arasında zahmetsizce geçiş yapın</string>
+    <string name="note_guide4">Harcamaları analiz edin ve hedeflerinizde kalın</string>
+    <string name="guide">Rehber</string>
+    <string name="next">İleri</string>
+    <string name="this_action_can_contain_ads">Bu işlem reklam içerebilir…</string>
+
+    <!-- Navigation & Main Screen -->
+    <string name="home">Ana Sayfa</string>
+    <string name="statistic">İstatistik</string>
+    <string name="budget">Bütçe</string>
+    <string name="settings">Ayarlar</string>
+    <string name="total_balance">Toplam bakiye</string>
+    <string name="total_expenditure">Toplam harcama</string>
+    <string name="total_income">Toplam gelir</string>
+    <string name="add_your_first_transaction">İlk işleminizi ekleyin.</string>
+    <string name="no_transactions_yet">Henüz İşlem Yok</string>
+    <string name="no_transactions_desc">İşlem eklemeye başladığınızda işlemleriniz burada görünecektir.</string>
+    <string name="vs_last_month">geçen aya göre</string>
+    <string name="please_add_transaction_first">Lütfen önce bir işlem ekleyin</string>
+    <string name="tap_here_to_exit">Çıkmak için buraya dokunun</string>
+    <string name="recent_transactions">Son İşlemler</string>
+    <string name="overview">Genel Bakış</string>
+    <string name="this_month">Bu Ay</string>
+    <string name="last_month">Geçen Ay</string>
+    <string name="all_transactions">Tüm İşlemler</string>
+    <string name="view_all">Tümünü gör</string>
+    <string name="view_all_count">Tümünü gör (%1$d)</string>
+    <string name="view_all_transactions_count">Tüm %1$d işlemi gör</string>
+    <string name="today">Bugün</string>
+    <string name="yesterday">Dün</string>
+    <string name="all_time">Tüm zamanlar</string>
+    <string name="search_transactions_hint">Not, kategori, tutar ara…</string>
+    <string name="no_matching_transactions">Eşleşen işlem yok</string>
+    <string name="collapse_all">Tümünü daralt</string>
+    <string name="expand_all">Tümünü genişlet</string>
+    <string name="tap_to_set_budget">Aylık harcama limitini belirlemek için dokunun</string>
+
+    <!-- Notification Prompt & Banner -->
+    <string name="notice">Bildirim</string>
+    <string name="allow_alerts_currency_updates">Canlı döviz kuru güncellemeleri için\nbildirimlere izin verin!</string>
+    <string name="turn_on">Aç</string>
+    <string name="allow_app_notify_you">Money Manager: Smart Saver uygulamasının size bildirim göndermesine izin veriyor musunuz?</string>
+    <string name="turn_on_notifications_desc">Güncel kalmak için bildirimleri açın.</string>
+    <string name="allow">İzin Ver</string>
+    <string name="dont_allow">İzin Verme</string>
+
+    <!-- Transactions & Statistics -->
+    <string name="add">Ekle</string>
+    <string name="expense">Gider</string>
+    <string name="income">Gelir</string>
+    <string name="loan">Kredi</string>
+    <string name="borrow">Borç</string>
+    <string name="amount">Tutar</string>
+    <string name="category">Kategori</string>
+    <string name="note">Not</string>
+    <string name="add_a_description">Açıklama ekleyin</string>
+    <string name="lender">Borç Veren</string>
+    <string name="select_date">Tarih seçin</string>
+    <string name="date_time">Tarih ve saat</string>
+    <string name="select_time">Saat seçin</string>
+    <string name="select_month">Ay seçin</string>
+    <string name="transactions">İşlemler</string>
+    <string name="date">Tarih</string>
+    <string name="month">Ay</string>
+    <string name="balance">Bakiye</string>
+    <string name="total">Toplam</string>
+    <string name="edit">Düzenle</string>
+    <string name="save">Kaydet</string>
+    <string name="cancel">İptal</string>
+    <string name="delete">Sil</string>
+    <string name="delete_transaction">İşlemi Sil</string>
+    <string name="delete_transaction_confirm">Bu işlemi silmek istediğinizden emin misiniz?</string>
+    <string name="none_option">Yok</string>
+
+    <!-- Budget -->
+    <string name="budget_detail">Bütçe Detayı</string>
+    <string name="add_budget">Bütçe Ekle</string>
+    <string name="budget_name">Bütçe Adı</string>
+    <string name="net_worth">Net değer</string>
+    <string name="remaining">Kalan</string>
+    <string name="budget_colon_value">Bütçe: %1$s</string>
+    <string name="expenses_colon_value">Harcamalar: %1$s</string>
+    <string name="remain_colon_value">Kalan: %1$s</string>
+    <string name="monthly_budget">Aylık Bütçe</string>
+    <string name="set_monthly_budget">Aylık Bütçe Belirle</string>
+    <string name="edit_budget">Bütçeyi Düzenle</string>
+    <string name="delete_budget">Bütçeyi Sil</string>
+    <string name="delete_budget_confirm">Bu bütçeyi silmek istediğinizden emin misiniz?</string>
+    <string name="budget_saved">Bütçe kaydedildi</string>
+    <string name="budget_deleted">Bütçe silindi</string>
+    <string name="budget_already_exists">Bu kategori için zaten bir bütçe var</string>
+    <string name="set_category_limit_desc">Bir kategori seçin ve aylık harcama limiti belirleyin</string>
+    <string name="all_categories_have_budgets">Tüm kategorilerde zaten bir bütçe var</string>
+    <string name="now">Şimdi</string>
+    <string name="category_budgets">Kategori Bütçeleri</string>
+    <string name="custom_budget">Özel</string>
+    <string name="auto_tracked">Otomatik takip</string>
+    <string name="spent">Harcanan</string>
+    <string name="left">Kalan</string>
+    <string name="over_budget">Bütçe aşıldı</string>
+    <string name="over_by_value">%1$s aşıldı</string>
+    <string name="spent_of_value">%1$s / %2$s</string>
+    <string name="daily_limit">Günlük limit</string>
+    <string name="per_day_value">%1$s/gün</string>
+    <string name="daily_avg">Günlük ort.</string>
+    <string name="no_budgets_title">Henüz kategori bütçesi yok</string>
+    <string name="no_budgets_desc">Harcamaları otomatik takip etmek için kategoriye göre aylık limitler belirleyin.</string>
+    <string name="budget_allocated_exceeds_hint">Ayrılan (%1$s) aylık limiti (%2$s) aşıyor</string>
+    <string name="no_budget_transactions">Bu ay bu bütçede harcama yok</string>
+    <string name="add_expense">Gider Ekle</string>
+    <string name="auto_linked_budget_hint">%1$s bütçesinde otomatik takip edilir</string>
+    <string name="skip">Atla</string>
+    <string name="year">Yıl</string>
+    <string name="yearly_report">Yıllık Rapor</string>
+    <string name="net_savings">Net</string>
+    <string name="net_loan">Net Kredi</string>
+    <string name="lent">Verilen</string>
+    <string name="borrowed">Alınan</string>
+    <string name="vs_prev_month_up">↑ %1$d%% geçen aya göre</string>
+    <string name="vs_prev_month_down">↓ %1$d%% geçen aya göre</string>
+    <string name="vs_prev_month_same">Geçen ayla aynı</string>
+    <string name="chart_breakdown">Dağılım</string>
+    <string name="chart_trend">Trend</string>
+    <string name="income_allocation">Gelir Dağılımı</string>
+    <string name="saved">Tasarruf Edilen</string>
+    <string name="overspent">Fazla Harcanan</string>
+    <string name="of_income_value">Gelirin %1$s kısmı</string>
+    <string name="add_income_to_see_savings">Tasarruf oranınızı görmek için gelir ekleyin</string>
+    <string name="transactions_count">%1$d işlem</string>
+    <string name="category_transactions">Kategori İşlemleri</string>
+    <string name="no_note">Not yok</string>
+    <string name="cashflow">Nakit Akışı</string>
+    <string name="edit_transaction">İşlemi Düzenle</string>
+    <string name="add_transaction">İşlem Ekle</string>
+    <string name="person_name_hint">Kişi veya borç veren adı</string>
+    <string name="used_percent">%1$d%% kullanıldı</string>
+    <string name="week">Hafta</string>
+    <string name="custom_range">Özel</string>
+    <string name="current_period">Mevcut</string>
+    <string name="monthly_table">12 Ay Tablo</string>
+    <string name="filters">Filtreler</string>
+    <string name="reset">Sıfırla</string>
+    <string name="apply">Uygula</string>
+    <string name="all">Tümü</string>
+    <string name="quick_period">Hızlı Dönem</string>
+    <string name="last_7_days">Son 7 gün</string>
+    <string name="last_30_days">Son 30 gün</string>
+    <string name="sort_by">Sıralama</string>
+    <string name="sort_highest_amount">En yüksek tutar</string>
+    <string name="sort_most_transactions">En çok işlem</string>
+    <string name="select_date_range">Tarih aralığı seçin</string>
+    <string name="vs_prev_period_up">↑ %1$d%% öncekine göre</string>
+    <string name="vs_prev_period_down">↓ %1$d%% öncekine göre</string>
+    <string name="vs_prev_period_same">Öncekiyle aynı</string>
+
+    <!-- Settings & Language & Currency -->
+    <string name="general">Genel</string>
+    <string name="about_us">Hakkımızda</string>
+    <string name="currency">Para Birimi</string>
+    <string name="currency_unit">Para birimi</string>
+    <string name="search">Ara</string>
+    <string name="language">Dil</string>
+    <string name="languages">Diller</string>
+    <string name="please_select_language_to_continue">Devam etmek için lütfen bir dil seçin</string>
+    <string name="share">Paylaş</string>
+    <string name="privacy_policy">Gizlilik politikası</string>
+    <string name="rating">Değerlendir</string>
+
+    <!-- Interest Screen -->
+    <string name="interest">İlgi Alanları</string>
+    <string name="please_select_at_least_2_options_to_continue">*Devam etmek için lütfen en az 2 seçenek belirleyin.</string>
+    <string name="interest_bills_utilities">💡 Faturalar ve Hizmetler</string>
+    <string name="interest_food_dining">🍽️ Yeme ve İçme</string>
+    <string name="interest_shopping">🛍️ Alışveriş</string>
+    <string name="interest_transportation">🚗 Ulaşım</string>
+    <string name="interest_healthcare">🏥 Sağlık</string>
+
+    <!-- Uninstall Retention Screen -->
+    <string name="uninstall">Kaldır</string>
+    <string name="uninstall_question">Kullanım sırasında hangi sorunla karşılaştınız?</string>
+    <string name="not_much_more_useful_nthan_the_defaults">Varsayılan uygulamalardan pek daha faydalı değil</string>
+    <string name="unresponsive_or_laggy">Yanıt vermiyor veya\nyavaş çalışıyor</string>
+    <string name="explore">Keşfet</string>
+    <string name="try_again">Tekrar Dene</string>
+    <string name="dont_uninstall_yet">Henüz kaldırma</string>
+    <string name="still_want_to_uninstall">Yine de kaldırmak istiyorum</string>
+
+    <!-- Validation & Feedback Messages -->
+    <string name="msg_enter_amount">Lütfen tutar girin</string>
+    <string name="msg_select_category">Lütfen bir kategori seçin</string>
+    <string name="msg_transaction_saved">İşlem başarıyla kaydedildi</string>
+    <string name="msg_enter_all_fields">Lütfen tüm alanları doldurun</string>
+    <string name="msg_invalid_amount">Geçersiz tutar</string>
+    <string name="msg_enter_budget_amount">Lütfen bütçe tutarını girin</string>
+    <string name="msg_budget_exceeds_limit">Tüm bütçelerin toplamı %1$s değerinden küçük olmalıdır</string>
+    <string name="msg_choose_language">Devam etmek için lütfen bir dil seçin</string>
+    <string name="msg_transaction_not_found">İşlem bulunamadı</string>
+    <string name="msg_transaction_details_not_found">İşlem detayları bulunamadı</string>
+    <string name="msg_unable_delete_transaction">İşlem silinemedi</string>
+    <string name="msg_transaction_deleted">İşlem başarıyla silindi</string>
+
+    <!-- Category Display Names -->
+    <string name="category_food">Yemek</string>
+    <string name="category_social">Sosyal</string>
+    <string name="category_traffic">Ulaşım</string>
+    <string name="category_shopping">Alışveriş</string>
+    <string name="category_grocery">Market</string>
+    <string name="category_education">Eğitim</string>
+    <string name="category_bills">Faturalar</string>
+    <string name="category_rentals">Kira</string>
+    <string name="category_medical">Sağlık</string>
+    <string name="category_investment">Yatırım</string>
+    <string name="category_gift">Hediye</string>
+    <string name="category_other">Diğer</string>
+    <string name="category_salary">Maaş</string>
+    <string name="category_invest">Yatırımlar</string>
+    <string name="category_business">İş</string>
+    <string name="category_interest">Faiz</string>
+    <string name="category_extra_income">Ek Gelir</string>
+    <string name="category_loan">Kredi</string>
+    <string name="category_borrow">Borç</string>
+
+    <!-- Notifications -->
+    <string name="open">Aç</string>
+    <string name="open_now">Şimdi Aç!</string>
+    <string name="continued">Devam Et</string>
+    <string name="title_screen_shoot_done">Fiş Ekran Görüntüsü Kaydedildi mi?</string>
+    <string name="body_screen_shoot_done">Unutmadan bu ödemeyi Money Manager\'a kaydedin.</string>
+    <string name="title_dowload_done">Ekstre veya Fatura Kaydedildi mi?</string>
+    <string name="body_dowload_done">Bütçenizi güncel tutmak için kaydedin: </string>
+    <string name="title_out_done">Günü Güzel Bitirelim mi?</string>
+    <string name="body_out_done">Bugünkü giderlerinizi, gelirlerinizi ve bütçe durumunuzu gözden geçirin.</string>
+    <string name="noti_app_installed_title">Yeni Uygulama Harcamalarını İzleyin</string>
+    <string name="noti_app_installed_body">%1$s içinde abonelik veya satın alma mı yaptınız? Money Manager\'a kaydedin.</string>
+    <string name="noti_app_removed_title">Aktif Abonelikleri Kontrol Edin</string>
+    <string name="noti_app_removed_body">Bir uygulamayı mı kaldırdınız? Ek ücretlerden kaçınmak için Faturalar bütçenizi gözden geçirin.</string>
+    <string name="noti_app_removed_btn">Bütçeyi Kontrol Et</string>
+    <string name="noti_app_updated_title">Finanslarınızı Güncel Tutun</string>
+    <string name="noti_app_updated_body">Bugünkü giderlerinizi, gelirlerinizi ve tasarruf ilerlemenizi inceleyin.</string>
+    <string name="noti_app_updated_btn">Uygulamayı Aç</string>
+
+    <string-array name="special_titles_v2">
+        <item>🌙 Bugünün Harcama Özeti</item>
+        <item>✨ Birikimleriniz Büyüyor</item>
+        <item>📈 Akşam Nakit Akışı Özeti</item>
+        <item>🔔 Yaklaşan Faturanız Var mı?</item>
+        <item>🤝 Borç ve Alacakları Takip Edin</item>
+        <item>🎯 Yarına Hazır mısınız?</item>
+    </string-array>
+
+    <string-array name="special_messages_v2">
+        <item>Bugünkü harcamaları kaydetmek için 10 saniye ayırın ve bütçenizi yolunda tutun.</item>
+        <item>Bu ay ne kadar birikim yaptığınızı görün ve bakiyenizin büyümesini izleyin.</item>
+        <item>Ek tasarruf fırsatları yakalamak için bu ayki gelir ve gider eğrinizi karşılaştırın.</item>
+        <item>Sürprizlerle karşılaşmamak için yaklaşan kira, fatura ve düzenli giderleri gözden geçirin.</item>
+        <item>Yakın zamanda borç verdiniz veya aldınız mı? Ödeme kaçırmamak için net şekilde kaydedin.</item>
+        <item>Bu gece kalan aylık bütçenizi gözden geçirin ve yarına güvenle başlayın.</item>
+    </string-array>
+
+    <string-array name="special_titles_news">
+        <item>☕ Sabah Para Kontrolü</item>
+        <item>🧾 Bugünkü Giderleri Kaydedin</item>
+        <item>📊 Ne Kadar Tasarruf Ettiniz?</item>
+        <item>🛡️ Bütçenizin İçinde Kalın</item>
+        <item>🛍️ Alışveriş mi Planlıyorsunuz?</item>
+        <item>💰 Gelir Akışınızı Takip Edin</item>
+    </string-array>
+
+    <string-array name="special_messages_news">
+        <item>Güne akıllı başlayın — ilk kahvenizden önce günlük harcama limitinizi kontrol edin.</item>
+        <item>Öğle yemeği mi yediniz veya fatura mı ödediniz? Doğru takip için 5 saniyede kaydedin.</item>
+        <item>Bu ay gelirinizin % kaçının Yemek, Faturalar ve Tasarruf kalemlerine gittiğini görün.</item>
+        <item>Bir sonraki alışverişinizden önce kalan kategori bütçenizi kontrol edin.</item>
+        <item>Ödeme yapmadan önce aylık bakiyenize hızlıca göz atın.</item>
+        <item>Maaş veya ek gelir mi elde ettiniz? Tasarruf oranınızı güncellemek için hemen ekleyin.</item>
+    </string-array>
+</resources>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_intro">
+
+    <LinearLayout
+        android:id="@+id/ll_brand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingHorizontal="28dp"
+        app:layout_constraintBottom_toTopOf="@+id/ll_bottom"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <FrameLayout
+            android:id="@+id/cardLogo"
+            android:layout_width="116dp"
+            android:layout_height="116dp"
+            android:background="@drawable/bg_white"
+            android:elevation="2dp"
+            >
+
+            <ImageView
+                android:id="@+id/logoApp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@null"
+                android:scaleType="fitCenter"
+                android:src="@drawable/logo" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/tvAppName"
+            style="@style/AppText.ScreenTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:maxLines="2"
+            android:textColor="@color/white"
+            android:text="@string/app_name"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+    <!-- Compatibility elements for library-gma CSCSplashActivity -->
+    <TextView
+        android:id="@+id/tvProgressPercent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        tools:ignore="MissingConstraints" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animation_view"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:visibility="gone"
+        tools:ignore="MissingConstraints" />
+
+    <LinearLayout
+        android:id="@+id/ll_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingHorizontal="36dp"
+        android:paddingBottom="24dp"
+        app:layout_constraintBottom_toTopOf="@id/layoutAds">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_loading"
+            style="@style/AppText.Caption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/roboto_bold"
+            android:text="0%"
+            android:textColor="@color/white"
+            android:visibility="gone" />
+
+        <com.money.tracker.budget.planner.moneymanager.ui.common.SplashProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="6dp"
+            android:layout_marginBottom="16dp"
+            android:max="100"
+            android:progress="20"
+            android:progressBackgroundTint="@color/stroke_card"
+            android:progressTint="@color/brand_primary" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/ads_text"
+            style="@style/AppText.Caption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/this_action_can_contain_ads"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/layoutAds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

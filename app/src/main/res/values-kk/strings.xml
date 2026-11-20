@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="months">
+        <item>Қаңтар</item>
+        <item>Ақпан</item>
+        <item>Наурыз</item>
+        <item>Сәуір</item>
+        <item>Мамыр</item>
+        <item>Маусым</item>
+        <item>Шілде</item>
+        <item>Тамыз</item>
+        <item>Қыркүйек</item>
+        <item>Қазан</item>
+        <item>Қараша</item>
+        <item>Желтоқсан</item>
+    </string-array>
+
+    <string-array name="months_short">
+        <item>Қаң</item>
+        <item>Ақп</item>
+        <item>Нау</item>
+        <item>Сәу</item>
+        <item>Мам</item>
+        <item>Мау</item>
+        <item>Шіл</item>
+        <item>Там</item>
+        <item>Қыр</item>
+        <item>Қаз</item>
+        <item>Қар</item>
+        <item>Жел</item>
+    </string-array>
+
+    <!-- Onboarding & Guide -->
+    <string name="note_continue1">Қаржыңызды оңай басқарыңыз</string>
+    <string name="note_continue2">Шығындарыңызды жүйелеңіз</string>
+    <string name="note_continue3">Қаржылық ілгерілеуді бақылаңыз</string>
+    <string name="note_continue4">Мақсат қойып, көбірек жинаңыз</string>
+    <string name="intro_slide_1_des">Кірісті, шығынды және балансты бір жерде бақылаңыз.</string>
+    <string name="intro_slide_2_des">Ақшаңыздың қайда кететінін көру үшін транзакцияларды санаттаңыз</string>
+    <string name="intro_slide_3_des">Уақыт өте келе кірісіңізді, шығыныңызды және жинақтарыңызды көрнекі түрде қараңыз</string>
+    <string name="intro_slide_4_des">Бюджетіңізді жоспарлаңыз, жинақ мақсаттарын қойыңыз және жақсы әдеттер қалыптастырыңыз</string>
+    <string name="note_guide1">Шығындарды басқару үшін «Бюджет» бөлімін түртіңіз</string>
+    <string name="note_guide2">Қалған балансты бір қарағанда көріңіз</string>
+    <string name="note_guide3">Бюджеттер арасында оңай ауысыңыз</string>
+    <string name="note_guide4">Шығындарды талдап, бақылауда ұстаңыз</string>
+    <string name="guide">Нұсқаулық</string>
+    <string name="next">Келесі</string>
+    <string name="this_action_can_contain_ads">Бұл әрекетте жарнама болуы мүмкін…</string>
+
+    <!-- Navigation & Main Screen -->
+    <string name="home">Басты</string>
+    <string name="statistic">Статистика</string>
+    <string name="budget">Бюджет</string>
+    <string name="settings">Баптаулар</string>
+    <string name="total_balance">Жалпы баланс</string>
+    <string name="total_expenditure">Жалпы шығын</string>
+    <string name="total_income">Жалпы кіріс</string>
+    <string name="add_your_first_transaction">Алғашқы транзакцияңызды қосыңыз.</string>
+    <string name="no_transactions_yet">Әзірге транзакциялар жоқ</string>
+    <string name="no_transactions_desc">Транзакцияларды қоса бастағанда, олар осында көрсетіледі.</string>
+    <string name="vs_last_month">өткен аймен салыстырғанда</string>
+    <string name="please_add_transaction_first">Алдымен транзакция қосыңыз</string>
+    <string name="tap_here_to_exit">Шығу үшін осында түртіңіз</string>
+    <string name="recent_transactions">Соңғы транзакциялар</string>
+    <string name="overview">Шолу</string>
+    <string name="this_month">Осы ай</string>
+    <string name="last_month">Өткен ай</string>
+    <string name="all_transactions">Барлық транзакциялар</string>
+    <string name="view_all">Барлығын көру</string>
+    <string name="view_all_count">Барлығын көру (%1$d)</string>
+    <string name="view_all_transactions_count">Барлық %1$d транзакцияны көру</string>
+    <string name="today">Бүгін</string>
+    <string name="yesterday">Кеше</string>
+    <string name="all_time">Барлық уақыт</string>
+    <string name="search_transactions_hint">Ескертпе, санат, сома бойынша іздеу…</string>
+    <string name="no_matching_transactions">Сәйкес транзакциялар жоқ</string>
+    <string name="collapse_all">Барлығын жию</string>
+    <string name="expand_all">Барлығын жаю</string>
+    <string name="tap_to_set_budget">Айлық шығын шегін орнату үшін түртіңіз</string>
+
+    <!-- Notification Prompt & Banner -->
+    <string name="notice">Хабарландыру</string>
+    <string name="allow_alerts_currency_updates">Валюта бағамдарының жаңартуларын\nалу үшін хабарландыруларға рұқсат беріңіз!</string>
+    <string name="turn_on">Қосу</string>
+    <string name="allow_app_notify_you">Money Manager: Smart Saver қолданбасына хабарландыру жіберуге рұқсат бересіз бе?</string>
+    <string name="turn_on_notifications_desc">Жаңалықтардан хабардар болу үшін хабарландыруларды қосыңыз.</string>
+    <string name="allow">Рұқсат беру</string>
+    <string name="dont_allow">Рұқсат бермеу</string>
+
+    <!-- Transactions & Statistics -->
+    <string name="add">Қосу</string>
+    <string name="expense">Шығын</string>
+    <string name="income">Кіріс</string>
+    <string name="loan">Несие</string>
+    <string name="borrow">Қарыз</string>
+    <string name="amount">Сома</string>
+    <string name="category">Санат</string>
+    <string name="note">Ескертпе</string>
+    <string name="add_a_description">Сипаттама қосыңыз</string>
+    <string name="lender">Қарыз беруші</string>
+    <string name="select_date">Күнді таңдаңыз</string>
+    <string name="date_time">Күні мен уақыты</string>
+    <string name="select_time">Уақытты таңдаңыз</string>
+    <string name="select_month">Айды таңдаңыз</string>
+    <string name="transactions">Транзакциялар</string>
+    <string name="date">Күні</string>
+    <string name="month">Ай</string>
+    <string name="balance">Баланс</string>
+    <string name="total">Барлығы</string>
+    <string name="edit">Өңдеу</string>
+    <string name="save">Сақтау</string>
+    <string name="cancel">Бас тарту</string>
+    <string name="delete">Жою</string>
+    <string name="delete_transaction">Транзакцияны жою</string>
+    <string name="delete_transaction_confirm">Бұл транзакцияны жойғыңыз келетініне сенімдісіз бе?</string>
+    <string name="none_option">Жоқ</string>
+
+    <!-- Budget -->
+    <string name="budget_detail">Бюджет мәліметтері</string>
+    <string name="add_budget">Бюджет қосу</string>
+    <string name="budget_name">Бюджет атауы</string>
+    <string name="net_worth">Таза капитал</string>
+    <string name="remaining">Қалдық</string>
+    <string name="budget_colon_value">Бюджет: %1$s</string>
+    <string name="expenses_colon_value">Шығындар: %1$s</string>
+    <string name="remain_colon_value">Қалдық: %1$s</string>
+    <string name="monthly_budget">Айлық бюджет</string>
+    <string name="set_monthly_budget">Айлық бюджетті орнату</string>
+    <string name="edit_budget">Бюджетті өңдеу</string>
+    <string name="delete_budget">Бюджетті жою</string>
+    <string name="delete_budget_confirm">Бұл бюджетті жойғыңыз келетініне сенімдісіз бе?</string>
+    <string name="budget_saved">Бюджет сақталды</string>
+    <string name="budget_deleted">Бюджет жойылды</string>
+    <string name="budget_already_exists">Бұл санат үшін бюджет бұрыннан бар</string>
+    <string name="set_category_limit_desc">Санатты таңдап, айлық шығын лимитін орнатыңыз</string>
+    <string name="all_categories_have_budgets">Барлық санатта бюджет бұрыннан бар</string>
+    <string name="now">Қазір</string>
+    <string name="category_budgets">Санат бюджеттері</string>
+    <string name="custom_budget">Арнайы</string>
+    <string name="auto_tracked">Автоесеп</string>
+    <string name="spent">Жұмсалды</string>
+    <string name="left">Қалды</string>
+    <string name="over_budget">Бюджеттен асты</string>
+    <string name="over_by_value">%1$s артық</string>
+    <string name="spent_of_value">%1$s / %2$s</string>
+    <string name="daily_limit">Күндік лимит</string>
+    <string name="per_day_value">%1$s/күн</string>
+    <string name="daily_avg">Күндік орт.</string>
+    <string name="no_budgets_title">Санат бюджеттері әлі жоқ</string>
+    <string name="no_budgets_desc">Шығындарды автоматты есепке алу үшін санат бойынша айлық лимиттер орнатыңыз.</string>
+    <string name="budget_allocated_exceeds_hint">Бөлінгені (%1$s) айлық лимиттен (%2$s) асып кетті</string>
+    <string name="no_budget_transactions">Осы айда бұл бюджетте шығындар жоқ</string>
+    <string name="add_expense">Шығын қосу</string>
+    <string name="auto_linked_budget_hint">«%1$s» бюджетінде автоматты есепке алынады</string>
+    <string name="skip">Өткізіп жіберу</string>
+    <string name="year">Жыл</string>
+    <string name="yearly_report">Жылдық есеп</string>
+    <string name="net_savings">Таза</string>
+    <string name="net_loan">Таза қарыз</string>
+    <string name="lent">Берілген</string>
+    <string name="borrowed">Алынған</string>
+    <string name="vs_prev_month_up">↑ %1$d%% өткен айдан</string>
+    <string name="vs_prev_month_down">↓ %1$d%% өткен айдан</string>
+    <string name="vs_prev_month_same">Өткен аймен бірдей</string>
+    <string name="chart_breakdown">Бөлініс</string>
+    <string name="chart_trend">Тренд</string>
+    <string name="income_allocation">Кірісті бөлу</string>
+    <string name="saved">Үнемделді</string>
+    <string name="overspent">Артық шығын</string>
+    <string name="of_income_value">Кірістің %1$s</string>
+    <string name="add_income_to_see_savings">Жинақ үлесін көру үшін кіріс қосыңыз</string>
+    <string name="transactions_count">%1$d транз.</string>
+    <string name="category_transactions">Санат транзакциялары</string>
+    <string name="no_note">Ескертпе жоқ</string>
+    <string name="cashflow">Ақша ағыны</string>
+    <string name="edit_transaction">Транзакцияны өңдеу</string>
+    <string name="add_transaction">Транзакция қосу</string>
+    <string name="person_name_hint">Адам немесе қарыз беруші аты</string>
+    <string name="used_percent">%1$d%% пайдаланылды</string>
+    <string name="week">Апта</string>
+    <string name="custom_range">Арнайы</string>
+    <string name="current_period">Ағымдағы</string>
+    <string name="monthly_table">12 ай кестесі</string>
+    <string name="filters">Сүзгілер</string>
+    <string name="reset">Ысыру</string>
+    <string name="apply">Қолдану</string>
+    <string name="all">Барлығы</string>
+    <string name="quick_period">Жылдам кезең</string>
+    <string name="last_7_days">Соңғы 7 күн</string>
+    <string name="last_30_days">Соңғы 30 күн</string>
+    <string name="sort_by">Сұрыптау</string>
+    <string name="sort_highest_amount">Ең жоғары сома</string>
+    <string name="sort_most_transactions">Ең көп транзакция</string>
+    <string name="select_date_range">Күн аралығын таңдаңыз</string>
+    <string name="vs_prev_period_up">↑ %1$d%% өткен кезеңнен</string>
+    <string name="vs_prev_period_down">↓ %1$d%% өткен кезеңнен</string>
+    <string name="vs_prev_period_same">Өткен кезеңмен бірдей</string>
+
+    <!-- Settings & Language & Currency -->
+    <string name="general">Жалпы</string>
+    <string name="about_us">Біз туралы</string>
+    <string name="currency">Валюта</string>
+    <string name="currency_unit">Валюта бірлігі</string>
+    <string name="search">Іздеу</string>
+    <string name="language">Тіл</string>
+    <string name="languages">Тілдер</string>
+    <string name="please_select_language_to_continue">Жалғастыру үшін тілді таңдаңыз</string>
+    <string name="share">Бөлісу</string>
+    <string name="privacy_policy">Құпиялылық саясаты</string>
+    <string name="rating">Бағалау</string>
+
+    <!-- Interest Screen -->
+    <string name="interest">Қызығушылықтар</string>
+    <string name="please_select_at_least_2_options_to_continue">*Жалғастыру үшін кемінде 2 нұсқаны таңдаңыз.</string>
+    <string name="interest_bills_utilities">💡 Шоттар мен коммуналдық</string>
+    <string name="interest_food_dining">🍽️ Тамақ және мейрамхана</string>
+    <string name="interest_shopping">🛍️ Сауда</string>
+    <string name="interest_transportation">🚗 Көлік</string>
+    <string name="interest_healthcare">🏥 Денсаулық</string>
+
+    <!-- Uninstall Retention Screen -->
+    <string name="uninstall">Жою</string>
+    <string name="uninstall_question">Пайдалану кезінде қандай мәселеге тап болдыңыз?</string>
+    <string name="not_much_more_useful_nthan_the_defaults">Стандартты құралдардан артықшылығы шамалы</string>
+    <string name="unresponsive_or_laggy">Жауап бермейді немесе\nбаяу істейді</string>
+    <string name="explore">Шолу</string>
+    <string name="try_again">Қайта көру</string>
+    <string name="dont_uninstall_yet">Әзірше жоймау</string>
+    <string name="still_want_to_uninstall">Бәрібір жою</string>
+
+    <!-- Validation & Feedback Messages -->
+    <string name="msg_enter_amount">Соманы енгізіңіз</string>
+    <string name="msg_select_category">Санатты таңдаңыз</string>
+    <string name="msg_transaction_saved">Транзакция сәтті сақталды</string>
+    <string name="msg_enter_all_fields">Барлық өрістерді толтырыңыз</string>
+    <string name="msg_invalid_amount">Сома дұрыс емес</string>
+    <string name="msg_enter_budget_amount">Бюджет сомасын енгізіңіз</string>
+    <string name="msg_budget_exceeds_limit">Барлық бюджеттердің қосындысы %1$s шамасынан кіші болуы керек</string>
+    <string name="msg_choose_language">Жалғастыру үшін тілді таңдаңыз</string>
+    <string name="msg_transaction_not_found">Транзакция табылмады</string>
+    <string name="msg_transaction_details_not_found">Транзакция мәліметтері табылмады</string>
+    <string name="msg_unable_delete_transaction">Транзакцияны жою мүмкін болмады</string>
+    <string name="msg_transaction_deleted">Транзакция сәтті жойылды</string>
+
+    <!-- Category Display Names -->
+    <string name="category_food">Тамақ</string>
+    <string name="category_social">Әлеуметтік</string>
+    <string name="category_traffic">Көлік</string>
+    <string name="category_shopping">Сауда</string>
+    <string name="category_grocery">Азық-түлік</string>
+    <string name="category_education">Білім</string>
+    <string name="category_bills">Шоттар</string>
+    <string name="category_rentals">Жалдау</string>
+    <string name="category_medical">Медицина</string>
+    <string name="category_investment">Инвестиция</string>
+    <string name="category_gift">Сыйлық</string>
+    <string name="category_other">Басқа</string>
+    <string name="category_salary">Жалақы</string>
+    <string name="category_invest">Салымдар</string>
+    <string name="category_business">Бизнес</string>
+    <string name="category_interest">Пайыздар</string>
+    <string name="category_extra_income">Қосымша кіріс</string>
+    <string name="category_loan">Несие</string>
+    <string name="category_borrow">Қарыз</string>
+
+    <!-- Notifications -->
+    <string name="open">Ашу</string>
+    <string name="open_now">Қазір ашу!</string>
+    <string name="continued">Жалғастыру</string>
+    <string name="title_screen_shoot_done">Түбіртек скриншоты сақталды ма?</string>
+    <string name="body_screen_shoot_done">Ұмытпай тұрып, бұл төлемді Money Manager қолданбасына енгізіңіз.</string>
+    <string name="title_dowload_done">Үзінді көшірме немесе шот сақталды ма?</string>
+    <string name="body_dowload_done">Бюджетіңізді өзекті ұстау үшін оны жазып қойыңыз: </string>
+    <string name="title_out_done">Күнді қорытындылаймыз ба?</string>
+    <string name="body_out_done">Бүгінгі шығындарды, кірістерді және бюджет барысын тексеріңіз.</string>
+    <string name="noti_app_installed_title">Жаңа қолданба шығындарын бақылаңыз</string>
+    <string name="noti_app_installed_body">%1$s ішінде жазылдыңыз ба немесе сатып алдыңыз ба? Money Manager-ге енгізіңіз.</string>
+    <string name="noti_app_removed_title">Белсенді жазылымдарды тексеріңіз</string>
+    <string name="noti_app_removed_body">Қолданбаны жойдыңыз ба? Артық төлемдерден сақтану үшін «Шоттар» бюджетін тексеріңіз.</string>
+    <string name="noti_app_removed_btn">Бюджетті тексеру</string>
+    <string name="noti_app_updated_title">Қаржыңызды жаңартып отырыңыз</string>
+    <string name="noti_app_updated_body">Бүгінгі шығындарды, кірістерді және жинақ барысын қарап шығыңыз.</string>
+    <string name="noti_app_updated_btn">Қолданбаны ашу</string>
+
+    <string-array name="special_titles_v2">
+        <item>🌙 Бүгінгі шығындар қорытындысы</item>
+        <item>✨ Жинақтарыңыз өсіп келеді</item>
+        <item>📈 Кешкі ақша ағыны шолуы</item>
+        <item>🔔 Жақын арада төленетін шоттар бар ма?</item>
+        <item>🤝 Қарыздарды бақылауда ұстаңыз</item>
+        <item>🎯 Ертеңгі күнге дайынсыз ба?</item>
+    </string-array>
+
+    <string-array name="special_messages_v2">
+        <item>Бүгінгі шығындарды жазып, бюджетті бақылауда ұстауға 10 секунд бөліңіз.</item>
+        <item>Осы айда қанша жинағаныңызды тексеріп, теңгеріміңіздің өсуін бақылаңыз.</item>
+        <item>Қосымша үнемдеу жолдарын табу үшін осы айдағы кіріс пен шығыс қисығын салыстырыңыз.</item>
+        <item>Тосын жағдайлар болмас үшін алдағы жалдау ақысын, шоттарды және тұрақты шығындарды тексеріңіз.</item>
+        <item>Жақында қарыз бердіңіз бе немесе алдыңыз ба? Қайтару мерзімін өткізіп алмау үшін анық жазып қойыңыз.</item>
+        <item>Бүгін кешке айлық бюджетіңіздің қалдығын тексеріп, ертеңгі күнді сеніммен бастаңыз.</item>
+    </string-array>
+
+    <string-array name="special_titles_news">
+        <item>☕ Таңғы қаржы тексерісі</item>
+        <item>🧾 Бүгінгі шығындарды енгізіңіз</item>
+        <item>📊 Қанша үнемдедіңіз?</item>
+        <item>🛡️ Бюджет шегінен аспаңыз</item>
+        <item>🛍️ Сатып алуды жоспарлап жүрсіз бе?</item>
+        <item>💰 Кіріс ағынын бақылаңыз</item>
+    </string-array>
+
+    <string-array name="special_messages_news">
+        <item>Күнді ақылмен бастаңыз — алғашқы кофеңізден бұрын күндік шығын шегін тексеріңіз.</item>
+        <item>Түскі ас іштіңіз бе немесе шот төледіңіз бе? Дәл есеп үшін 5 секундта енгізіңіз.</item>
+        <item>Осы айда кірісіңіздің қанша %-ы Тамақ, Шоттар және Жинаққа кететінін көріңіз.</item>
+        <item>Келесі сатып алу алдында санат бойынша қалған бюджетті тексеріңіз.</item>
+        <item>Төлем жасамас бұрын айлық теңгеріміңізге жылдам көз жүгіртіңіз.</item>
+        <item>Жалақы немесе қосымша кіріс түсті ме? Жинақ үлесін жаңарту үшін қазір қосыңыз.</item>
+    </string-array>
+</resources>

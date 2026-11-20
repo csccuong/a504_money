@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- ================================================================ -->
+    <!-- TYPOGRAPHY STYLES (Single Source of Truth)                       -->
+    <!-- ================================================================ -->
+    <style name="AppText">
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="AppText.Hero">
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:textSize">@dimen/ds_text_hero</item>
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+
+    <style name="AppText.HeroLight">
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:textSize">@dimen/ds_text_hero</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="AppText.ScreenTitle">
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:textSize">@dimen/ds_text_h2</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="AppText.ScreenTitleLight">
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:textSize">@dimen/ds_text_h1</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="AppText.SectionTitle">
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:textSize">@dimen/ds_text_title</item>
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+
+    <style name="AppText.CardTitle">
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="AppText.Body">
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textSize">@dimen/ds_text_body</item>
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+
+    <style name="AppText.BodyMedium">
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textSize">@dimen/ds_text_body</item>
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+
+    <style name="AppText.Secondary">
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+    <style name="AppText.FieldLabel">
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textSize">@dimen/ds_text_caption</item>
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+    <style name="AppText.Caption">
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textSize">@dimen/ds_text_caption</item>
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+    <style name="AppText.Micro">
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textSize">@dimen/ds_text_micro</item>
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+    <!-- ================================================================ -->
+    <!-- CONTAINER STYLES                                                 -->
+    <!-- ================================================================ -->
+    <style name="AppContainer" />
+
+    <style name="AppContainer.HeaderNavy">
+        <item name="android:background">@color/figma_home_status_bar</item>
+        <item name="android:paddingStart">@dimen/ds_space_lg</item>
+        <item name="android:paddingEnd">@dimen/ds_space_lg</item>
+        <item name="android:paddingTop">14dp</item>
+        <item name="android:paddingBottom">16dp</item>
+    </style>
+
+    <style name="AppContainer.TopBarLight">
+        <item name="android:background">@color/surface_card</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingStart">@dimen/ds_space_lg</item>
+        <item name="android:paddingEnd">@dimen/ds_space_lg</item>
+        <item name="android:minHeight">@dimen/ds_toolbar_height</item>
+    </style>
+
+    <style name="AppContainer.Card">
+        <item name="android:background">@drawable/bg_white</item>
+        <item name="android:padding">@dimen/ds_space_lg</item>
+    </style>
+
+    <style name="AppContainer.CardCompact">
+        <item name="android:background">@drawable/bg_white</item>
+        <item name="android:padding">@dimen/ds_space_md</item>
+    </style>
+
+    <style name="AppContainer.InputBox">
+        <item name="android:background">@drawable/bg_input_field</item>
+        <item name="android:minHeight">@dimen/ds_input_height</item>
+        <item name="android:paddingStart">14dp</item>
+        <item name="android:paddingEnd">14dp</item>
+    </style>
+
+    <style name="AppContainer.BottomSheet">
+        <item name="android:background">@drawable/bg_bottom_sheet</item>
+        <item name="android:paddingStart">@dimen/ds_space_xl</item>
+        <item name="android:paddingEnd">@dimen/ds_space_xl</item>
+        <item name="android:paddingTop">@dimen/ds_space_md</item>
+        <item name="android:paddingBottom">@dimen/ds_space_2xl</item>
+    </style>
+
+    <!-- ================================================================ -->
+    <!-- BUTTON & ACTION STYLES                                           -->
+    <!-- ================================================================ -->
+    <style name="AppButton" />
+
+    <style name="AppButton.Primary">
+        <item name="android:background">@drawable/bg_save_button</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:minHeight">@dimen/ds_button_height</item>
+        <item name="android:elevation">4dp</item>
+        <item name="android:outlineSpotShadowColor" tools:targetApi="p">@color/brand_primary</item>
+        <item name="android:outlineAmbientShadowColor" tools:targetApi="p">@color/brand_primary</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="AppButton.Secondary">
+        <item name="android:background">@drawable/bg_cancel</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:minHeight">@dimen/ds_button_height</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="AppButton.Danger">
+        <item name="android:background">@drawable/bg_btn_delete</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:minHeight">@dimen/ds_button_height</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:textColor">@color/semantic_expense</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="AppButton.DangerSolid">
+        <item name="android:background">@drawable/bg_btn_danger_solid</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:minHeight">@dimen/ds_button_height</item>
+        <item name="android:elevation">4dp</item>
+        <item name="android:outlineSpotShadowColor" tools:targetApi="p">@color/semantic_expense</item>
+        <item name="android:outlineAmbientShadowColor" tools:targetApi="p">@color/semantic_expense</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="AppButton.SoftChip">
+        <item name="android:background">@drawable/bg_chip_soft</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingStart">14dp</item>
+        <item name="android:paddingEnd">14dp</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:textColor">@color/brand_primary</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="AppButton.HeaderChip">
+        <item name="android:background">@drawable/bg_chip_header</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingStart">12dp</item>
+        <item name="android:paddingEnd">12dp</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="AppButton.IconAction">
+        <item name="android:layout_width">@dimen/ds_icon_action</item>
+        <item name="android:layout_height">@dimen/ds_icon_action</item>
+        <item name="android:background">?attr/selectableItemBackgroundBorderless</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+    <!-- Frosted 34dp Circular Back Button for Navy Headers (Flush with 16dp vertical keyline & pills) -->
+    <style name="AppButton.BackHeader">
+        <item name="android:layout_width">34dp</item>
+        <item name="android:layout_height">34dp</item>
+        <item name="android:background">@drawable/bg_chip_header</item>
+        <item name="android:padding">7dp</item>
+        <item name="android:scaleType">centerInside</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+    <!-- Soft 36dp Circular Action/Back Button for Light Top Bars (Flush with 16dp vertical keyline) -->
+    <style name="AppButton.BackLight">
+        <item name="android:layout_width">36dp</item>
+        <item name="android:layout_height">36dp</item>
+        <item name="android:background">@drawable/bg_circle_action_light</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:scaleType">centerInside</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+    <style name="AppDivider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/divider_light</item>
+    </style>
+
+    <style name="AppSheetHandle">
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">4dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:background">@drawable/bg_sheet_handle</item>
+    </style>
+
+    <!-- ================================================================ -->
+    <!-- LEGACY & SPECIALIZED STYLES                                      -->
+    <!-- ================================================================ -->
+    <style name="MonthPickerItem">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">42dp</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:background">@drawable/bg_category_chip_normal</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+    <style name="AppTheme.AdAttribution" parent="android:Widget">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">start</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:text">Ad</item>
+        <item name="android:background">@color/brand_primary</item>
+        <item name="android:gravity">center</item>
+        <item name="android:width">20dp</item>
+        <item name="android:height">20dp</item>
+    </style>
+
+    <style name="CustomTextInputStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:textColorHint">@color/text_secondary</item>
+        <item name="boxStrokeColor">@color/brand_primary</item>
+        <item name="hintTextAppearance">@style/HintTextAppearance</item>
+    </style>
+
+    <style name="HintTextAppearance" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+</resources>

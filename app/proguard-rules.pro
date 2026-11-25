@@ -14,11 +14,11 @@
 
 # Uncomment this to preserve the line number information for
 # debugging stack traces.
-#-keepattributes SourceFile,LineNumberTable
+-keepattributes SourceFile,LineNumberTable,*Annotation*,Signature,InnerClasses,EnclosingMethod
 
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
-#-renamesourcefileattribute SourceFile
+-renamesourcefileattribute SourceFile
 
 # AppsFlyer SDK intentionally excluded from app
 -dontwarn com.appsflyer.**
@@ -101,3 +101,33 @@
 # Pubscale Adapter
 -keep class com.pubscale.** { *; }
 -dontwarn com.pubscale.**
+
+# ---------------------- Gson Serialization & App Models ----------------------
+-keep class com.google.gson.reflect.TypeToken { *; }
+-keep class * extends com.google.gson.reflect.TypeToken
+-keepclassmembers,allowobfuscation class * {
+    @com.google.gson.annotations.SerializedName <fields>;
+}
+-keep class com.money.tracker.budget.planner.moneymanager.model.** { *; }
+-keepclassmembers class * implements java.io.Serializable {
+    static final long serialVersionUID;
+    private static final java.io.ObjectStreamField[] serialPersistentFields;
+    private void writeObject(java.io.ObjectOutputStream);
+    private void readObject(java.io.ObjectInputStream);
+    java.lang.Object writeReplace();
+    java.lang.Object readResolve();
+}
+
+# ---------------------- EventBus 3.x ----------------------
+-keepclassmembers class * {
+    @org.greenrobot.eventbus.Subscribe <methods>;
+}
+-keep enum org.greenrobot.eventbus.ThreadMode { *; }
+-keepclassmembers class * extends org.greenrobot.eventbus.util.ThrowableFailureEvent {
+    <init>(java.lang.Throwable);
+}
+-keep class com.money.tracker.budget.planner.moneymanager.utils.TransactionUpdateEvent { *; }
+
+# ---------------------- MPAndroidChart Animations & Formatters ----------------------
+-keep class com.github.mikephil.charting.animation.ChartAnimator { *; }
+-keep class * extends com.github.mikephil.charting.formatter.ValueFormatter { *; }

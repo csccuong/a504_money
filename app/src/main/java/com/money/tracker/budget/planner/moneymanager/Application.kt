@@ -103,7 +103,7 @@ class Application : android.app.Application() {
         )
 
         cscLibrary.initSdk(
-            adjustAppToken = runCatching { RemoteConfigs.adjustAppToken }.getOrDefault(""),
+            adjustAppToken = "juvdp2tcfu2o",
             gsmAppId = "6afed437fe2551ee9ed5c511",
             splashConfig = SplashConfig(
                 uiSplashConfig = UiSplashConfig(
